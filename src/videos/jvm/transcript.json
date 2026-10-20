@@ -1,0 +1,694 @@
+{
+ "words": [
+  {
+   "text": "Here's",
+   "start": 0.4,
+   "end": 0.675
+  },
+  {
+   "text": "how",
+   "start": 0.735,
+   "end": 0.901
+  },
+  {
+   "text": "the",
+   "start": 0.961,
+   "end": 1.126
+  },
+  {
+   "text": "JVM",
+   "start": 1.186,
+   "end": 1.351
+  },
+  {
+   "text": "actually",
+   "start": 1.411,
+   "end": 1.852
+  },
+  {
+   "text": "runs",
+   "start": 1.912,
+   "end": 2.133
+  },
+  {
+   "text": "your",
+   "start": 2.193,
+   "end": 2.413
+  },
+  {
+   "text": "code.",
+   "start": 2.473,
+   "end": 2.693
+  },
+  {
+   "text": "You",
+   "start": 3.203,
+   "end": 3.369
+  },
+  {
+   "text": "write",
+   "start": 3.429,
+   "end": 3.704
+  },
+  {
+   "text": "a",
+   "start": 3.764,
+   "end": 3.924
+  },
+  {
+   "text": "dot",
+   "start": 3.984,
+   "end": 4.149
+  },
+  {
+   "text": "java",
+   "start": 4.209,
+   "end": 4.43
+  },
+  {
+   "text": "file.",
+   "start": 4.49,
+   "end": 4.71
+  },
+  {
+   "text": "Something",
+   "start": 5.22,
+   "end": 5.716
+  },
+  {
+   "text": "happens",
+   "start": 5.776,
+   "end": 6.162
+  },
+  {
+   "text": "behind",
+   "start": 6.222,
+   "end": 6.552
+  },
+  {
+   "text": "the",
+   "start": 6.612,
+   "end": 6.778
+  },
+  {
+   "text": "scenes,",
+   "start": 6.838,
+   "end": 7.168
+  },
+  {
+   "text": "and",
+   "start": 7.408,
+   "end": 7.573
+  },
+  {
+   "text": "your",
+   "start": 7.633,
+   "end": 7.854
+  },
+  {
+   "text": "CPU",
+   "start": 7.914,
+   "end": 8.079
+  },
+  {
+   "text": "ends",
+   "start": 8.139,
+   "end": 8.359
+  },
+  {
+   "text": "up",
+   "start": 8.419,
+   "end": 8.579
+  },
+  {
+   "text": "running",
+   "start": 8.639,
+   "end": 9.025
+  },
+  {
+   "text": "machine",
+   "start": 9.085,
+   "end": 9.471
+  },
+  {
+   "text": "code.",
+   "start": 9.531,
+   "end": 9.751
+  },
+  {
+   "text": "Let's",
+   "start": 10.261,
+   "end": 10.482
+  },
+  {
+   "text": "open",
+   "start": 10.542,
+   "end": 10.762
+  },
+  {
+   "text": "App",
+   "start": 10.822,
+   "end": 10.987
+  },
+  {
+   "text": "dot",
+   "start": 11.047,
+   "end": 11.213
+  },
+  {
+   "text": "java.",
+   "start": 11.273,
+   "end": 11.493
+  },
+  {
+   "text": "The",
+   "start": 12.003,
+   "end": 12.168
+  },
+  {
+   "text": "main",
+   "start": 12.228,
+   "end": 12.449
+  },
+  {
+   "text": "method",
+   "start": 12.509,
+   "end": 12.839
+  },
+  {
+   "text": "adds",
+   "start": 12.899,
+   "end": 13.12
+  },
+  {
+   "text": "twenty",
+   "start": 13.18,
+   "end": 13.51
+  },
+  {
+   "text": "one",
+   "start": 13.57,
+   "end": 13.735
+  },
+  {
+   "text": "plus",
+   "start": 13.795,
+   "end": 14.016
+  },
+  {
+   "text": "twenty",
+   "start": 14.076,
+   "end": 14.406
+  },
+  {
+   "text": "one,",
+   "start": 14.466,
+   "end": 14.632
+  },
+  {
+   "text": "and",
+   "start": 14.872,
+   "end": 15.037
+  },
+  {
+   "text": "then",
+   "start": 15.097,
+   "end": 15.317
+  },
+  {
+   "text": "it",
+   "start": 15.377,
+   "end": 15.537
+  },
+  {
+   "text": "prints",
+   "start": 15.597,
+   "end": 15.928
+  },
+  {
+   "text": "the",
+   "start": 15.988,
+   "end": 16.153
+  },
+  {
+   "text": "total.",
+   "start": 16.213,
+   "end": 16.489
+  },
+  {
+   "text": "When",
+   "start": 16.999,
+   "end": 17.219
+  },
+  {
+   "text": "you",
+   "start": 17.279,
+   "end": 17.444
+  },
+  {
+   "text": "compile",
+   "start": 17.504,
+   "end": 17.89
+  },
+  {
+   "text": "it,",
+   "start": 17.95,
+   "end": 18.11
+  },
+  {
+   "text": "javac",
+   "start": 18.35,
+   "end": 18.626
+  },
+  {
+   "text": "turns",
+   "start": 18.686,
+   "end": 18.961
+  },
+  {
+   "text": "this",
+   "start": 19.021,
+   "end": 19.241
+  },
+  {
+   "text": "into",
+   "start": 19.301,
+   "end": 19.522
+  },
+  {
+   "text": "bytecode.",
+   "start": 19.582,
+   "end": 20.023
+  },
+  {
+   "text": "Every",
+   "start": 20.533,
+   "end": 20.808
+  },
+  {
+   "text": "class",
+   "start": 20.868,
+   "end": 21.144
+  },
+  {
+   "text": "file",
+   "start": 21.204,
+   "end": 21.424
+  },
+  {
+   "text": "the",
+   "start": 21.484,
+   "end": 21.649
+  },
+  {
+   "text": "JVM",
+   "start": 21.709,
+   "end": 21.874
+  },
+  {
+   "text": "loads,",
+   "start": 21.934,
+   "end": 22.21
+  },
+  {
+   "text": "along",
+   "start": 22.45,
+   "end": 22.725
+  },
+  {
+   "text": "with",
+   "start": 22.785,
+   "end": 23.006
+  },
+  {
+   "text": "JARs",
+   "start": 23.066,
+   "end": 23.286
+  },
+  {
+   "text": "and",
+   "start": 23.346,
+   "end": 23.512
+  },
+  {
+   "text": "modules,",
+   "start": 23.572,
+   "end": 23.957
+  },
+  {
+   "text": "carries",
+   "start": 24.197,
+   "end": 24.583
+  },
+  {
+   "text": "this",
+   "start": 24.643,
+   "end": 24.863
+  },
+  {
+   "text": "bytecode",
+   "start": 24.923,
+   "end": 25.364
+  },
+  {
+   "text": "plus",
+   "start": 25.424,
+   "end": 25.644
+  },
+  {
+   "text": "metadata.",
+   "start": 25.704,
+   "end": 26.145
+  },
+  {
+   "text": "And",
+   "start": 26.655,
+   "end": 26.82
+  },
+  {
+   "text": "that",
+   "start": 26.88,
+   "end": 27.101
+  },
+  {
+   "text": "same",
+   "start": 27.161,
+   "end": 27.381
+  },
+  {
+   "text": "bytecode",
+   "start": 27.441,
+   "end": 27.882
+  },
+  {
+   "text": "runs",
+   "start": 27.942,
+   "end": 28.162
+  },
+  {
+   "text": "on",
+   "start": 28.222,
+   "end": 28.382
+  },
+  {
+   "text": "macOS,",
+   "start": 28.442,
+   "end": 28.718
+  },
+  {
+   "text": "Linux,",
+   "start": 28.958,
+   "end": 29.233
+  },
+  {
+   "text": "and",
+   "start": 29.473,
+   "end": 29.639
+  },
+  {
+   "text": "Windows,",
+   "start": 29.699,
+   "end": 30.084
+  },
+  {
+   "text": "because",
+   "start": 30.324,
+   "end": 30.71
+  },
+  {
+   "text": "each",
+   "start": 30.77,
+   "end": 30.99
+  },
+  {
+   "text": "platform",
+   "start": 31.05,
+   "end": 31.491
+  },
+  {
+   "text": "ships",
+   "start": 31.551,
+   "end": 31.827
+  },
+  {
+   "text": "its",
+   "start": 31.887,
+   "end": 32.052
+  },
+  {
+   "text": "own",
+   "start": 32.112,
+   "end": 32.277
+  },
+  {
+   "text": "JVM.",
+   "start": 32.337,
+   "end": 32.503
+  },
+  {
+   "text": "But",
+   "start": 33.013,
+   "end": 33.178
+  },
+  {
+   "text": "first,",
+   "start": 33.238,
+   "end": 33.513
+  },
+  {
+   "text": "the",
+   "start": 33.753,
+   "end": 33.919
+  },
+  {
+   "text": "class",
+   "start": 33.979,
+   "end": 34.254
+  },
+  {
+   "text": "has",
+   "start": 34.314,
+   "end": 34.479
+  },
+  {
+   "text": "to",
+   "start": 34.539,
+   "end": 34.699
+  },
+  {
+   "text": "be",
+   "start": 34.759,
+   "end": 34.919
+  },
+  {
+   "text": "found.",
+   "start": 34.979,
+   "end": 35.255
+  },
+  {
+   "text": "The",
+   "start": 35.765,
+   "end": 35.93
+  },
+  {
+   "text": "application",
+   "start": 35.99,
+   "end": 36.596
+  },
+  {
+   "text": "class",
+   "start": 36.656,
+   "end": 36.932
+  },
+  {
+   "text": "loader",
+   "start": 36.992,
+   "end": 37.322
+  },
+  {
+   "text": "asks",
+   "start": 37.382,
+   "end": 37.603
+  },
+  {
+   "text": "the",
+   "start": 37.663,
+   "end": 37.828
+  },
+  {
+   "text": "platform",
+   "start": 37.888,
+   "end": 38.329
+  },
+  {
+   "text": "loader,",
+   "start": 38.389,
+   "end": 38.719
+  },
+  {
+   "text": "which",
+   "start": 38.959,
+   "end": 39.235
+  },
+  {
+   "text": "asks",
+   "start": 39.295,
+   "end": 39.515
+  },
+  {
+   "text": "the",
+   "start": 39.575,
+   "end": 39.74
+  },
+  {
+   "text": "bootstrap",
+   "start": 39.8,
+   "end": 40.296
+  },
+  {
+   "text": "loader.",
+   "start": 40.356,
+   "end": 40.687
+  },
+  {
+   "text": "Delegation",
+   "start": 41.197,
+   "end": 41.748
+  },
+  {
+   "text": "always",
+   "start": 41.808,
+   "end": 42.138
+  },
+  {
+   "text": "goes",
+   "start": 42.198,
+   "end": 42.419
+  },
+  {
+   "text": "up",
+   "start": 42.479,
+   "end": 42.639
+  },
+  {
+   "text": "first.",
+   "start": 42.699,
+   "end": 42.974
+  },
+  {
+   "text": "So",
+   "start": 43.484,
+   "end": 43.644
+  },
+  {
+   "text": "what",
+   "start": 43.704,
+   "end": 43.925
+  },
+  {
+   "text": "does",
+   "start": 43.985,
+   "end": 44.205
+  },
+  {
+   "text": "all",
+   "start": 44.265,
+   "end": 44.43
+  },
+  {
+   "text": "of",
+   "start": 44.49,
+   "end": 44.65
+  },
+  {
+   "text": "this",
+   "start": 44.71,
+   "end": 44.931
+  },
+  {
+   "text": "cost",
+   "start": 44.991,
+   "end": 45.211
+  },
+  {
+   "text": "at",
+   "start": 45.271,
+   "end": 45.431
+  },
+  {
+   "text": "startup?",
+   "start": 45.491,
+   "end": 45.877
+  },
+  {
+   "text": "Class",
+   "start": 46.387,
+   "end": 46.662
+  },
+  {
+   "text": "loading,",
+   "start": 46.722,
+   "end": 47.108
+  },
+  {
+   "text": "verification,",
+   "start": 47.348,
+   "end": 48.009
+  },
+  {
+   "text": "and",
+   "start": 48.249,
+   "end": 48.414
+  },
+  {
+   "text": "JIT",
+   "start": 48.474,
+   "end": 48.64
+  },
+  {
+   "text": "warm",
+   "start": 48.7,
+   "end": 48.92
+  },
+  {
+   "text": "up",
+   "start": 48.98,
+   "end": 49.14
+  },
+  {
+   "text": "add",
+   "start": 49.2,
+   "end": 49.365
+  },
+  {
+   "text": "up",
+   "start": 49.425,
+   "end": 49.585
+  },
+  {
+   "text": "to",
+   "start": 49.645,
+   "end": 49.805
+  },
+  {
+   "text": "roughly",
+   "start": 49.865,
+   "end": 50.251
+  },
+  {
+   "text": "two",
+   "start": 50.311,
+   "end": 50.476
+  },
+  {
+   "text": "hundred",
+   "start": 50.536,
+   "end": 50.922
+  },
+  {
+   "text": "milliseconds.",
+   "start": 50.982,
+   "end": 51.643
+  }
+ ]
+}
