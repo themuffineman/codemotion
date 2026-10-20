@@ -1,0 +1,7 @@
+0: bipush 42
+2: istore_1
+3: getstatic #7 // System.out
+6: iload_1
+7: invokedynamic #13, 0 // "Total: " + total
+12: invokevirtual #17 // println
+15: return

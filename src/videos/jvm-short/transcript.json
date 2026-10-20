@@ -1,0 +1,214 @@
+{
+ "words": [
+  {
+   "text": "Why",
+   "start": 0.4,
+   "end": 0.565
+  },
+  {
+   "text": "does",
+   "start": 0.625,
+   "end": 0.846
+  },
+  {
+   "text": "Java",
+   "start": 0.906,
+   "end": 1.126
+  },
+  {
+   "text": "run",
+   "start": 1.186,
+   "end": 1.351
+  },
+  {
+   "text": "everywhere?",
+   "start": 1.411,
+   "end": 1.962
+  },
+  {
+   "text": "Because",
+   "start": 2.472,
+   "end": 2.858
+  },
+  {
+   "text": "javac",
+   "start": 2.918,
+   "end": 3.193
+  },
+  {
+   "text": "doesn't",
+   "start": 3.253,
+   "end": 3.584
+  },
+  {
+   "text": "compile",
+   "start": 3.644,
+   "end": 4.03
+  },
+  {
+   "text": "your",
+   "start": 4.09,
+   "end": 4.31
+  },
+  {
+   "text": "code",
+   "start": 4.37,
+   "end": 4.59
+  },
+  {
+   "text": "to",
+   "start": 4.65,
+   "end": 4.81
+  },
+  {
+   "text": "machine",
+   "start": 4.87,
+   "end": 5.256
+  },
+  {
+   "text": "code.",
+   "start": 5.316,
+   "end": 5.537
+  },
+  {
+   "text": "It",
+   "start": 6.047,
+   "end": 6.207
+  },
+  {
+   "text": "compiles",
+   "start": 6.267,
+   "end": 6.707
+  },
+  {
+   "text": "App",
+   "start": 6.767,
+   "end": 6.933
+  },
+  {
+   "text": "dot",
+   "start": 6.993,
+   "end": 7.158
+  },
+  {
+   "text": "java",
+   "start": 7.218,
+   "end": 7.438
+  },
+  {
+   "text": "into",
+   "start": 7.498,
+   "end": 7.719
+  },
+  {
+   "text": "bytecode.",
+   "start": 7.779,
+   "end": 8.219
+  },
+  {
+   "text": "And",
+   "start": 8.729,
+   "end": 8.895
+  },
+  {
+   "text": "that",
+   "start": 8.955,
+   "end": 9.175
+  },
+  {
+   "text": "same",
+   "start": 9.235,
+   "end": 9.456
+  },
+  {
+   "text": "bytecode",
+   "start": 9.516,
+   "end": 9.956
+  },
+  {
+   "text": "runs",
+   "start": 10.016,
+   "end": 10.237
+  },
+  {
+   "text": "on",
+   "start": 10.297,
+   "end": 10.457
+  },
+  {
+   "text": "macOS,",
+   "start": 10.517,
+   "end": 10.792
+  },
+  {
+   "text": "Linux,",
+   "start": 11.032,
+   "end": 11.308
+  },
+  {
+   "text": "and",
+   "start": 11.548,
+   "end": 11.713
+  },
+  {
+   "text": "Windows,",
+   "start": 11.773,
+   "end": 12.159
+  },
+  {
+   "text": "because",
+   "start": 12.399,
+   "end": 12.784
+  },
+  {
+   "text": "each",
+   "start": 12.844,
+   "end": 13.065
+  },
+  {
+   "text": "platform",
+   "start": 13.125,
+   "end": 13.565
+  },
+  {
+   "text": "ships",
+   "start": 13.625,
+   "end": 13.901
+  },
+  {
+   "text": "its",
+   "start": 13.961,
+   "end": 14.126
+  },
+  {
+   "text": "own",
+   "start": 14.186,
+   "end": 14.351
+  },
+  {
+   "text": "JVM.",
+   "start": 14.411,
+   "end": 14.577
+  },
+  {
+   "text": "Write",
+   "start": 15.087,
+   "end": 15.362
+  },
+  {
+   "text": "once,",
+   "start": 15.422,
+   "end": 15.643
+  },
+  {
+   "text": "run",
+   "start": 15.883,
+   "end": 16.048
+  },
+  {
+   "text": "anywhere.",
+   "start": 16.108,
+   "end": 16.549
+  }
+ ]
+}

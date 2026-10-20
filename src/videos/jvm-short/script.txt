@@ -1,0 +1,1 @@
+Why does Java run everywhere? Because javac doesn't compile your code to machine code. It compiles App dot java into bytecode. And that same bytecode runs on macOS, Linux, and Windows, because each platform ships its own JVM. Write once, run anywhere.

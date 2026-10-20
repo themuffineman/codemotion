@@ -1,0 +1,484 @@
+{
+ "words": [
+  {
+   "text": "This",
+   "start": 0.4,
+   "end": 0.62
+  },
+  {
+   "text": "video",
+   "start": 0.68,
+   "end": 0.956
+  },
+  {
+   "text": "has",
+   "start": 1.016,
+   "end": 1.181
+  },
+  {
+   "text": "three",
+   "start": 1.241,
+   "end": 1.517
+  },
+  {
+   "text": "chapters.",
+   "start": 1.577,
+   "end": 2.017
+  },
+  {
+   "text": "First,",
+   "start": 2.527,
+   "end": 2.803
+  },
+  {
+   "text": "how",
+   "start": 3.043,
+   "end": 3.208
+  },
+  {
+   "text": "tokens",
+   "start": 3.268,
+   "end": 3.599
+  },
+  {
+   "text": "become",
+   "start": 3.659,
+   "end": 3.989
+  },
+  {
+   "text": "vectors.",
+   "start": 4.049,
+   "end": 4.435
+  },
+  {
+   "text": "Second,",
+   "start": 4.945,
+   "end": 5.276
+  },
+  {
+   "text": "comparing",
+   "start": 5.516,
+   "end": 6.011
+  },
+  {
+   "text": "architectures.",
+   "start": 6.071,
+   "end": 6.788
+  },
+  {
+   "text": "Third,",
+   "start": 7.298,
+   "end": 7.573
+  },
+  {
+   "text": "shipping",
+   "start": 7.813,
+   "end": 8.254
+  },
+  {
+   "text": "it.",
+   "start": 8.314,
+   "end": 8.474
+  },
+  {
+   "text": "A",
+   "start": 8.984,
+   "end": 9.144
+  },
+  {
+   "text": "sentence",
+   "start": 9.204,
+   "end": 9.645
+  },
+  {
+   "text": "gets",
+   "start": 9.705,
+   "end": 9.925
+  },
+  {
+   "text": "split",
+   "start": 9.985,
+   "end": 10.261
+  },
+  {
+   "text": "into",
+   "start": 10.321,
+   "end": 10.541
+  },
+  {
+   "text": "tokens:",
+   "start": 10.601,
+   "end": 10.932
+  },
+  {
+   "text": "Jake,",
+   "start": 11.172,
+   "end": 11.392
+  },
+  {
+   "text": "learned,",
+   "start": 11.632,
+   "end": 12.018
+  },
+  {
+   "text": "AI.",
+   "start": 12.258,
+   "end": 12.418
+  },
+  {
+   "text": "The",
+   "start": 12.928,
+   "end": 13.093
+  },
+  {
+   "text": "embedding",
+   "start": 13.153,
+   "end": 13.649
+  },
+  {
+   "text": "layer",
+   "start": 13.709,
+   "end": 13.984
+  },
+  {
+   "text": "turns",
+   "start": 14.044,
+   "end": 14.32
+  },
+  {
+   "text": "each",
+   "start": 14.38,
+   "end": 14.6
+  },
+  {
+   "text": "token",
+   "start": 14.66,
+   "end": 14.936
+  },
+  {
+   "text": "into",
+   "start": 14.996,
+   "end": 15.216
+  },
+  {
+   "text": "a",
+   "start": 15.276,
+   "end": 15.436
+  },
+  {
+   "text": "vector,",
+   "start": 15.496,
+   "end": 15.827
+  },
+  {
+   "text": "and",
+   "start": 16.067,
+   "end": 16.232
+  },
+  {
+   "text": "then",
+   "start": 16.292,
+   "end": 16.512
+  },
+  {
+   "text": "we",
+   "start": 16.572,
+   "end": 16.732
+  },
+  {
+   "text": "add",
+   "start": 16.792,
+   "end": 16.958
+  },
+  {
+   "text": "a",
+   "start": 17.018,
+   "end": 17.178
+  },
+  {
+   "text": "position",
+   "start": 17.238,
+   "end": 17.678
+  },
+  {
+   "text": "vector",
+   "start": 17.738,
+   "end": 18.069
+  },
+  {
+   "text": "to",
+   "start": 18.129,
+   "end": 18.289
+  },
+  {
+   "text": "each",
+   "start": 18.349,
+   "end": 18.569
+  },
+  {
+   "text": "one.",
+   "start": 18.629,
+   "end": 18.795
+  },
+  {
+   "text": "RNNs,",
+   "start": 19.305,
+   "end": 19.525
+  },
+  {
+   "text": "LSTMs,",
+   "start": 19.765,
+   "end": 20.04
+  },
+  {
+   "text": "and",
+   "start": 20.28,
+   "end": 20.446
+  },
+  {
+   "text": "transformers",
+   "start": 20.506,
+   "end": 21.167
+  },
+  {
+   "text": "all",
+   "start": 21.227,
+   "end": 21.392
+  },
+  {
+   "text": "model",
+   "start": 21.452,
+   "end": 21.728
+  },
+  {
+   "text": "sequences,",
+   "start": 21.788,
+   "end": 22.284
+  },
+  {
+   "text": "but",
+   "start": 22.524,
+   "end": 22.689
+  },
+  {
+   "text": "transformers",
+   "start": 22.749,
+   "end": 23.41
+  },
+  {
+   "text": "won.",
+   "start": 23.47,
+   "end": 23.635
+  },
+  {
+   "text": "To",
+   "start": 24.145,
+   "end": 24.305
+  },
+  {
+   "text": "ship",
+   "start": 24.365,
+   "end": 24.586
+  },
+  {
+   "text": "it,",
+   "start": 24.646,
+   "end": 24.806
+  },
+  {
+   "text": "run",
+   "start": 25.046,
+   "end": 25.211
+  },
+  {
+   "text": "npm",
+   "start": 25.271,
+   "end": 25.436
+  },
+  {
+   "text": "install,",
+   "start": 25.496,
+   "end": 25.882
+  },
+  {
+   "text": "then",
+   "start": 26.122,
+   "end": 26.342
+  },
+  {
+   "text": "npm",
+   "start": 26.402,
+   "end": 26.568
+  },
+  {
+   "text": "run",
+   "start": 26.628,
+   "end": 26.793
+  },
+  {
+   "text": "build.",
+   "start": 26.853,
+   "end": 27.128
+  },
+  {
+   "text": "Here",
+   "start": 27.638,
+   "end": 27.859
+  },
+  {
+   "text": "is",
+   "start": 27.919,
+   "end": 28.079
+  },
+  {
+   "text": "the",
+   "start": 28.139,
+   "end": 28.304
+  },
+  {
+   "text": "whole",
+   "start": 28.364,
+   "end": 28.64
+  },
+  {
+   "text": "process:",
+   "start": 28.7,
+   "end": 29.085
+  },
+  {
+   "text": "planning,",
+   "start": 29.325,
+   "end": 29.766
+  },
+  {
+   "text": "design",
+   "start": 30.006,
+   "end": 30.337
+  },
+  {
+   "text": "references,",
+   "start": 30.397,
+   "end": 30.947
+  },
+  {
+   "text": "animating,",
+   "start": 31.187,
+   "end": 31.683
+  },
+  {
+   "text": "and",
+   "start": 31.923,
+   "end": 32.089
+  },
+  {
+   "text": "sound.",
+   "start": 32.149,
+   "end": 32.424
+  },
+  {
+   "text": "Planning",
+   "start": 32.934,
+   "end": 33.375
+  },
+  {
+   "text": "took",
+   "start": 33.435,
+   "end": 33.655
+  },
+  {
+   "text": "about",
+   "start": 33.715,
+   "end": 33.991
+  },
+  {
+   "text": "ninety",
+   "start": 34.051,
+   "end": 34.381
+  },
+  {
+   "text": "minutes.",
+   "start": 34.441,
+   "end": 34.827
+  },
+  {
+   "text": "Design",
+   "start": 35.337,
+   "end": 35.668
+  },
+  {
+   "text": "references",
+   "start": 35.728,
+   "end": 36.279
+  },
+  {
+   "text": "took",
+   "start": 36.339,
+   "end": 36.559
+  },
+  {
+   "text": "twenty",
+   "start": 36.619,
+   "end": 36.95
+  },
+  {
+   "text": "five",
+   "start": 37.01,
+   "end": 37.23
+  },
+  {
+   "text": "minutes.",
+   "start": 37.29,
+   "end": 37.676
+  },
+  {
+   "text": "And",
+   "start": 38.186,
+   "end": 38.351
+  },
+  {
+   "text": "overall,",
+   "start": 38.411,
+   "end": 38.797
+  },
+  {
+   "text": "output",
+   "start": 39.037,
+   "end": 39.367
+  },
+  {
+   "text": "went",
+   "start": 39.427,
+   "end": 39.648
+  },
+  {
+   "text": "up",
+   "start": 39.708,
+   "end": 39.868
+  },
+  {
+   "text": "three",
+   "start": 39.928,
+   "end": 40.203
+  },
+  {
+   "text": "hundred",
+   "start": 40.263,
+   "end": 40.649
+  },
+  {
+   "text": "twenty",
+   "start": 40.709,
+   "end": 41.039
+  },
+  {
+   "text": "nine",
+   "start": 41.099,
+   "end": 41.32
+  },
+  {
+   "text": "percent.",
+   "start": 41.38,
+   "end": 41.765
+  }
+ ]
+}
