@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {cancelRender, continueRender, delayRender, interpolate, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {createHighlighter, type Highlighter, type ThemedToken} from 'shiki';
-import {color, font, radius, shadow, type} from '../design/tokens';
+import {color, font, radius, shadow, type, weight} from '../design/tokens';
 import {useTween} from '../motion/motion';
 import {codeTheme} from './codeTheme';
 
@@ -134,7 +134,7 @@ export const CodeWindow: React.FC<{
             alignItems: 'center',
             justifyContent: 'center',
             fontFamily: font.sans,
-            fontWeight: 600,
+            fontWeight: weight.medium,
             fontSize: size * 0.8,
             color: color.paperSoft,
             letterSpacing: '-0.01em',

@@ -341,7 +341,7 @@ export const Terminal: React.FC<{
             alignItems: 'center',
             justifyContent: 'center',
             fontFamily: font.sans,
-            fontWeight: 600,
+            fontWeight: weight.medium,
             fontSize: 24,
             color: color.paperSoft,
           }}

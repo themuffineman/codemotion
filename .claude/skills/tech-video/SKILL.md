@@ -47,7 +47,11 @@ Use `scripts/fake-transcript.mjs` only to block out layouts before the real audi
 
 | The speaker is… | Use | Technical ref |
 |---|---|---|
-| Opening, framing the topic, hooks | `TalkingHead` + `Headline` with one `Accent` word, optional `AppIcon`/`PillRow` | primary 6, 8 |
+| Opening, framing the topic, hooks | `TalkingHead` + `Headline` with one `Accent` word, optional `AppIcon`/`PillRow`. Without face video this is centered over a `FocusShade` | primary 6, 8 |
+| A line worth reinforcing (face video or not) | `Caption from to accent` — words appear as spoken | primary 28 |
+| A single impressive number said aloud | `StatCaption` (kicker + count-up + unit) | primary 30 |
+| "Link below", subscribe, next video | `CTA` | primary 27 |
+| A collection: research, examples, a library, many outputs | `PerspectiveBoard` with `BoardCard`s, scrolling | primary 29 |
 | Walking through specific code | `CodeWindow` with `steps` that move focus line-by-line on cue | 14, 15 |
 | Showing code being written / output | `CodeWindow typeAt` or `Terminal` | 12 |
 | "X goes into Y, comes out as Z" | `Pipeline` (row; `dir="column"` for vertical or tall flows) | 15, 17 |
@@ -70,6 +74,9 @@ Node types for diagrams: `NodeChip` (actions/tasks), `NodeTile` (things, artifac
 **Style**
 - Use colors, sizes, radii, and shadows from `src/design/tokens.ts` only. Never write a hex value in a scene.
 - Graphics sit on the persistent `<Stage/>` (charcoal + grid). Do not add other backgrounds.
+- A centered hero (title, statement, single number) gets a `FocusShade` under it: the focal area sits slightly darker than the rest of the stage.
+- The side-panel layout (graphics in one half) is ONLY for when there is face video (`TalkingHead src`). Without footage, keep compositions centered.
+- Type: Creato Display (Regular + Medium only) for everything, Instrument Serif italic for `Accent`, JetBrains Mono for code. Hierarchy comes from size and color, not weight.
 - Light cards are for the subject. Dark tiles are for context, values, and code.
 - Blue means "this one / active / done". Green means "result / good". Red means "problem". Amber
   is for "the box we're explaining" (for example the JVM). Never more than 4 hues on screen.
@@ -95,6 +102,11 @@ Node types for diagrams: `NodeChip` (actions/tasks), `NodeTile` (things, artifac
 - When you abbreviate generated output (for example, long `javap` comments), say so in the window
   `title` or in the scene comment.
 
+**Captions**
+- Captions come from the transcript (`Caption from/to`), never typed text, so they always match the audio.
+- ≤ 10 words per caption (≤ 6 in 9:16). At most one `accent` phrase, and only when the words carry the point.
+- Over face video, use them on key lines only, not as full subtitles. Lower position with the bottom shade.
+
 **Timing**
 - Every reveal is cued to a spoken word with `cue('word')`. Never hard-code frame numbers.
   Arithmetic on cues is fine (`cue('x') + 10`, `stagger(cue('x'), i)`).
@@ -113,6 +125,7 @@ Node types for diagrams: `NodeChip` (actions/tasks), `NodeTile` (things, artifac
 - Diagrams flow top to bottom (`Pipeline dir="column"`, `Hub vertical`). At most 3 columns.
 - Code: `size={26}`, `maxWidth={936}`, ≤ 10 lines. Split long functions across scenes.
 - `TalkingHead` puts the speaker in the bottom half and graphics on top.
+- Captions sit above `safe.vertical.bottom`, at `type.heading` size, ≤ 6 words per caption.
 
 ## Before rendering: checklist (look at the contact sheet)
 

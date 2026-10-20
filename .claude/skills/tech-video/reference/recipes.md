@@ -122,3 +122,22 @@ around it to say what it is doing.
 ## Choosing between similar recipes
 - **Sequence** → Pipeline. **Convergence/divergence** → Hub. **Hierarchy** → LayerStack. **Alternatives** → Compare.
 - If you cannot say which of these the sentence is, it is probably a talking-head beat with a `Headline`.
+
+## 15. Captions, stats, CTA (primary-27, 28, 30)
+```tsx
+<FocusShade />                                               // when there is no face video under it
+<Caption from="i wasn't ready" to="mattered" accent="sound design" />          // lower by default
+<StatCaption kicker="extracted and studied" value={458} unit="animations" at={cue('extracted')} />
+<CTA text="The link is down below" at={cue('the link')} />
+```
+Inside `TalkingHead src=…` these go over the speaker. Without footage, use `position="center"` over a `FocusShade`.
+
+## 16. Perspective board (primary-29)
+```tsx
+<PerspectiveBoard at={cue('every single')} label={{text: 'Long-Form Style Board', icon: 'globe'}} scroll={{from: 160, to: -420, dur: 140}}>
+  <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 28}}>
+    {items.map((b) => <BoardCard key={b.title} title={b.title} meta={b.meta} swatches={b.sw} thumb={<Img src={staticFile(b.img)} />} width={325} />)}
+  </div>
+</PerspectiveBoard>
+```
+Use real screenshots or frames as thumbs where they exist.

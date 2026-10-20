@@ -53,6 +53,19 @@ export const useCue = () => {
   return cue;
 };
 
+// The spoken words from phrase `from` through phrase `to`, each with its LOCAL frame (`at`).
+// Used by <Caption>; also handy for word-by-word reveals.
+export const useWords = (from: string, to: string, fromN = 1, lead = 2) => {
+  const ctx = useContext(TranscriptCtx);
+  const {fps} = useVideoConfig();
+  if (!ctx) throw new Error('useWords must be used inside <TranscriptProvider>');
+  const a = findPhrase(ctx.transcript, from, fromN, ctx.sceneStart);
+  const b = findPhrase(ctx.transcript, to, 1, a.start);
+  return ctx.transcript.words
+    .filter((w) => w.start >= a.start && w.end <= b.end + 1e-6)
+    .map((w) => ({...w, at: Math.round(w.start * fps) - ctx.offset - lead}));
+};
+
 // A scene starts on a spoken phrase. Inside it, frames are local (0 = scene start).
 // Put scenes inside <Track>: each scene then holds until the next one starts, so a visual cued
 // on the last word of a sentence still gets screen time. The last scene runs to the video end

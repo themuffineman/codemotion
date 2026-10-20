@@ -41,6 +41,16 @@
 | `<Terminal title width lines=[{at,cmd}\|{at,out,tone}] cps>` | |
 | `<PillRow items at variant>` | |
 
+## Overlays — `components/overlays.tsx`
+| | |
+|---|---|
+| `<FocusShade at x y w h strength>` | darker focal area behind a centered hero |
+| `<Caption from to fromN accent position='lower'\|'center' shade size>` | words from the transcript, revealed as spoken |
+| `<StatCaption kicker value unit at prefix decimals position>` | |
+| `<CTA text at icon tone>` | bottom glow + bobbing arrow |
+| `<PerspectiveBoard at tilt scroll={from,to,dur} label={text,icon} width>` + `<BoardCard title meta thumb swatches quote width>` | |
+| `useWords(from, to)` | transcript words with local `at` frames |
+
 ## Technical — `tech/`
 | | |
 |---|---|
@@ -58,7 +68,7 @@
 ## Layout — `layout/`
 | | |
 |---|---|
-| `<TalkingHead src side graphicsAt graphicsOut>` | A-roll plus graphics in the free half (the top half in 9:16) |
+| `<TalkingHead src side graphicsAt graphicsOut>` | with `src`: A-roll plus graphics in the free half (the top half in 9:16). Without `src`: centered over a FocusShade |
 | `<ARoll src startFrom>` | full-frame speaker |
 
 ## Tokens — `design/tokens.ts`

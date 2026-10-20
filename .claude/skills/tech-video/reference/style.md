@@ -29,7 +29,9 @@ instead of slides, and real interface metaphors (receipts, Finder windows, timel
 
 ## Type
 
-- A neo-grotesk sans (SF Pro in the refs; we use Inter). Semibold for titles, medium for labels.
+- **Creato Display** (Regular and Medium, chosen by the owner) for all UI and titles. Medium for titles and labels, Regular for captions and secondary text.
+  Only two weights exist, so emphasis comes from size and color.
+- **Instrument Serif italic** for the accent phrase.
   Tight tracking (-0.02 to -0.035em) on big sizes.
 - Secondary text is gray: `#9e9ea2` on light, `#b3b3b8` on dark.
 - **Eyebrows**: small, tracked-out (0.28em) uppercase in blue: "REVISIONS", "CHAPTER 2", "RECEIPT".
@@ -56,10 +58,30 @@ instead of slides, and real interface metaphors (receipts, Finder windows, timel
 - Things that fill in: values count up, rows reveal top-down, totals land last with emphasis.
 - Leaving: a quick blur-out, never a hard cut between two graphics.
 
+## Focus shading (refs 27–30)
+
+The area behind the focal element is a little darker than the rest of the frame: a soft radial
+falloff behind centered heroes (`FocusShade`) and a bottom gradient behind captions. It reads as a
+spotlight in reverse. It is subtle (about 50% black at the center), never a visible shape.
+
+## Captions and overlays (refs 27, 28, 30)
+
+- Captions: centered, Regular weight, white, about 38px (landscape), in the lower fifth over a dark
+  bottom gradient. Accent words switch to the italic serif in sky blue. Words appear as spoken.
+- Stat line: a small gray kicker ("extracted and studied") over a big Medium number with a
+  Regular unit beside it ("458 animations").
+- CTA: a blue glow rising from the bottom edge, one line of text, and a small arrow that bobs.
+
+## Perspective board (ref 29)
+
+A large dark canvas of cards (thumbnail, mono meta line, title, palette swatches), tilted back in
+3D, slowly scrolling under a white pill label with an icon. The edges fade out. Use it for
+"look at everything I collected".
+
 ## Layout
 
 - One composition, centered. Usually a hero card at about 50–60% of the frame width.
-- With a talking head, the speaker takes one half. The other half darkens, and the graphics sit
+- With a talking head (only when there is face video), the speaker takes one half. The other half darkens, and the graphics sit
   centered in it (refs 6, 8, 10).
 - Supporting objects cluster around the hero: thumbnails under a window (ref 4), a badge under a
   tile (ref 3).

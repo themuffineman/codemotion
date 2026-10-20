@@ -7,6 +7,7 @@ export * from './components/Stage';
 export * from './components/Icon';
 export * from './components/ui';
 export * from './components/composites';
+export * from './components/overlays';
 export * from './tech/Diagram';
 export * from './tech/nodes';
 export * from './tech/layouts';

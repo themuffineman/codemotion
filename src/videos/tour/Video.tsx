@@ -3,7 +3,7 @@ import {AbsoluteFill} from 'remotion';
 import {
   Accent, Camera, Center, ChapterCarousel, Compare, Counter, Enter, Headline, Label, NodeBox, NodeChip, Pill,
   Pipeline, Scene, StepTimeline, Terminal, Track, TranscriptProvider, Vector, color, series, stagger, type,
-  useCue, useStepper, Stage, Card,
+  useCue, useStepper, Stage, font, Card, weight, StatCaption, Caption, CTA, PerspectiveBoard, BoardCard, FocusShade,
 } from '../../kit';
 import transcript from './transcript.json';
 
@@ -163,13 +163,66 @@ const Result: React.FC = () => {
           <Label size={type.body} tone={color.inkMute}>
             Output, year over year
           </Label>
-          <div style={{fontSize: 180, fontWeight: 700, color: color.green, letterSpacing: '-0.05em', lineHeight: 1.05, marginTop: 10}}>
+          <div style={{fontSize: 180, fontWeight: weight.bold, color: color.green, letterSpacing: '-0.05em', lineHeight: 1.05, marginTop: 10}}>
             <Counter value={329} at={cue('three hundred')} dur={30} prefix="+" suffix="%" />
           </div>
         </Card>
       </Enter>
     </Center>
   );
+};
+
+const Studied: React.FC = () => {
+  const cue = useCue();
+  return (
+    <AbsoluteFill>
+      <FocusShade at={cue('extracted')} />
+      <StatCaption position="center" kicker="extracted and studied" value={458} unit="animations" at={cue('extracted')} />
+    </AbsoluteFill>
+  );
+};
+
+const SoundDesign: React.FC = () => (
+  <AbsoluteFill>
+    <FocusShade />
+    <Caption position="center" from="i wasn't ready" to="mattered" accent="sound design" />
+  </AbsoluteFill>
+);
+
+// Abstract stand-ins for screenshot thumbnails; real videos put <Img> frames here.
+const BOARD = [
+  {title: 'Navy card wall (hook)', meta: 'V2 · s1 · 7.0s', bg: 'linear-gradient(135deg, #0b1a3a, #1a4a8a)', sw: ['#0b1a3a', '#1a4a8a', '#ffffff', '#5aa0e8']},
+  {title: 'Electric-blue world', meta: 'V3 · s2 · 5.0s', bg: 'linear-gradient(135deg, #0a5cff, #3fa0ff)', sw: ['#0a5cff', '#3fa0ff', '#d8ecff']},
+  {title: 'Tinted void (red) + glow frames', meta: 'V7 · s14 · 23.7s', bg: 'radial-gradient(circle at 50% 50%, #5a0d10, #160406)', sw: ['#160406', '#5a0d10', '#ff3b3b']},
+  {title: 'Tinted void (gold)', meta: 'V7 · s24 · 19.8s', bg: 'radial-gradient(circle at 50% 50%, #4a3a10, #120e04)', sw: ['#120e04', '#4a3a10', '#e8c35a']},
+  {title: 'Teal chapter wall', meta: 'V7 · s11 · 8.0s', bg: 'linear-gradient(135deg, #04181c, #0d4a52)', sw: ['#04181c', '#0d4a52', '#5ad0d8']},
+  {title: 'Warm mesh gradient triptych', meta: 'V8 · s1 · 4.8s', bg: 'linear-gradient(135deg, #f5a524, #ff6a2b)', sw: ['#f5a524', '#ff6a2b', '#fff3e0']},
+  {title: 'Pool-caustic photo prints', meta: 'V6 · s1 · 3.3s', bg: 'linear-gradient(135deg, #2a8fd8, #7fd0ff)', sw: ['#2a8fd8', '#7fd0ff', '#e83a3a']},
+  {title: 'Neon-rim showreel card', meta: 'V5 · s6 · 2.6s', bg: 'linear-gradient(135deg, #f4f4f6, #d8d8de)', sw: ['#ffffff', '#1c1c1f', '#1a84f5']},
+];
+
+const StyleBoard: React.FC = () => {
+  const cue = useCue();
+  const rows = [BOARD, [...BOARD].reverse()];
+  return (
+    <PerspectiveBoard at={cue('every single')} label={{text: 'Long-Form Style Board', icon: 'globe'}} scroll={{from: 160, to: -420, dur: 140}}>
+      {rows.map((row, r) => (
+        <div key={r}>
+          <div style={{fontFamily: font.sans, fontSize: 22, color: color.paper, margin: r ? '40px 0 20px' : '0 0 20px'}}>{r ? 'W5 · Product / ad kit' : 'W4 · Output / theme worlds'}</div>
+          <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 28}}>
+            {row.map((b) => (
+              <BoardCard key={b.title} title={b.title} meta={b.meta} swatches={b.sw} thumb={<AbsoluteFill style={{background: b.bg}} />} width={325} />
+            ))}
+          </div>
+        </div>
+      ))}
+    </PerspectiveBoard>
+  );
+};
+
+const LinkBelow: React.FC = () => {
+  const cue = useCue();
+  return <CTA text="The link is down below" at={cue('the link')} />;
 };
 
 export const Tour: React.FC = () => (
@@ -196,6 +249,18 @@ export const Tour: React.FC = () => (
       </Scene>
       <Scene from="and overall">
         <Result />
+      </Scene>
+      <Scene from="to get there">
+        <Studied />
+      </Scene>
+      <Scene from="i wasn't">
+        <SoundDesign />
+      </Scene>
+      <Scene from="every single">
+        <StyleBoard />
+      </Scene>
+      <Scene from="the link">
+        <LinkBelow />
       </Scene>
     </Track>
   </TranscriptProvider>

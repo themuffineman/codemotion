@@ -2,12 +2,14 @@ import React from 'react';
 import {AbsoluteFill, OffthreadVideo, interpolate, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {color, safe} from '../design/tokens';
 import {useTween} from '../motion/motion';
+import {FocusShade} from '../components/overlays';
 
 // A-roll with graphics in the empty side of the frame (primary refs 6, 8, 10).
 // The speaker stays sharp. The graphics side gets a dark falloff so white cards read cleanly.
 //
 // side = where the SPEAKER is. Graphics go in the opposite half.
 // In vertical (9:16) the speaker is the bottom half and graphics sit on top.
+// Without `src` (no face video) there is no split: content is centered on the stage over a FocusShade.
 
 export const ARoll: React.FC<{src?: string; startFrom?: number}> = ({src, startFrom = 0}) =>
   src ? (
@@ -33,6 +35,23 @@ export const TalkingHead: React.FC<{
   const inT = useTween(graphicsAt, graphicsAt + 12);
   const outT = graphicsOut === undefined ? 0 : interpolate(frame, [graphicsOut, graphicsOut + 10], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const shade = inT * (1 - outT);
+  if (!src) {
+    return (
+      <AbsoluteFill>
+        <FocusShade at={graphicsAt} />
+        <AbsoluteFill
+          style={{
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: vertical ? `${safe.vertical.top}px ${safe.vertical.x}px ${safe.vertical.bottom}px` : `0 ${safe.landscape.x}px`,
+            opacity: 1 - outT,
+          }}
+        >
+          {children}
+        </AbsoluteFill>
+      </AbsoluteFill>
+    );
+  }
   const dirGrad = vertical ? '0deg' : side === 'left' ? '90deg' : '270deg';
   const panel: React.CSSProperties = vertical
     ? {left: 0, right: 0, top: 0, height: '52%'}

@@ -40,7 +40,7 @@ export const color = {
 export const series = [color.blue, color.green, '#f5a524', '#e5489d'] as const;
 
 export const font = {
-  sans: 'Inter',
+  sans: 'Creato Display', // two cuts: Regular (400) and Medium (500+)
   serif: 'Instrument Serif', // ONLY italic, ONLY for the one accent phrase in a headline
   mono: 'JetBrains Mono',
 } as const;
@@ -56,7 +56,8 @@ export const type = {
   code: 30, // minimum code size. Never below 26.
 } as const;
 
-export const weight = {regular: 400, medium: 500, semibold: 600, bold: 700} as const;
+// Creato Display has Regular and Medium only. semibold/bold resolve to Medium; hierarchy comes from size.
+export const weight = {regular: 400, medium: 500, semibold: 500, bold: 500} as const;
 
 export const radius = {card: 32, tile: 26, window: 22, pill: 999, chip: 14} as const;
 
