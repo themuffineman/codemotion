@@ -1,10 +1,10 @@
 import React from 'react';
-import {AbsoluteFill, staticFile} from 'remotion';
+import {AbsoluteFill} from 'remotion';
 import {color, stageLook, StageLook} from '../design/tokens';
 
 // The canvas every graphics scene sits on. Two looks:
 //   'classic'    charcoal, faint 64px grid, soft vignette (from the primary references)
-//   'aceternity' the landing-page look: near-black, crisp 20px grid in #262626, a noise layer on top
+//   'aceternity' the landing-page look: near-black, crisp 20px grid in #262626
 // The default look is set once in tokens (stageLook) so a whole video stays consistent.
 // glow: optional soft colored light behind the focal point (e.g. pink behind a hero object).
 export const Stage: React.FC<{
@@ -25,10 +25,6 @@ export const Stage: React.FC<{
           backgroundPosition: 'center center',
         }}
       />
-      {ace ? (
-        // Same as the landing page: black + noise tile at 20% opacity, over the grid.
-        <AbsoluteFill style={{backgroundColor: '#000', backgroundImage: `url(${staticFile('textures/noise.png')})`, opacity: 0.2}} />
-      ) : null}
       {glow ? (
         <AbsoluteFill
           style={{

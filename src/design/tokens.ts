@@ -77,7 +77,7 @@ export const safe = {
   vertical: {x: 72, top: 220, bottom: 380},
 } as const;
 
-// Which Stage look videos use by default. 'classic' = primary references, 'aceternity' = landing page grid + noise.
+// Which Stage look videos use by default. 'classic' = primary references, 'aceternity' = landing page grid.
 export type StageLook = 'classic' | 'aceternity';
 export const stageLook: StageLook = 'aceternity';
 
