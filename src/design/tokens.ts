@@ -6,6 +6,8 @@ export const color = {
   bg: '#252527', // charcoal stage
   bgDeep: '#1b1a1d', // vignette edge / under-card shadow tone
   grid: 'rgba(255,255,255,0.045)', // faint grid lines
+  bgAce: '#0a0a0a', // 'aceternity' stage: near-black base
+  gridAce: '#262626', // 'aceternity' stage: grid lines (landing page dark mode)
   // Light surfaces (primary cards)
   card: '#fbfbf9',
   cardTop: '#ffffff',
@@ -74,5 +76,9 @@ export const safe = {
   landscape: {x: 120, top: 90, bottom: 90},
   vertical: {x: 72, top: 220, bottom: 380},
 } as const;
+
+// Which Stage look videos use by default. 'classic' = primary references, 'aceternity' = landing page grid + noise.
+export type StageLook = 'classic' | 'aceternity';
+export const stageLook: StageLook = 'aceternity';
 
 export const FPS = 30;
