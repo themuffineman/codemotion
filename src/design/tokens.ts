@@ -6,8 +6,8 @@ export const color = {
   bg: '#252527', // charcoal stage
   bgDeep: '#1b1a1d', // vignette edge / under-card shadow tone
   grid: 'rgba(255,255,255,0.045)', // faint grid lines
-  bgAce: '#030712', // 'aceternity' stage: near-black base (Tailwind gray-950)
-  gridAce: '#262626', // 'aceternity' stage: grid lines (landing page dark mode)
+  bgAce: '#1c1f26', // 'aceternity' stage: near-black base (Tailwind gray-950)
+  gridAce: '#2a2e37', // 'aceternity' stage: grid lines (landing page dark mode)
   // Light surfaces (primary cards)
   card: '#fbfbf9',
   cardTop: '#ffffff',
