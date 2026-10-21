@@ -3,7 +3,7 @@
 // usage: node scripts/preview.mjs <CompositionId> [everySeconds=2] [cols=4]
 //   -> out/<id>-sheet.png  (+ individual frames in out/<id>/)
 import {bundle} from '@remotion/bundler';
-import {renderStill, selectComposition} from '@remotion/renderer';
+import {openBrowser, renderStill, selectComposition} from '@remotion/renderer';
 import {execFileSync} from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -12,10 +12,13 @@ const [, , id, everyArg, colsArg] = process.argv;
 if (!id) throw new Error('usage: node scripts/preview.mjs <CompositionId> [everySeconds] [cols]');
 const every = Number(everyArg ?? 2);
 const cols = Number(colsArg ?? 4);
-const browserExecutable = '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell';
+// Set REMOTION_BROWSER to use a specific Chromium; otherwise Remotion uses (and downloads once) its own.
+const browserExecutable = process.env.REMOTION_BROWSER ?? null;
 
 const serveUrl = await bundle({entryPoint: path.resolve('src/index.ts')});
-const comp = await selectComposition({serveUrl, id, browserExecutable});
+// One browser for every still, instead of launching one per frame.
+const puppeteerInstance = await openBrowser('chrome', {browserExecutable});
+const comp = await selectComposition({serveUrl, id, browserExecutable, puppeteerInstance});
 const dir = path.resolve('out', id);
 fs.rmSync(dir, {recursive: true, force: true});
 fs.mkdirSync(dir, {recursive: true});
@@ -25,10 +28,11 @@ for (let f = Math.round(step / 2); f < comp.durationInFrames; f += step) frames.
 let i = 0;
 for (const frame of frames) {
   const output = path.join(dir, `${String(i++).padStart(3, '0')}.png`);
-  await renderStill({serveUrl, composition: comp, frame, output, browserExecutable, scale: 0.4});
+  await renderStill({serveUrl, composition: comp, frame, output, browserExecutable, puppeteerInstance, scale: 0.4});
   process.stdout.write(`\r${i}/${frames.length}`);
 }
 console.log();
+await puppeteerInstance.close({silent: true});
 const vertical = comp.height > comp.width;
 const tileW = vertical ? 216 : 384;
 execFileSync('ffmpeg', [
