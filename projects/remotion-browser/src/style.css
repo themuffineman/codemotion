@@ -1,0 +1,40 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #0b0d12;
+  color: #e6e8ec;
+  font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+}
+main { max-width: 1040px; margin: 0 auto; padding: 48px 32px; }
+h1 { font-size: 28px; font-weight: 600; margin: 0 0 32px; }
+
+.editor { display: grid; grid-template-columns: 360px 1fr; gap: 32px; align-items: start; }
+.controls { display: flex; flex-direction: column; gap: 20px; }
+label { display: flex; flex-direction: column; gap: 8px; font-size: 14px; color: #9aa3b2; }
+input {
+  font: inherit; font-size: 16px; color: #e6e8ec;
+  background: #151a24; border: 1px solid #262c38; border-radius: 10px; padding: 12px 14px;
+}
+input:focus { outline: none; border-color: #6d5efc; }
+
+.swatches { display: flex; gap: 10px; }
+.swatch { width: 36px; height: 36px; border-radius: 50%; border: 2px solid transparent; cursor: pointer; }
+.swatch.active { border-color: white; }
+
+.export {
+  font: inherit; font-size: 16px; font-weight: 600; color: white;
+  background: #6d5efc; border: 0; border-radius: 10px; padding: 14px; cursor: pointer;
+}
+.export:disabled { opacity: 0.7; cursor: default; }
+.bar { height: 6px; border-radius: 3px; background: #151a24; overflow: hidden; }
+.bar > div { height: 100%; background: #6d5efc; transition: width 0.1s; }
+.done { margin: 0; font-size: 14px; color: #10b981; }
+.done a { color: inherit; }
+.error { margin: 0; font-size: 14px; color: #f43f5e; white-space: pre-wrap; }
+
+.preview { position: relative; border-radius: 14px; overflow: hidden; border: 1px solid #262c38; }
+.preview video { display: block; width: 100%; }
+.tag {
+  position: absolute; top: 12px; left: 12px; font-size: 12px;
+  background: rgba(0, 0, 0, 0.6); padding: 4px 10px; border-radius: 999px;
+}

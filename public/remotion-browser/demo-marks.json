@@ -1,0 +1,26 @@
+[
+  {
+    "name": "start",
+    "t": -0.06
+  },
+  {
+    "name": "type-title",
+    "t": 2.45
+  },
+  {
+    "name": "color",
+    "t": 8.02
+  },
+  {
+    "name": "export",
+    "t": 10.68
+  },
+  {
+    "name": "done",
+    "t": 23.76
+  },
+  {
+    "name": "end",
+    "t": 28.78
+  }
+]
