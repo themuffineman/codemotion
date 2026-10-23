@@ -1,0 +1,6 @@
+{
+ "create": "\ncreate-vite v9.3.1\n\n│\n◇  Scaffolding project in C:\\Users\\ACER\\Desktop\\remotion-browser...\n│\n└  Done. Now run:\n\n  cd remotion-browser\n  npm install\n  npm run dev\n\n",
+ "install": "\nadded 27 packages, and audited 28 packages in 39s\n\nfound 0 vulnerabilities\n",
+ "add": "\nadded 11 packages, and audited 39 packages in 2m\n\nfound 0 vulnerabilities\n",
+ "dev": "\n  VITE v8.3.5  ready in 951 ms\n\n  ➜  Local:   http://localhost:5173/\n  ➜  Network: use --host to expose\n"
+}

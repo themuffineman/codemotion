@@ -7,6 +7,7 @@ import {JvmShort, jvmShortTranscript} from './videos/jvm-short/Video';
 import {Tour, tourTranscript} from './videos/tour/Video';
 import {WhisperVideo, whisperTranscript} from './videos/whisper/Video';
 import {RemotionBrowserVideo, remotionBrowserTranscript} from './videos/remotion-browser/Video';
+import {RemotionBrowserV2Video, remotionBrowserV2Transcript} from './videos/remotion-browser-v2/Video';
 
 const lengthOf = (t: {words: {end: number}[]}, tailSec = 1.5) => Math.ceil((t.words[t.words.length - 1].end + tailSec) * FPS);
 
@@ -16,6 +17,7 @@ export const Root: React.FC = () => (
     <Composition id="JvmShort" component={JvmShort} width={1080} height={1920} fps={FPS} durationInFrames={lengthOf(jvmShortTranscript)} />
     <Composition id="WhisperBrowser" component={WhisperVideo} width={1920} height={1080} fps={FPS} durationInFrames={lengthOf(whisperTranscript)} />
     <Composition id="RemotionBrowser" component={RemotionBrowserVideo} width={1920} height={1080} fps={FPS} durationInFrames={lengthOf(remotionBrowserTranscript)} />
+    <Composition id="RemotionBrowserV2" component={RemotionBrowserV2Video} width={1920} height={1080} fps={FPS} durationInFrames={lengthOf(remotionBrowserV2Transcript)} />
     <Composition id="Tour" component={Tour} width={1920} height={1080} fps={FPS} durationInFrames={lengthOf(tourTranscript)} />
   </>
 );

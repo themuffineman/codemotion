@@ -21,7 +21,10 @@ export const TitleCard: React.FC<TitleCardProps> = ({title, subtitle, color}) =>
 
   // The accent bar grows in after the title, the subtitle fades in last.
   const bar = spring({frame: frame - 18, fps, config: {damping: 200}});
-  const sub = interpolate(frame, [28, 42], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const sub = interpolate(frame, [28, 42], [0, 1], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
 
   // Everything fades out over the last 12 frames.
   const out = interpolate(frame, [durationInFrames - 12, durationInFrames], [1, 0], {

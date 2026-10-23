@@ -22,7 +22,7 @@ const STATUS_URL = 'https://pendorastudios--marketing-get-render-status.modal.ru
 const args = process.argv.slice(2);
 const framesFlag = args.indexOf('--frames');
 const maxFrames = framesFlag >= 0 ? Number(args[framesFlag + 1]) : null;
-const [id, outArg] = args.filter((a, i) => !a.startsWith('--') && i !== framesFlag + 1);
+const [id, outArg] = args.filter((a, i) => !a.startsWith('--') && (framesFlag < 0 || i !== framesFlag + 1));
 if (!id) throw new Error('usage: node scripts/render-modal.mjs <CompositionId> [out.mp4] [--frames N]');
 const out = path.resolve(outArg ?? `out/${id}.mp4`);
 
