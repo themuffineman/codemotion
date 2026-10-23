@@ -33,6 +33,7 @@
 | `<Pill variant='neutral'\|'white'\|'blue'\|'green'\|'ghost'\|'outline' icon iconBg size struck>` | |
 | `<Badge at kind='check'\|'number' n>` | |
 | `<Counter value at dur decimals prefix suffix>` | |
+| `<Logo name size>` | real brand logo from `public/logos/<name>.svg` (get it with `node scripts/logo.mjs`, from svgl.app) |
 | `<Icon name size color>` | names: file folder code terminal gear cpu database server globe user check x clock bolt lock key layers box scissors pencil grid search arrowRight download sparkle brain question |
 | `<ListCard title kicker rows=[{label,value,at,struck,tag}] total={label,value,at}>` | |
 | `<StepTimeline steps=[{n,title,at,done,value,valueAt,thumb}] focus cardW gap>` | |

@@ -1,5 +1,5 @@
 import React from 'react';
-import {interpolate} from 'remotion';
+import {Img, interpolate, staticFile} from 'remotion';
 import {color, font, radius, shadow, type, weight} from '../design/tokens';
 import {useProgress, useTween} from '../motion/motion';
 import {Icon, IconName} from './Icon';
@@ -320,3 +320,9 @@ export const Counter: React.FC<{
     </span>
   );
 };
+
+// ---------- Logo: a real brand logo from public/logos/ (fetched from svgl.app with scripts/logo.mjs) ----------
+// Use it instead of a generic Icon whenever a real product/company is named (Remotion, React, Chrome, AWS…).
+export const Logo: React.FC<{name: string; size?: number; style?: React.CSSProperties}> = ({name, size = 96, style}) => (
+  <Img src={staticFile(`logos/${name}.svg`)} style={{width: size, height: size, objectFit: 'contain', ...style}} />
+);

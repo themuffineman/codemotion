@@ -1,13 +1,14 @@
 // The page: edit the text, watch it live in the Player, then export it as an MP4.
 import {useState} from 'react';
 import {Player} from '@remotion/player';
-import {TitleCard, titleCardComposition} from './TitleCard';
+import {TitleCard} from './TitleCard';
+import {titleCardComposition} from './composition';
 import {exportVideo} from './exportVideo';
 
 const COLORS = ['#6d5efc', '#f43f5e', '#10b981', '#f59e0b'];
 const start = titleCardComposition.defaultProps;
 
-export function App() {
+export default function App() {
   const [title, setTitle] = useState(start.title);
   const [subtitle, setSubtitle] = useState(start.subtitle);
   const [color, setColor] = useState(start.color);
@@ -95,7 +96,7 @@ export function App() {
               compositionHeight={titleCardComposition.height}
               style={{width: '100%'}}
               autoPlay
-              muted
+              initiallyMuted
               loop
               controls
               acknowledgeRemotionLicense

@@ -21,6 +21,17 @@ Every technical visual gets re-skinned in the primary look. `reference/style.md`
 - A-roll video (optional): the speaker. Put it in `public/` and pass it to `<TalkingHead src>`.
 - The codebase being discussed: the files you will show.
 
+## From a raw voice recording to transcript.json
+
+1. `ffmpeg -i <rec.m4a> -ac 1 -ar 48000 work/<name>/raw.wav` (mono: Gladia bills stereo twice and repeats utterances).
+2. `python scripts/transcribe-gladia.py <mono audio> work/<name>/raw.json` (Gladia; key in `.env`). Read the printed
+   utterances and pick the last clean take of every retake, including repeats the speaker didn't announce.
+3. Write the keep ranges, then `python scripts/clean-audio.py raw.wav cuts.json clean.wav`.
+4. `python scripts/tighten-audio.py clean.wav clean.json tight.wav` removes dead air, ums and ahs. It works from the
+   transcript, not loudness, because fillers are loud and room noise sits near the silence threshold.
+5. Transcribe the final audio again, check for leftover repeats (a long word duration hides a false start),
+   fix misheard names, and save it as `src/videos/<name>/transcript.json`.
+
 ## Workflow
 
 1. **Read the whole transcript first.** Write down the beats: one idea per beat. A beat is usually
@@ -39,7 +50,9 @@ Every technical visual gets re-skinned in the primary look. `reference/style.md`
    For any frame that looks wrong, look closer with
    `npx remotion still src/index.ts <Id> out/x.png --frame=N`.
    Fix problems and preview again until it passes the checklist at the bottom.
-7. **Render:** `npx remotion render src/index.ts <Id> out/<Id>.mp4`.
+7. **Render on Modal:** `node scripts/render-modal.mjs <Id>` (bundles, uploads, renders in parallel
+   chunks on the marketing renderer, downloads to `out/<Id>.mp4`; minutes instead of ~30 min locally).
+   `--frames 300` renders a quick 10 s test. Local fallback: `npx remotion render src/index.ts <Id> out/<Id>.mp4 --concurrency=2`.
 
 Use `scripts/fake-transcript.mjs` only to block out layouts before the real audio exists.
 
@@ -68,6 +81,14 @@ Use `scripts/fake-transcript.mjs` only to block out layouts before the real audi
 
 Node types for diagrams: `NodeChip` (actions/tasks), `NodeTile` (things, artifacts),
 `NodeBox` (systems/processes, the subject), `DocIcon` (files as inputs), `AppIcon` (tools).
+
+## Logos
+
+When a real product or company is named (Remotion, React, Vite, Chrome, AWS…), show its real logo, not a
+generic icon. Logos come from **svgl.app** (free SVGs for most tech brands):
+`node scripts/logo.mjs <search> [slug]` saves `public/logos/<slug>.svg` (dark variant when there are two),
+then `<Logo name="<slug>" size={96} />`. Search by company name ("amazon" finds AWS, "aws" doesn't);
+browse https://svgl.app when unsure. If svgl has no logo, fall back to `AppIcon`.
 
 ## Hard rules
 

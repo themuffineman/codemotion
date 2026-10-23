@@ -1,6 +1,7 @@
 // Renders the title card to an MP4 file inside the browser tab. No server involved.
 import {canRenderMediaOnWeb, renderMediaOnWeb} from '@remotion/web-renderer';
-import {titleCardComposition, type TitleCardProps} from './TitleCard';
+import {titleCardComposition} from './composition';
+import type {TitleCardProps} from './TitleCard';
 
 export async function exportVideo(props: TitleCardProps, onProgress: (p: number) => void) {
   // First ask the browser if it can encode this (needs WebCodecs + an H.264 encoder).
@@ -20,7 +21,6 @@ export async function exportVideo(props: TitleCardProps, onProgress: (p: number)
     inputProps: props,
     container: 'mp4',
     muted: true, // no audio in this video, so skip the empty audio track
-    licenseKey: 'free-license',
     onProgress: ({progress}) => onProgress(progress),
   });
 

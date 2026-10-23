@@ -1,0 +1,12 @@
+
+create-vite v9.3.1
+
+│
+◇  Scaffolding project in C:\Users\ACER\AppData\Local\Temp\claude\c--Users-ACER-Desktop-Software\b06d2eb9-99e8-4c5a-9661-74ecefafb8f6\scratchpad\scaffold\remotion-browser...
+│
+└  Done. Now run:
+
+  cd remotion-browser
+  npm install
+  npm run dev
+
