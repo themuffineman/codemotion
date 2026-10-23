@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Whisper in the browser</title>
+    <style>
+      body { font-family: system-ui, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; }
+      pre { background: #111827; color: #e5e7eb; padding: 16px; border-radius: 8px; white-space: pre-wrap; min-height: 80px; }
+    </style>
+  </head>
+  <body>
+    <h1>Whisper in the browser</h1>
+    <p>Pick an audio or video file. It's transcribed on your machine; nothing is uploaded.</p>
+    <input id="file" type="file" accept="audio/*,video/*" />
+    <select id="model">
+      <option value="onnx-community/whisper-tiny.en">tiny (English, fastest)</option>
+      <option value="onnx-community/whisper-base">base (better, multilingual)</option>
+    </select>
+    <button id="go">Transcribe</button>
+    <p id="status"></p>
+    <pre id="out"></pre>
+
+    <script type="module">
+      import { run } from "./main.js";
+      const $ = (id) => document.getElementById(id);
+      $("go").onclick = async () => {
+        const file = $("file").files[0];
+        if (!file) return;
+        const t0 = performance.now();
+        try {
+          $("out").textContent = await run(file, $("model").value, (s) => ($("status").textContent = s));
+          $("status").textContent = `Done in ${((performance.now() - t0) / 1000).toFixed(1)} s`;
+        } catch (err) {
+          $("status").textContent = "Error: " + err.message;
+        }
+      };
+    </script>
+  </body>
+</html>
