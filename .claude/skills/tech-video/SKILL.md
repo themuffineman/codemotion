@@ -5,8 +5,11 @@ description: Turn a word-timed transcript of someone talking about tech (coding,
 
 # Tech video
 
-You write a Remotion composition (real TSX) that sits on top of the recorded talk. You compose it
-from the kit in `src/kit.ts`. You do not invent new visual styles, colors, or sizes.
+You write a Remotion composition (real TSX) that sits on top of the recorded talk. The **style** is
+fixed: colors, type, sizes, radii, shadows and motion come from `src/design/tokens.ts` and the kit's
+motion helpers. The **components** are not fixed. The kit in `src/kit.ts` is a starting point, not a
+limit. When no kit component shows a beat well, build a new one in the house style (see
+"Custom components" below). A visual that clearly shows the idea beats a kit component that only half fits.
 
 **The look comes from the primary references** (`reference/images/primary-*.png`): an Apple-like,
 calm, premium motion-graphics style on a charcoal grid.
@@ -36,7 +39,9 @@ Every technical visual gets re-skinned in the primary look. `reference/style.md`
 
 1. **Read the whole transcript first.** Write down the beats: one idea per beat. A beat is usually
    one or two sentences (3–12s long-form, 2–6s shorts). Name the phrase that starts each beat.
-2. **Pick one recipe per beat** from the table below. Change the scene type at least every ~8s on
+2. **Design each beat.** Start from "what would show this idea best?", not from "which component do
+   we have?". If a recipe from the table below fits, use it. If it only half fits, build a custom
+   visual for it. Change the scene type at least every ~8s on
    long-form and every ~4s on shorts. Return to the talking head between dense scenes so viewers
    can breathe. Roughly 1 graphics beat for every 1–2 talking-head beats is a good long-form rhythm.
 3. **Put the real code in `public/code/`.** Copy the actual files from the repo (`cp`, never retype).
@@ -76,15 +81,62 @@ Use `scripts/fake-transcript.mjs` only to block out layouts before the real audi
 | Steps of a process / a roadmap / progress | `StepTimeline` inside `Camera` that pans along it | primary 2, 3, 4 |
 | Numbers, costs, benchmarks, a breakdown | `ListCard` (rows + highlighted total), `Counter` | primary 1 |
 | Chapters / "in this video" | `ChapterCarousel` | primary 9 |
-| A tool / app / UI | `Window` with a screenshot or screen recording inside | primary 3, 4 |
+| A tool / app / UI | A real screen recording in a browser `Window`, zoomed onto what's being talked about (see "Screen recordings") | primary 3, 4 |
 | A free-form architecture | `Diagram` with `nodes` + `edges` (last resort; prefer the layouts above) | 20 |
 
 Node types for diagrams: `NodeChip` (actions/tasks), `NodeTile` (things, artifacts),
 `NodeBox` (systems/processes, the subject), `DocIcon` (files as inputs), `AppIcon` (tools).
 
+The table covers common beats. It is not a complete list of what a video may show.
+
+## Custom components (encouraged)
+
+Many beats are about something specific: a mechanism, a behavior, a before/after. Generic boxes and
+pills don't show those well. For those beats, build a component that shows the actual thing.
+
+**When to build one:** the closest kit component would only label the idea ("Canvas", "Measure", an arrow)
+instead of showing it happening, or you would be stacking pills to describe something visual.
+
+**How:**
+- Write it at the top of `src/videos/<name>/Video.tsx`, with a one-line comment saying what it shows.
+- Paint it with tokens only (`color.*`, `type.*`, `radius.*`, `shadow.*`, `font.*`), the same surfaces
+  (light card = subject, dark tile = context), and the same motion (`Enter`, `useTween`, `useProgress`,
+  `stagger`). It should look like it came from the kit.
+- Drive every change from `cue()`, like any other reveal.
+- If a second video needs it, move it into `src/components/` or `src/tech/`, export it from `src/kit.ts`,
+  and add it to `reference/api.md`.
+
+**Examples already built** (read these before writing a new one):
+- `remotion-browser-v2`: `DrawDetail` (a card redrawn piece by piece on a canvas, words boxed as they
+  are measured), `ZIndex` (two overlapping cards that swap order), `BackgroundTab` (a progress bar that
+  crawls when its tab goes to the background), `ScreenZoom` + `RecordingCuts` (a zoomed, cue-cut screen recording).
+- `remotion-browser`: `Filmstrip` (real frames of an exported video), `Growth` (a bill growing with users).
+- `whisper`: `Waveform` (where a cut lands in the audio), `StruckPill`, `ProgressBar`.
+
+## Screen recordings of a real app
+
+When the video is about an app or tool, show it working for real: a recording of the actual page,
+not a mock-up.
+- Record it with `node scripts/record-browser-demo.mjs <frames-dir>` (see that file to change the actions). It
+  draws a visible cursor, glides between elements, types at a human pace, and renders at 2560×1600 so
+  zooms stay sharp. It also writes `marks.json` with when each action happened and where its element is.
+- In the video, cut the recording to the narration with `RecordingCuts` (each part starts on its cue and
+  is sped up to fit; label any sped-up part, e.g. "5× speed"), and zoom with `ScreenZoom` onto the
+  element being talked about, using the rects from `marks.json`.
+
+## Code tutorials
+
+When the video teaches code, build it on screen from scratch, file by file, instead of only naming
+the main APIs:
+- Run the real setup commands (scaffold, install, dev server) and show their real output in `Terminal`.
+  Run them in a short, clean folder path, so the output doesn't show temp directories.
+- Then walk each file in the order you'd write it, with `CodeWindow` steps on the lines being explained.
+- If a line is too wide for `CodeWindow`, reformat it in the real source file (and re-copy it to
+  `public/code/`), never just in the video.
+
 ## Logos
 
-When a real product or company is named (Remotion, React, Vite, Chrome, AWS�), show its real logo, not a
+When a real product or company is named (Remotion, React, Vite, Chrome, AWS…), show its real logo, not a
 generic icon. Logos come from **svgl.app** (free SVGs for most tech brands):
 `node scripts/logo.mjs <search> [slug]` saves `public/logos/<slug>.svg` (dark variant when there are two),
 then `<Logo name="<slug>" size={96} />`. Search by company name ("amazon" finds AWS, "aws" doesn't);
@@ -157,6 +209,8 @@ browse https://svgl.app when unsure. If svgl has no logo, fall back to `AppIcon`
 - [ ] One focal point per frame, and it is obvious.
 - [ ] Colors and type all come from tokens. Accent is used once at most per headline.
 - [ ] Scene types vary. There is no run of the same layout three times.
+- [ ] No beat is forced into a kit component that only half fits. Those beats got a custom visual.
+- [ ] Every real product named on screen shows its real logo.
 
 ## Files
 
@@ -165,3 +219,5 @@ browse https://svgl.app when unsure. If svgl has no logo, fall back to `AppIcon`
 - `reference/recipes.md`: how each technical reference is rebuilt, with code.
 - `reference/api.md`: component props.
 - `src/videos/jvm/Video.tsx` and `src/videos/jvm-short/Video.tsx`: complete worked examples. Read one before writing a new video.
+- `src/videos/remotion-browser-v2/Video.tsx`: the newest example. It has a recorded demo with zooms, a from-scratch code
+  walkthrough with real terminal output, real logos, and several custom components.
