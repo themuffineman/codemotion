@@ -1,0 +1,9 @@
+created pay_e2f832b1
+request 1: pending
+request 2: pending
+request 3: pending
+request 4: pending
+request 5: pending
+request 6: pending
+request 7: succeeded
+done after 7 requests, 6 of them wasted

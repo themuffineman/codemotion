@@ -1,0 +1,5 @@
+[app] listening on :3000
+[app] receipt email sent for pay_f60ea0fe
+[app] receipt email sent for pay_f60ea0fe
+[app] receipt email sent for pay_f60ea0fe
+[app] receipt email sent for pay_f60ea0fe

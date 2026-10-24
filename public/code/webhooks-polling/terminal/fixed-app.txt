@@ -1,0 +1,4 @@
+[app] listening on :3000
+[app] receipt email sent for pay_24474a2d
+[app] evt_23d1bd72 already handled, skipping
+[app] rejected: bad signature

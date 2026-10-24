@@ -1,0 +1,6 @@
+[provider] listening on :4000
+[provider] pay_f60ea0fe succeeded
+[provider] evt_b564a892 failed (attempt 1): The operation was aborted due to timeout
+[provider] evt_b564a892 failed (attempt 2): The operation was aborted due to timeout
+[provider] evt_b564a892 failed (attempt 3): The operation was aborted due to timeout
+[provider] evt_b564a892 failed (attempt 4): The operation was aborted due to timeout

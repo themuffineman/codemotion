@@ -1,0 +1,4 @@
+[provider] listening on :4000
+[provider] pay_24474a2d succeeded
+[provider] evt_23d1bd72 delivered (attempt 1)
+[provider] evt_23d1bd72 delivered (attempt 1)

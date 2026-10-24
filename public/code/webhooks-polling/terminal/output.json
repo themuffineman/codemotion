@@ -1,0 +1,11 @@
+{
+ "fixed_app": "[app] listening on :3000\n[app] receipt email sent for pay_24474a2d\n[app] evt_23d1bd72 already handled, skipping\n[app] rejected: bad signature",
+ "fixed_curl": "{\"id\":\"pay_24474a2d\",\"status\":\"pending\"}",
+ "fixed_provider": "[provider] listening on :4000\n[provider] pay_24474a2d succeeded\n[provider] evt_23d1bd72 delivered (attempt 1)\n[provider] evt_23d1bd72 delivered (attempt 1)",
+ "forged_curl": "400",
+ "naive_app": "[app] listening on :3000\n[app] receipt email sent for pay_f60ea0fe\n[app] receipt email sent for pay_f60ea0fe\n[app] receipt email sent for pay_f60ea0fe\n[app] receipt email sent for pay_f60ea0fe",
+ "naive_curl": "{\"id\":\"pay_f60ea0fe\",\"status\":\"pending\"}",
+ "naive_provider": "[provider] listening on :4000\n[provider] pay_f60ea0fe succeeded\n[provider] evt_b564a892 failed (attempt 1): The operation was aborted due to timeout\n[provider] evt_b564a892 failed (attempt 2): The operation was aborted due to timeout\n[provider] evt_b564a892 failed (attempt 3): The operation was aborted due to timeout\n[provider] evt_b564a892 failed (attempt 4): The operation was aborted due to timeout",
+ "poll_provider": "[provider] listening on :4000\n[provider] pay_e2f832b1 succeeded",
+ "poll": "created pay_e2f832b1\nrequest 1: pending\nrequest 2: pending\nrequest 3: pending\nrequest 4: pending\nrequest 5: pending\nrequest 6: pending\nrequest 7: succeeded\ndone after 7 requests, 6 of them wasted"
+}

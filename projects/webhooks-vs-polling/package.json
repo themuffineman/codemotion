@@ -1,0 +1,11 @@
+{
+  "name": "webhooks-vs-polling",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "provider": "node provider.js",
+    "poll": "node poll.js",
+    "webhook:naive": "node webhook-naive.js",
+    "webhook": "node webhook.js"
+  }
+}
