@@ -18,7 +18,7 @@ const browserExecutable = process.env.REMOTION_BROWSER ?? null;
 const serveUrl = await bundle({entryPoint: path.resolve('src/index.ts')});
 // One browser for every still, instead of launching one per frame.
 const puppeteerInstance = await openBrowser('chrome', {browserExecutable});
-const comp = await selectComposition({serveUrl, id, browserExecutable, puppeteerInstance});
+const comp = await selectComposition({serveUrl, id, browserExecutable, puppeteerInstance, port: 3123});
 const dir = path.resolve('out', id);
 fs.rmSync(dir, {recursive: true, force: true});
 fs.mkdirSync(dir, {recursive: true});
@@ -28,7 +28,7 @@ for (let f = Math.round(step / 2); f < comp.durationInFrames; f += step) frames.
 let i = 0;
 for (const frame of frames) {
   const output = path.join(dir, `${String(i++).padStart(3, '0')}.png`);
-  await renderStill({serveUrl, composition: comp, frame, output, browserExecutable, puppeteerInstance, scale: 0.4});
+  await renderStill({serveUrl, composition: comp, frame, output, browserExecutable, puppeteerInstance, scale: 0.4, port: 3123});
   process.stdout.write(`\r${i}/${frames.length}`);
 }
 console.log();
