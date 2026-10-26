@@ -1,0 +1,11 @@
+$ cat .git/HEAD
+ref: refs/heads/main
+
+$ cat .git/refs/heads/main
+dcc5f27f85419bd5f4435a1344f7d8dd763dca95
+
+$ git branch feature
+
+$ cat .git/refs/heads/feature
+dcc5f27f85419bd5f4435a1344f7d8dd763dca95
+

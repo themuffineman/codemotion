@@ -1,0 +1,14 @@
+$ git init -b main
+Initialized empty Git repository in C:/tmp/git-demo/.git/
+
+$ ls .git
+HEAD
+config
+description
+hooks
+info
+objects
+refs
+
+$ find .git/objects -type f
+

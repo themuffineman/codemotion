@@ -1,0 +1,6 @@
+$ node hash-object.js README.md
+cc22473b12078ebc933a84d75f60fe4953841ee4
+
+$ git hash-object README.md
+cc22473b12078ebc933a84d75f60fe4953841ee4
+

@@ -1,0 +1,13 @@
+$ git log --oneline
+dcc5f27 say hello
+82e7074 first commit
+
+$ git commit --amend -m "say hello!"
+[main b41aac5] say hello!
+ Date: Mon Oct 26 10:00:00 2026 +0000
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+$ git log --oneline
+b41aac5 say hello!
+82e7074 first commit
+

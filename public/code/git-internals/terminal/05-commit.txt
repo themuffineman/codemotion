@@ -1,0 +1,12 @@
+$ git commit -m "first commit"
+[main (root-commit) 82e7074] first commit
+ 2 files changed, 2 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 app.js
+
+$ find .git/objects -type f
+.git/objects/66/87898e2a0fe2da282efab6b5f7f38b7f788f56
+.git/objects/7e/5e89a906760181d1503af2559edff3ebac9e90
+.git/objects/82/e7074bd5bdd955e7b97ded99ef15727cee532b
+.git/objects/cc/22473b12078ebc933a84d75f60fe4953841ee4
+

@@ -1,0 +1,19 @@
+$ git commit -am "say hello"
+[main dcc5f27] say hello
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+$ find .git/objects -type f | wc -l
+7
+
+$ git cat-file -p HEAD
+tree 6bfc3566d85bb659296fb2ad58b9bdf63b0b5ccc
+parent 82e7074bd5bdd955e7b97ded99ef15727cee532b
+author You <you@example.com> 1793008800 +0000
+committer You <you@example.com> 1793008800 +0000
+
+say hello
+
+$ git cat-file -p HEAD^{tree}
+100644 blob cc22473b12078ebc933a84d75f60fe4953841ee4	README.md
+100644 blob 371fdfb152a2c9af90c33b84016cc6dc56c89a43	app.js
+

@@ -1,0 +1,6 @@
+$ git add README.md app.js
+
+$ find .git/objects -type f
+.git/objects/66/87898e2a0fe2da282efab6b5f7f38b7f788f56
+.git/objects/cc/22473b12078ebc933a84d75f60fe4953841ee4
+

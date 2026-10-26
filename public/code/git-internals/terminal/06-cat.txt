@@ -1,0 +1,11 @@
+$ git cat-file -p HEAD
+tree 7e5e89a906760181d1503af2559edff3ebac9e90
+author You <you@example.com> 1793008800 +0000
+committer You <you@example.com> 1793008800 +0000
+
+first commit
+
+$ git cat-file -p HEAD^{tree}
+100644 blob cc22473b12078ebc933a84d75f60fe4953841ee4	README.md
+100644 blob 6687898e2a0fe2da282efab6b5f7f38b7f788f56	app.js
+

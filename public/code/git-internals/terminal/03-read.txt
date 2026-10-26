@@ -1,0 +1,4 @@
+$ node read-object.js cc22473b12078ebc933a84d75f60fe4953841ee4
+blob 9\0# My app
+
+
