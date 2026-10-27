@@ -13,7 +13,7 @@ so the hashes below are exactly the ones on screen.
 ## 1. Hook
 
 [A commit drawn as a diff (red/green lines) gets crossed out, replaced by a full folder snapshot]
-Most people think a commit stores your changes, like a diff of what you added and removed. It doesn't. Every commit is a full snapshot of your whole project, and Git itself is basically a key-value store, where the key is a hash of the content. Once you see how that works, things like branches, rebase and detached HEAD stop being magic. So let's open up the .git folder and actually look at what's in there.
+Most people think a commit stores your changes, like a diff of what you added and removed. It doesn't. Every commit is a full snapshot of your whole project, and Git itself is basically a key-value store, where the key is a hash of the content. Once you see how that works, things like branches, rebase and detached HEAD stop being so confuding. So let's open up the .git folder and actually look at what's in there.
 
 ## 2. An empty repo
 

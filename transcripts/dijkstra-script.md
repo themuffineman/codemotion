@@ -13,12 +13,12 @@ The town map: A–B 4, A–C 2, B–C 1, B–D 5, C–D 8, C–E 10, D–E 2, D�
 ## 1. Hook
 
 [Maps app style: a pin at home, a pin at work, a route draws itself between them]
-When you ask your maps app for a route, it has to find the fastest way through a road network with millions of intersections, and it does it in a fraction of a second. The idea behind that goes back to an algorithm from 1956, called Dijkstra's algorithm. It's also one of those things that comes up in interviews all the time, and it sounds scary, but the core of it is one really simple rule. So let's build it from scratch, step by step, and then make it fast.
+When you ask your maps app for a route, it has to find the fastest way through a road network with millions of intersections, and it does it in a fraction of a second. The idea behind that goes back to an algorithm from 1956, called Dijkstra's algorithm. It sounds scary, but the core of it is one really simple algo. So let's build it from scratch, step by step.
 
 ## 2. A map is a graph
 
 [The town map morphs into six circles A–F connected by lines; numbers appear on each line]
-First, we need to turn the map into something code can work with. Every intersection becomes a node, and every road becomes an edge between two nodes. And each edge gets a number, the weight, which here is how many minutes that road takes. That's called a weighted graph.
+First, we need to turn the map into something code can work with. So every intersection becomes a node, and every road becomes an edge between two nodes. And each edge gets a number or weight, which here is how many minutes that road takes. That's called a weighted graph.
 
 [A glows "start", F glows "target"]
 We start at A, and we want to get to F as fast as possible.
