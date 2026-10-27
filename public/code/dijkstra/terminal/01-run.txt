@@ -1,0 +1,20 @@
+$ node run.ts
+visit A (0)
+  B: Infinity -> 4 via A
+  C: Infinity -> 2 via A
+visit C (2)
+  B: 4 -> 3 via C
+  D: Infinity -> 10 via C
+  E: Infinity -> 12 via C
+visit B (3)
+  D: 10 -> 8 via B
+visit D (8)
+  E: 12 -> 10 via D
+  F: Infinity -> 14 via D
+visit E (10)
+  F: 14 -> 13 via E
+visit F (13)
+
+distances: { A: 0, B: 3, C: 2, D: 8, E: 10, F: 13 }
+path A -> F: A -> C -> B -> D -> E -> F (13 min)
+

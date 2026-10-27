@@ -1,0 +1,5 @@
+$ node bench.ts
+22500 intersections, 44700 roads
+simple scan: 50871 ms  ->  769 min
+min-heap:    63 ms  ->  769 min
+
