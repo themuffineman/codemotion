@@ -1,0 +1,4 @@
+{
+ "s01": "$ node run.ts\nvisit A (0)\n  B: Infinity -> 4 via A\n  C: Infinity -> 2 via A\nvisit C (2)\n  B: 4 -> 3 via C\n  D: Infinity -> 10 via C\n  E: Infinity -> 12 via C\nvisit B (3)\n  D: 10 -> 8 via B\nvisit D (8)\n  E: 12 -> 10 via D\n  F: Infinity -> 14 via D\nvisit E (10)\n  F: 14 -> 13 via E\nvisit F (13)\n\ndistances: { A: 0, B: 3, C: 2, D: 8, E: 10, F: 13 }\npath A -> F: A -> C -> B -> D -> E -> F (13 min)\n\n",
+ "s02": "$ node bench.ts\r\n22500 intersections, 44700 roads\r\nsimple scan: 50871 ms  ->  769 min\r\nmin-heap:    63 ms  ->  769 min\r\n\r\n"
+}

@@ -14,3 +14,6 @@ run() { local step=$1; shift; { echo "\$ $*"; eval "$*"; echo; } >> "$OUT/termin
 
 run 01-run "node run.ts"
 run 02-bench "node bench.ts"
+
+# bundle the captured output for the video: {"s01": "...", "s02": "..."}
+node -e 'const fs=require("fs"),d=process.argv[1],o={};for(const f of fs.readdirSync(d).filter(f=>f.endsWith(".txt")).sort())o["s"+f.slice(0,2)]=fs.readFileSync(d+"/"+f,"utf8");fs.writeFileSync(d+"/output.json",JSON.stringify(o,null,1))' "$OUT/terminal"

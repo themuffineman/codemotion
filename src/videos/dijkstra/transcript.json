@@ -1,0 +1,6854 @@
+{
+"words": [
+{
+"text": "Whenever",
+"start": 0.06,
+"end": 0.32
+},
+{
+"text": "you",
+"start": 0.321,
+"end": 0.44
+},
+{
+"text": "ask",
+"start": 0.48,
+"end": 0.641
+},
+{
+"text": "your",
+"start": 0.661,
+"end": 0.781
+},
+{
+"text": "Maps",
+"start": 0.841,
+"end": 1.081
+},
+{
+"text": "app",
+"start": 1.161,
+"end": 1.281
+},
+{
+"text": "for",
+"start": 1.321,
+"end": 1.441
+},
+{
+"text": "a",
+"start": 1.461,
+"end": 1.561
+},
+{
+"text": "route,",
+"start": 1.581,
+"end": 1.841
+},
+{
+"text": "it",
+"start": 2.122,
+"end": 2.242
+},
+{
+"text": "has",
+"start": 2.243,
+"end": 2.342
+},
+{
+"text": "to",
+"start": 2.343,
+"end": 2.462
+},
+{
+"text": "find",
+"start": 2.502,
+"end": 2.702
+},
+{
+"text": "the",
+"start": 2.703,
+"end": 2.822
+},
+{
+"text": "fastest",
+"start": 2.862,
+"end": 3.283
+},
+{
+"text": "way",
+"start": 3.343,
+"end": 3.463
+},
+{
+"text": "through",
+"start": 3.543,
+"end": 3.743
+},
+{
+"text": "a",
+"start": 3.783,
+"end": 3.903
+},
+{
+"text": "road",
+"start": 3.983,
+"end": 4.143
+},
+{
+"text": "network",
+"start": 4.203,
+"end": 4.543
+},
+{
+"text": "with",
+"start": 4.764,
+"end": 4.904
+},
+{
+"text": "millions",
+"start": 5.144,
+"end": 5.484
+},
+{
+"text": "of",
+"start": 5.485,
+"end": 5.604
+},
+{
+"text": "intersections,",
+"start": 5.624,
+"end": 6.205
+},
+{
+"text": "and",
+"start": 6.445,
+"end": 6.565
+},
+{
+"text": "does",
+"start": 6.645,
+"end": 6.825
+},
+{
+"text": "that",
+"start": 6.845,
+"end": 6.985
+},
+{
+"text": "in",
+"start": 6.986,
+"end": 7.105
+},
+{
+"text": "a",
+"start": 7.106,
+"end": 7.205
+},
+{
+"text": "fraction",
+"start": 7.265,
+"end": 7.546
+},
+{
+"text": "of",
+"start": 7.566,
+"end": 7.666
+},
+{
+"text": "a",
+"start": 7.667,
+"end": 7.726
+},
+{
+"text": "second.",
+"start": 7.746,
+"end": 8.046
+},
+{
+"text": "The",
+"start": 8.346,
+"end": 8.466
+},
+{
+"text": "idea",
+"start": 8.546,
+"end": 8.747
+},
+{
+"text": "behind",
+"start": 8.827,
+"end": 9.107
+},
+{
+"text": "that",
+"start": 9.147,
+"end": 9.267
+},
+{
+"text": "goes",
+"start": 9.347,
+"end": 9.547
+},
+{
+"text": "back",
+"start": 9.627,
+"end": 9.807
+},
+{
+"text": "to",
+"start": 9.847,
+"end": 9.967
+},
+{
+"text": "an",
+"start": 9.968,
+"end": 10.068
+},
+{
+"text": "algorithm",
+"start": 10.228,
+"end": 10.628
+},
+{
+"text": "from",
+"start": 10.808,
+"end": 10.968
+},
+{
+"text": "1956",
+"start": 10.969,
+"end": 11.929
+},
+{
+"text": "called",
+"start": 11.93,
+"end": 12.149
+},
+{
+"text": "Dijkstra's",
+"start": 12.509,
+"end": 12.97
+},
+{
+"text": "algorithm.",
+"start": 13.05,
+"end": 13.49
+},
+{
+"text": "It",
+"start": 13.81,
+"end": 13.93
+},
+{
+"text": "sounds",
+"start": 13.97,
+"end": 14.231
+},
+{
+"text": "scary,",
+"start": 14.271,
+"end": 14.671
+},
+{
+"text": "but",
+"start": 15.011,
+"end": 15.151
+},
+{
+"text": "it's",
+"start": 15.251,
+"end": 15.732
+},
+{
+"text": "a",
+"start": 15.733,
+"end": 15.852
+},
+{
+"text": "really",
+"start": 15.892,
+"end": 16.112
+},
+{
+"text": "simple",
+"start": 16.352,
+"end": 16.652
+},
+{
+"text": "algorithm.",
+"start": 16.753,
+"end": 17.233
+},
+{
+"text": "So",
+"start": 17.573,
+"end": 17.693
+},
+{
+"text": "let's",
+"start": 17.753,
+"end": 17.893
+},
+{
+"text": "build",
+"start": 17.953,
+"end": 18.114
+},
+{
+"text": "it",
+"start": 18.115,
+"end": 18.194
+},
+{
+"text": "from",
+"start": 18.195,
+"end": 18.314
+},
+{
+"text": "scratch,",
+"start": 18.354,
+"end": 18.634
+},
+{
+"text": "step",
+"start": 18.814,
+"end": 19.034
+},
+{
+"text": "by",
+"start": 19.054,
+"end": 19.174
+},
+{
+"text": "step.",
+"start": 19.234,
+"end": 19.475
+},
+{
+"text": "First",
+"start": 19.775,
+"end": 19.975
+},
+{
+"text": "we",
+"start": 19.976,
+"end": 20.055
+},
+{
+"text": "need",
+"start": 20.075,
+"end": 20.195
+},
+{
+"text": "to",
+"start": 20.196,
+"end": 20.315
+},
+{
+"text": "turn",
+"start": 20.355,
+"end": 20.475
+},
+{
+"text": "the",
+"start": 20.495,
+"end": 20.615
+},
+{
+"text": "map",
+"start": 20.655,
+"end": 20.816
+},
+{
+"text": "into",
+"start": 20.916,
+"end": 21.056
+},
+{
+"text": "something",
+"start": 21.136,
+"end": 21.476
+},
+{
+"text": "code",
+"start": 21.816,
+"end": 22.036
+},
+{
+"text": "can",
+"start": 22.056,
+"end": 22.177
+},
+{
+"text": "work",
+"start": 22.237,
+"end": 22.377
+},
+{
+"text": "with.",
+"start": 22.417,
+"end": 22.597
+},
+{
+"text": "So",
+"start": 22.797,
+"end": 22.917
+},
+{
+"text": "every",
+"start": 23.257,
+"end": 23.417
+},
+{
+"text": "intersection",
+"start": 23.458,
+"end": 23.998
+},
+{
+"text": "becomes",
+"start": 24.238,
+"end": 24.518
+},
+{
+"text": "a",
+"start": 24.519,
+"end": 24.598
+},
+{
+"text": "node,",
+"start": 24.618,
+"end": 24.939
+},
+{
+"text": "and",
+"start": 25.259,
+"end": 25.379
+},
+{
+"text": "every",
+"start": 25.419,
+"end": 25.579
+},
+{
+"text": "road",
+"start": 25.659,
+"end": 25.839
+},
+{
+"text": "becomes",
+"start": 25.899,
+"end": 26.2
+},
+{
+"text": "an",
+"start": 26.201,
+"end": 26.32
+},
+{
+"text": "edge.",
+"start": 26.42,
+"end": 26.62
+},
+{
+"text": "between",
+"start": 26.944,
+"end": 27.244
+},
+{
+"text": "two",
+"start": 27.304,
+"end": 27.444
+},
+{
+"text": "nodes",
+"start": 27.484,
+"end": 27.765
+},
+{
+"text": "and",
+"start": 28.125,
+"end": 28.245
+},
+{
+"text": "each",
+"start": 28.325,
+"end": 28.465
+},
+{
+"text": "edge",
+"start": 28.585,
+"end": 28.765
+},
+{
+"text": "gets",
+"start": 28.865,
+"end": 29.045
+},
+{
+"text": "a",
+"start": 29.046,
+"end": 29.125
+},
+{
+"text": "number",
+"start": 29.165,
+"end": 29.405
+},
+{
+"text": "or",
+"start": 29.726,
+"end": 29.846
+},
+{
+"text": "a",
+"start": 29.847,
+"end": 29.946
+},
+{
+"text": "weight",
+"start": 29.986,
+"end": 30.186
+},
+{
+"text": "which",
+"start": 30.426,
+"end": 30.586
+},
+{
+"text": "here",
+"start": 30.666,
+"end": 30.866
+},
+{
+"text": "is",
+"start": 30.926,
+"end": 31.046
+},
+{
+"text": "how",
+"start": 31.047,
+"end": 31.166
+},
+{
+"text": "many",
+"start": 31.186,
+"end": 31.347
+},
+{
+"text": "minutes",
+"start": 31.387,
+"end": 31.667
+},
+{
+"text": "that",
+"start": 31.727,
+"end": 31.867
+},
+{
+"text": "road",
+"start": 31.927,
+"end": 32.087
+},
+{
+"text": "takes",
+"start": 32.127,
+"end": 32.387
+},
+{
+"text": "that's",
+"start": 32.767,
+"end": 32.947
+},
+{
+"text": "called",
+"start": 32.967,
+"end": 33.188
+},
+{
+"text": "a",
+"start": 33.208,
+"end": 33.328
+},
+{
+"text": "weighted",
+"start": 33.488,
+"end": 33.768
+},
+{
+"text": "graph",
+"start": 33.808,
+"end": 34.108
+},
+{
+"text": "we",
+"start": 34.408,
+"end": 34.528
+},
+{
+"text": "start",
+"start": 34.548,
+"end": 34.728
+},
+{
+"text": "with",
+"start": 34.729,
+"end": 34.848
+},
+{
+"text": "a",
+"start": 34.868,
+"end": 34.989
+},
+{
+"text": "and",
+"start": 35.329,
+"end": 35.449
+},
+{
+"text": "we",
+"start": 35.45,
+"end": 35.569
+},
+{
+"text": "want",
+"start": 35.609,
+"end": 35.809
+},
+{
+"text": "the",
+"start": 35.81,
+"end": 35.929
+},
+{
+"text": "fastest",
+"start": 35.969,
+"end": 36.349
+},
+{
+"text": "way",
+"start": 36.389,
+"end": 36.529
+},
+{
+"text": "to",
+"start": 36.87,
+"end": 36.99
+},
+{
+"text": "get",
+"start": 37.03,
+"end": 37.15
+},
+{
+"text": "to",
+"start": 37.151,
+"end": 37.27
+},
+{
+"text": "f",
+"start": 37.39,
+"end": 37.51
+},
+{
+"text": "in",
+"start": 37.83,
+"end": 37.95
+},
+{
+"text": "code",
+"start": 38.03,
+"end": 38.41
+},
+{
+"text": "i",
+"start": 38.751,
+"end": 38.871
+},
+{
+"text": "store",
+"start": 38.911,
+"end": 39.131
+},
+{
+"text": "it",
+"start": 39.132,
+"end": 39.251
+},
+{
+"text": "as",
+"start": 39.571,
+"end": 39.771
+},
+{
+"text": "an",
+"start": 39.791,
+"end": 39.911
+},
+{
+"text": "adjacency",
+"start": 39.931,
+"end": 40.312
+},
+{
+"text": "list",
+"start": 40.372,
+"end": 40.592
+},
+{
+"text": "it's",
+"start": 40.932,
+"end": 41.052
+},
+{
+"text": "a",
+"start": 41.053,
+"end": 41.132
+},
+{
+"text": "map",
+"start": 41.172,
+"end": 41.392
+},
+{
+"text": "from",
+"start": 41.612,
+"end": 41.792
+},
+{
+"text": "each",
+"start": 41.912,
+"end": 42.052
+},
+{
+"text": "node",
+"start": 42.133,
+"end": 42.373
+},
+{
+"text": "to",
+"start": 42.453,
+"end": 42.573
+},
+{
+"text": "a",
+"start": 42.574,
+"end": 42.693
+},
+{
+"text": "list",
+"start": 42.733,
+"end": 42.933
+},
+{
+"text": "of",
+"start": 43.013,
+"end": 43.133
+},
+{
+"text": "its",
+"start": 43.134,
+"end": 43.253
+},
+{
+"text": "neighbors",
+"start": 43.313,
+"end": 43.633
+},
+{
+"text": "and",
+"start": 43.994,
+"end": 44.114
+},
+{
+"text": "the",
+"start": 44.115,
+"end": 44.214
+},
+{
+"text": "cost",
+"start": 44.294,
+"end": 44.594
+},
+{
+"text": "to",
+"start": 44.894,
+"end": 45.014
+},
+{
+"text": "get",
+"start": 45.074,
+"end": 45.214
+},
+{
+"text": "there",
+"start": 45.234,
+"end": 45.394
+},
+{
+"text": "the",
+"start": 45.614,
+"end": 45.735
+},
+{
+"text": "road",
+"start": 45.775,
+"end": 46.055
+},
+{
+"text": "goes",
+"start": 46.355,
+"end": 46.675
+},
+{
+"text": "both",
+"start": 46.815,
+"end": 47.015
+},
+{
+"text": "ways",
+"start": 47.075,
+"end": 47.275
+},
+{
+"text": "so",
+"start": 47.616,
+"end": 47.736
+},
+{
+"text": "every",
+"start": 47.816,
+"end": 47.996
+},
+{
+"text": "road",
+"start": 48.076,
+"end": 48.296
+},
+{
+"text": "gets",
+"start": 48.356,
+"end": 48.556
+},
+{
+"text": "added",
+"start": 48.596,
+"end": 48.796
+},
+{
+"text": "twice",
+"start": 48.856,
+"end": 49.136
+},
+{
+"text": "once",
+"start": 49.497,
+"end": 49.697
+},
+{
+"text": "from",
+"start": 49.777,
+"end": 49.937
+},
+{
+"text": "each",
+"start": 50.017,
+"end": 50.137
+},
+{
+"text": "end",
+"start": 50.197,
+"end": 50.337
+},
+{
+"text": "but",
+"start": 50.637,
+"end": 50.757
+},
+{
+"text": "here's",
+"start": 50.897,
+"end": 51.138
+},
+{
+"text": "why",
+"start": 51.218,
+"end": 51.438
+},
+{
+"text": "this",
+"start": 51.498,
+"end": 51.658
+},
+{
+"text": "is",
+"start": 51.659,
+"end": 51.778
+},
+{
+"text": "trickier",
+"start": 51.878,
+"end": 52.238
+},
+{
+"text": "than",
+"start": 52.258,
+"end": 52.378
+},
+{
+"text": "it",
+"start": 52.379,
+"end": 52.498
+},
+{
+"text": "looks",
+"start": 52.518,
+"end": 52.718
+},
+{
+"text": "so",
+"start": 53.039,
+"end": 53.159
+},
+{
+"text": "from",
+"start": 53.439,
+"end": 53.619
+},
+{
+"text": "a",
+"start": 53.719,
+"end": 53.839
+},
+{
+"text": "there's",
+"start": 54.179,
+"end": 54.359
+},
+{
+"text": "a",
+"start": 54.379,
+"end": 54.499
+},
+{
+"text": "direct",
+"start": 54.559,
+"end": 54.86
+},
+{
+"text": "road",
+"start": 54.92,
+"end": 55.08
+},
+{
+"text": "to",
+"start": 55.1,
+"end": 55.22
+},
+{
+"text": "b",
+"start": 55.221,
+"end": 55.34
+},
+{
+"text": "It",
+"start": 55.736,
+"end": 55.856
+},
+{
+"text": "takes",
+"start": 55.857,
+"end": 56.076
+},
+{
+"text": "4",
+"start": 56.116,
+"end": 56.236
+},
+{
+"text": "minutes.",
+"start": 56.276,
+"end": 56.537
+},
+{
+"text": "But",
+"start": 56.877,
+"end": 56.997
+},
+{
+"text": "if",
+"start": 57.017,
+"end": 57.137
+},
+{
+"text": "you",
+"start": 57.138,
+"end": 57.237
+},
+{
+"text": "go",
+"start": 57.257,
+"end": 57.377
+},
+{
+"text": "to",
+"start": 57.437,
+"end": 57.557
+},
+{
+"text": "C",
+"start": 57.577,
+"end": 57.697
+},
+{
+"text": "first,",
+"start": 57.837,
+"end": 58.097
+},
+{
+"text": "then",
+"start": 58.438,
+"end": 58.598
+},
+{
+"text": "to",
+"start": 58.678,
+"end": 58.838
+},
+{
+"text": "B,",
+"start": 58.898,
+"end": 59.018
+},
+{
+"text": "that's",
+"start": 59.358,
+"end": 59.578
+},
+{
+"text": "2",
+"start": 59.618,
+"end": 59.738
+},
+{
+"text": "plus",
+"start": 59.758,
+"end": 59.958
+},
+{
+"text": "1,",
+"start": 60.038,
+"end": 60.158
+},
+{
+"text": "so",
+"start": 60.199,
+"end": 60.319
+},
+{
+"text": "3",
+"start": 60.419,
+"end": 60.559
+},
+{
+"text": "minutes.",
+"start": 60.56,
+"end": 60.859
+},
+{
+"text": "The",
+"start": 61.199,
+"end": 61.319
+},
+{
+"text": "detour",
+"start": 61.399,
+"end": 61.759
+},
+{
+"text": "is",
+"start": 61.819,
+"end": 61.939
+},
+{
+"text": "faster.",
+"start": 62.02,
+"end": 62.38
+},
+{
+"text": "So",
+"start": 62.7,
+"end": 62.82
+},
+{
+"text": "you",
+"start": 62.84,
+"end": 62.96
+},
+{
+"text": "can't",
+"start": 63,
+"end": 63.2
+},
+{
+"text": "just",
+"start": 63.201,
+"end": 63.38
+},
+{
+"text": "look",
+"start": 63.42,
+"end": 63.54
+},
+{
+"text": "at",
+"start": 63.541,
+"end": 63.66
+},
+{
+"text": "the",
+"start": 63.661,
+"end": 63.76
+},
+{
+"text": "roads",
+"start": 63.8,
+"end": 64.061
+},
+{
+"text": "coming",
+"start": 64.121,
+"end": 64.361
+},
+{
+"text": "from",
+"start": 64.401,
+"end": 64.561
+},
+{
+"text": "A",
+"start": 64.661,
+"end": 64.781
+},
+{
+"text": "and",
+"start": 65.121,
+"end": 65.241
+},
+{
+"text": "pick",
+"start": 65.281,
+"end": 65.441
+},
+{
+"text": "one.",
+"start": 65.541,
+"end": 65.661
+},
+{
+"text": "You",
+"start": 66.022,
+"end": 66.142
+},
+{
+"text": "have",
+"start": 66.143,
+"end": 66.262
+},
+{
+"text": "to",
+"start": 66.263,
+"end": 66.382
+},
+{
+"text": "keep",
+"start": 66.422,
+"end": 66.562
+},
+{
+"text": "track",
+"start": 66.622,
+"end": 66.862
+},
+{
+"text": "of",
+"start": 66.982,
+"end": 67.102
+},
+{
+"text": "the",
+"start": 67.103,
+"end": 67.222
+},
+{
+"text": "best",
+"start": 67.282,
+"end": 67.503
+},
+{
+"text": "time",
+"start": 67.563,
+"end": 67.763
+},
+{
+"text": "you've",
+"start": 67.843,
+"end": 68.003
+},
+{
+"text": "found",
+"start": 68.004,
+"end": 68.263
+},
+{
+"text": "so",
+"start": 68.283,
+"end": 68.403
+},
+{
+"text": "far",
+"start": 68.503,
+"end": 68.723
+},
+{
+"text": "to",
+"start": 69.083,
+"end": 69.203
+},
+{
+"text": "every",
+"start": 69.263,
+"end": 69.444
+},
+{
+"text": "node",
+"start": 69.504,
+"end": 69.724
+},
+{
+"text": "and",
+"start": 69.984,
+"end": 70.104
+},
+{
+"text": "be",
+"start": 70.105,
+"end": 70.224
+},
+{
+"text": "ready",
+"start": 70.284,
+"end": 70.484
+},
+{
+"text": "to",
+"start": 70.504,
+"end": 70.624
+},
+{
+"text": "change",
+"start": 70.684,
+"end": 70.944
+},
+{
+"text": "your",
+"start": 70.945,
+"end": 71.064
+},
+{
+"text": "mind.",
+"start": 71.065,
+"end": 71.305
+},
+{
+"text": "And",
+"start": 71.625,
+"end": 71.745
+},
+{
+"text": "you",
+"start": 71.746,
+"end": 71.825
+},
+{
+"text": "can't",
+"start": 71.826,
+"end": 71.985
+},
+{
+"text": "just",
+"start": 71.986,
+"end": 72.145
+},
+{
+"text": "try",
+"start": 72.205,
+"end": 72.365
+},
+{
+"text": "that",
+"start": 72.425,
+"end": 72.565
+},
+{
+"text": "on",
+"start": 72.585,
+"end": 72.705
+},
+{
+"text": "every",
+"start": 72.745,
+"end": 72.925
+},
+{
+"text": "possible",
+"start": 72.985,
+"end": 73.366
+},
+{
+"text": "route.",
+"start": 73.367,
+"end": 73.586
+},
+{
+"text": "Because",
+"start": 73.886,
+"end": 74.106
+},
+{
+"text": "there",
+"start": 74.107,
+"end": 74.206
+},
+{
+"text": "are",
+"start": 74.207,
+"end": 74.346
+},
+{
+"text": "way",
+"start": 74.406,
+"end": 74.566
+},
+{
+"text": "too",
+"start": 74.646,
+"end": 74.786
+},
+{
+"text": "many",
+"start": 74.826,
+"end": 75.067
+},
+{
+"text": "routes",
+"start": 75.147,
+"end": 75.427
+},
+{
+"text": "on",
+"start": 75.767,
+"end": 75.887
+},
+{
+"text": "an",
+"start": 75.907,
+"end": 76.027
+},
+{
+"text": "actual",
+"start": 76.087,
+"end": 76.347
+},
+{
+"text": "real",
+"start": 76.367,
+"end": 76.527
+},
+{
+"text": "map.",
+"start": 76.547,
+"end": 76.768
+},
+{
+"text": "So",
+"start": 77.108,
+"end": 77.228
+},
+{
+"text": "Dijkstra's",
+"start": 77.568,
+"end": 78.068
+},
+{
+"text": "algorithm",
+"start": 78.408,
+"end": 78.809
+},
+{
+"text": "gets",
+"start": 79.009,
+"end": 79.209
+},
+{
+"text": "the",
+"start": 79.21,
+"end": 79.309
+},
+{
+"text": "right",
+"start": 79.329,
+"end": 79.489
+},
+{
+"text": "answer",
+"start": 79.549,
+"end": 79.769
+},
+{
+"text": "without",
+"start": 79.809,
+"end": 80.069
+},
+{
+"text": "ever",
+"start": 80.149,
+"end": 80.329
+},
+{
+"text": "doing",
+"start": 80.37,
+"end": 80.55
+},
+{
+"text": "that.",
+"start": 80.57,
+"end": 80.75
+},
+{
+"text": "So",
+"start": 81.07,
+"end": 81.19
+},
+{
+"text": "here's",
+"start": 81.37,
+"end": 81.57
+},
+{
+"text": "the",
+"start": 81.571,
+"end": 81.69
+},
+{
+"text": "setup.",
+"start": 81.73,
+"end": 82.05
+},
+{
+"text": "We",
+"start": 82.371,
+"end": 82.491
+},
+{
+"text": "keep",
+"start": 82.691,
+"end": 82.851
+},
+{
+"text": "a",
+"start": 82.852,
+"end": 82.951
+},
+{
+"text": "table",
+"start": 82.991,
+"end": 83.271
+},
+{
+"text": "with",
+"start": 83.311,
+"end": 83.431
+},
+{
+"text": "the",
+"start": 83.432,
+"end": 83.531
+},
+{
+"text": "best",
+"start": 83.551,
+"end": 83.771
+},
+{
+"text": "known",
+"start": 83.811,
+"end": 83.991
+},
+{
+"text": "distance",
+"start": 84.032,
+"end": 84.412
+},
+{
+"text": "from",
+"start": 84.452,
+"end": 84.672
+},
+{
+"text": "A",
+"start": 85.088,
+"end": 85.208
+},
+{
+"text": "to",
+"start": 85.489,
+"end": 85.609
+},
+{
+"text": "every",
+"start": 85.689,
+"end": 85.849
+},
+{
+"text": "single",
+"start": 85.909,
+"end": 86.149
+},
+{
+"text": "node.",
+"start": 86.189,
+"end": 86.389
+},
+{
+"text": "A",
+"start": 86.818,
+"end": 86.938
+},
+{
+"text": "is",
+"start": 87.018,
+"end": 87.138
+},
+{
+"text": "0",
+"start": 87.178,
+"end": 87.378
+},
+{
+"text": "because",
+"start": 87.719,
+"end": 88.019
+},
+{
+"text": "we",
+"start": 88.179,
+"end": 88.299
+},
+{
+"text": "are",
+"start": 88.3,
+"end": 88.359
+},
+{
+"text": "already",
+"start": 88.36,
+"end": 88.619
+},
+{
+"text": "here.",
+"start": 88.659,
+"end": 88.819
+},
+{
+"text": "Everything",
+"start": 89.16,
+"end": 89.42
+},
+{
+"text": "else",
+"start": 89.48,
+"end": 89.62
+},
+{
+"text": "is",
+"start": 89.621,
+"end": 89.74
+},
+{
+"text": "infinity",
+"start": 89.76,
+"end": 90.161
+},
+{
+"text": "because",
+"start": 90.401,
+"end": 90.661
+},
+{
+"text": "we",
+"start": 90.662,
+"end": 90.761
+},
+{
+"text": "haven't",
+"start": 90.781,
+"end": 91.041
+},
+{
+"text": "found",
+"start": 91.061,
+"end": 91.282
+},
+{
+"text": "any",
+"start": 91.422,
+"end": 91.622
+},
+{
+"text": "way",
+"start": 91.722,
+"end": 91.862
+},
+{
+"text": "to",
+"start": 91.902,
+"end": 92.022
+},
+{
+"text": "get",
+"start": 92.082,
+"end": 92.223
+},
+{
+"text": "there",
+"start": 92.263,
+"end": 92.403
+},
+{
+"text": "yet.",
+"start": 92.443,
+"end": 92.623
+},
+{
+"text": "And",
+"start": 92.943,
+"end": 93.063
+},
+{
+"text": "then",
+"start": 93.103,
+"end": 93.243
+},
+{
+"text": "we",
+"start": 93.263,
+"end": 93.364
+},
+{
+"text": "repeat",
+"start": 93.384,
+"end": 93.704
+},
+{
+"text": "two",
+"start": 93.804,
+"end": 93.924
+},
+{
+"text": "steps.",
+"start": 93.964,
+"end": 94.244
+},
+{
+"text": "One,",
+"start": 94.525,
+"end": 94.665
+},
+{
+"text": "pick",
+"start": 94.965,
+"end": 95.105
+},
+{
+"text": "the",
+"start": 95.106,
+"end": 95.225
+},
+{
+"text": "unvisited",
+"start": 95.245,
+"end": 95.746
+},
+{
+"text": "node",
+"start": 95.826,
+"end": 96.106
+},
+{
+"text": "with",
+"start": 96.246,
+"end": 96.366
+},
+{
+"text": "the",
+"start": 96.367,
+"end": 96.446
+},
+{
+"text": "smallest",
+"start": 96.466,
+"end": 96.787
+},
+{
+"text": "distance",
+"start": 96.807,
+"end": 97.247
+},
+{
+"text": "in",
+"start": 97.347,
+"end": 97.467
+},
+{
+"text": "the",
+"start": 97.468,
+"end": 97.567
+},
+{
+"text": "table",
+"start": 97.587,
+"end": 97.848
+},
+{
+"text": "and",
+"start": 98.168,
+"end": 98.288
+},
+{
+"text": "visit",
+"start": 98.368,
+"end": 98.628
+},
+{
+"text": "it.",
+"start": 98.648,
+"end": 98.768
+},
+{
+"text": "Now",
+"start": 99.129,
+"end": 99.289
+},
+{
+"text": "look",
+"start": 99.449,
+"end": 99.569
+},
+{
+"text": "at",
+"start": 99.589,
+"end": 99.709
+},
+{
+"text": "each",
+"start": 99.769,
+"end": 99.929
+},
+{
+"text": "of",
+"start": 100.01,
+"end": 100.13
+},
+{
+"text": "its",
+"start": 100.17,
+"end": 100.29
+},
+{
+"text": "neighbors",
+"start": 100.35,
+"end": 100.67
+},
+{
+"text": "and",
+"start": 100.75,
+"end": 100.87
+},
+{
+"text": "ask,",
+"start": 100.91,
+"end": 101.111
+},
+{
+"text": "is",
+"start": 101.451,
+"end": 101.571
+},
+{
+"text": "going",
+"start": 101.631,
+"end": 101.851
+},
+{
+"text": "through",
+"start": 101.871,
+"end": 102.091
+},
+{
+"text": "this",
+"start": 102.131,
+"end": 102.292
+},
+{
+"text": "node",
+"start": 102.392,
+"end": 102.632
+},
+{
+"text": "faster",
+"start": 102.672,
+"end": 103.012
+},
+{
+"text": "than",
+"start": 103.092,
+"end": 103.212
+},
+{
+"text": "what",
+"start": 103.213,
+"end": 103.353
+},
+{
+"text": "I",
+"start": 103.354,
+"end": 103.433
+},
+{
+"text": "had",
+"start": 103.473,
+"end": 103.613
+},
+{
+"text": "before?",
+"start": 103.653,
+"end": 103.973
+},
+{
+"text": "If",
+"start": 104.333,
+"end": 104.454
+},
+{
+"text": "it",
+"start": 104.474,
+"end": 104.594
+},
+{
+"text": "is,",
+"start": 104.714,
+"end": 104.874
+},
+{
+"text": "then",
+"start": 105.214,
+"end": 105.334
+},
+{
+"text": "you",
+"start": 105.354,
+"end": 105.474
+},
+{
+"text": "update",
+"start": 105.555,
+"end": 105.815
+},
+{
+"text": "the",
+"start": 105.816,
+"end": 105.915
+},
+{
+"text": "table.",
+"start": 105.935,
+"end": 106.195
+},
+{
+"text": "And",
+"start": 106.515,
+"end": 106.635
+},
+{
+"text": "that",
+"start": 106.655,
+"end": 106.796
+},
+{
+"text": "update",
+"start": 106.916,
+"end": 107.236
+},
+{
+"text": "has",
+"start": 107.276,
+"end": 107.416
+},
+{
+"text": "a",
+"start": 107.417,
+"end": 107.496
+},
+{
+"text": "name.",
+"start": 107.516,
+"end": 107.716
+},
+{
+"text": "It's",
+"start": 107.776,
+"end": 107.897
+},
+{
+"text": "called",
+"start": 107.977,
+"end": 108.297
+},
+{
+"text": "relaxing",
+"start": 108.637,
+"end": 109.198
+},
+{
+"text": "an",
+"start": 109.278,
+"end": 109.398
+},
+{
+"text": "edge.",
+"start": 109.498,
+"end": 109.698
+},
+{
+"text": "That's",
+"start": 110.039,
+"end": 110.279
+},
+{
+"text": "the",
+"start": 110.28,
+"end": 110.399
+},
+{
+"text": "whole",
+"start": 110.419,
+"end": 110.619
+},
+{
+"text": "algorithm.",
+"start": 111.039,
+"end": 111.48
+},
+{
+"text": "So",
+"start": 111.76,
+"end": 111.88
+},
+{
+"text": "let's",
+"start": 112.24,
+"end": 112.42
+},
+{
+"text": "try",
+"start": 112.48,
+"end": 112.64
+},
+{
+"text": "running",
+"start": 112.7,
+"end": 112.941
+},
+{
+"text": "it.",
+"start": 112.961,
+"end": 113.081
+},
+{
+"text": "So",
+"start": 113.421,
+"end": 113.541
+},
+{
+"text": "the",
+"start": 113.701,
+"end": 113.821
+},
+{
+"text": "closest",
+"start": 113.861,
+"end": 114.221
+},
+{
+"text": "unvisited",
+"start": 114.281,
+"end": 114.821
+},
+{
+"text": "node",
+"start": 114.901,
+"end": 115.222
+},
+{
+"text": "is",
+"start": 115.402,
+"end": 115.522
+},
+{
+"text": "A",
+"start": 115.542,
+"end": 115.662
+},
+{
+"text": "with",
+"start": 116.042,
+"end": 116.182
+},
+{
+"text": "0.",
+"start": 116.282,
+"end": 116.482
+},
+{
+"text": "So",
+"start": 116.842,
+"end": 116.962
+},
+{
+"text": "we",
+"start": 116.963,
+"end": 117.082
+},
+{
+"text": "visit",
+"start": 117.122,
+"end": 117.363
+},
+{
+"text": "A.",
+"start": 117.383,
+"end": 117.503
+},
+{
+"text": "Its",
+"start": 117.843,
+"end": 117.963
+},
+{
+"text": "neighbors",
+"start": 118.003,
+"end": 118.283
+},
+{
+"text": "are",
+"start": 118.403,
+"end": 118.523
+},
+{
+"text": "B",
+"start": 118.543,
+"end": 118.663
+},
+{
+"text": "at",
+"start": 118.983,
+"end": 119.103
+},
+{
+"text": "4",
+"start": 119.123,
+"end": 119.263
+},
+{
+"text": "minutes",
+"start": 119.323,
+"end": 119.604
+},
+{
+"text": "and",
+"start": 119.744,
+"end": 119.864
+},
+{
+"text": "C",
+"start": 119.944,
+"end": 120.064
+},
+{
+"text": "at",
+"start": 120.304,
+"end": 120.424
+},
+{
+"text": "2.",
+"start": 120.504,
+"end": 120.624
+},
+{
+"text": "Both",
+"start": 120.964,
+"end": 121.124
+},
+{
+"text": "of",
+"start": 121.144,
+"end": 121.244
+},
+{
+"text": "those",
+"start": 121.245,
+"end": 121.544
+},
+{
+"text": "beat",
+"start": 121.604,
+"end": 121.784
+},
+{
+"text": "infinity.",
+"start": 121.885,
+"end": 122.385
+},
+{
+"text": "B",
+"start": 122.665,
+"end": 122.785
+},
+{
+"text": "becomes",
+"start": 122.945,
+"end": 123.285
+},
+{
+"text": "4",
+"start": 123.345,
+"end": 123.565
+},
+{
+"text": "and",
+"start": 123.745,
+"end": 123.865
+},
+{
+"text": "C",
+"start": 123.905,
+"end": 124.025
+},
+{
+"text": "becomes",
+"start": 124.266,
+"end": 124.606
+},
+{
+"text": "2.",
+"start": 124.706,
+"end": 124.846
+},
+{
+"text": "Now",
+"start": 125.186,
+"end": 125.326
+},
+{
+"text": "the",
+"start": 125.327,
+"end": 125.446
+},
+{
+"text": "closest",
+"start": 125.466,
+"end": 126.006
+},
+{
+"text": "unvisited",
+"start": 126.146,
+"end": 126.627
+},
+{
+"text": "node",
+"start": 126.687,
+"end": 126.927
+},
+{
+"text": "is",
+"start": 126.967,
+"end": 127.087
+},
+{
+"text": "C",
+"start": 127.088,
+"end": 127.207
+},
+{
+"text": "at",
+"start": 127.267,
+"end": 127.887
+},
+{
+"text": "2.",
+"start": 127.967,
+"end": 128.087
+},
+{
+"text": "From",
+"start": 128.387,
+"end": 128.567
+},
+{
+"text": "C,",
+"start": 128.607,
+"end": 128.728
+},
+{
+"text": "B",
+"start": 129.068,
+"end": 129.188
+},
+{
+"text": "is",
+"start": 129.328,
+"end": 129.468
+},
+{
+"text": "2",
+"start": 129.588,
+"end": 129.728
+},
+{
+"text": "plus",
+"start": 130.188,
+"end": 130.808
+},
+{
+"text": "1",
+"start": 130.828,
+"end": 130.948
+},
+{
+"text": "so",
+"start": 130.949,
+"end": 130.988
+},
+{
+"text": "3.",
+"start": 130.989,
+"end": 131.129
+},
+{
+"text": "That's",
+"start": 131.469,
+"end": 131.629
+},
+{
+"text": "better",
+"start": 131.689,
+"end": 131.889
+},
+{
+"text": "than",
+"start": 131.909,
+"end": 132.029
+},
+{
+"text": "the",
+"start": 132.03,
+"end": 132.149
+},
+{
+"text": "4",
+"start": 132.209,
+"end": 132.389
+},
+{
+"text": "we",
+"start": 132.449,
+"end": 132.569
+},
+{
+"text": "had",
+"start": 132.649,
+"end": 132.869
+},
+{
+"text": "so",
+"start": 133.029,
+"end": 133.149
+},
+{
+"text": "B",
+"start": 133.47,
+"end": 133.59
+},
+{
+"text": "drops",
+"start": 133.93,
+"end": 134.21
+},
+{
+"text": "to",
+"start": 134.23,
+"end": 134.35
+},
+{
+"text": "3.",
+"start": 134.43,
+"end": 134.61
+},
+{
+"text": "Now",
+"start": 134.95,
+"end": 135.13
+},
+{
+"text": "there's",
+"start": 135.29,
+"end": 135.45
+},
+{
+"text": "our",
+"start": 135.51,
+"end": 135.631
+},
+{
+"text": "detour.",
+"start": 135.691,
+"end": 135.991
+},
+{
+"text": "D",
+"start": 136.291,
+"end": 136.411
+},
+{
+"text": "is",
+"start": 136.751,
+"end": 136.871
+},
+{
+"text": "2",
+"start": 136.931,
+"end": 137.051
+},
+{
+"text": "plus",
+"start": 137.151,
+"end": 137.932
+},
+{
+"text": "8",
+"start": 138.052,
+"end": 138.472
+},
+{
+"text": "so",
+"start": 138.512,
+"end": 138.632
+},
+{
+"text": "10.",
+"start": 138.652,
+"end": 138.772
+},
+{
+"text": "E",
+"start": 139.072,
+"end": 139.192
+},
+{
+"text": "is",
+"start": 139.532,
+"end": 139.693
+},
+{
+"text": "2",
+"start": 140.033,
+"end": 140.153
+},
+{
+"text": "plus",
+"start": 140.213,
+"end": 140.433
+},
+{
+"text": "10,",
+"start": 140.513,
+"end": 140.673
+},
+{
+"text": "so",
+"start": 141.013,
+"end": 141.134
+},
+{
+"text": "12.",
+"start": 141.194,
+"end": 141.474
+},
+{
+"text": "The",
+"start": 141.774,
+"end": 141.894
+},
+{
+"text": "next",
+"start": 141.934,
+"end": 142.134
+},
+{
+"text": "closest",
+"start": 142.174,
+"end": 142.555
+},
+{
+"text": "is",
+"start": 142.615,
+"end": 142.735
+},
+{
+"text": "B",
+"start": 142.736,
+"end": 142.855
+},
+{
+"text": "at",
+"start": 143.195,
+"end": 143.315
+},
+{
+"text": "3.",
+"start": 143.395,
+"end": 143.555
+},
+{
+"text": "From",
+"start": 143.835,
+"end": 144.016
+},
+{
+"text": "B,",
+"start": 144.056,
+"end": 144.176
+},
+{
+"text": "D",
+"start": 144.536,
+"end": 144.656
+},
+{
+"text": "is",
+"start": 144.976,
+"end": 145.136
+},
+{
+"text": "3",
+"start": 145.137,
+"end": 145.517
+},
+{
+"text": "plus",
+"start": 145.577,
+"end": 145.777
+},
+{
+"text": "5,",
+"start": 145.837,
+"end": 146.177
+},
+{
+"text": "which",
+"start": 146.178,
+"end": 146.317
+},
+{
+"text": "is",
+"start": 146.318,
+"end": 146.437
+},
+{
+"text": "8.",
+"start": 146.537,
+"end": 146.677
+},
+{
+"text": "And",
+"start": 147.018,
+"end": 147.138
+},
+{
+"text": "that",
+"start": 147.139,
+"end": 147.278
+},
+{
+"text": "beats",
+"start": 147.338,
+"end": 147.578
+},
+{
+"text": "10,",
+"start": 147.678,
+"end": 147.858
+},
+{
+"text": "so",
+"start": 148.118,
+"end": 148.238
+},
+{
+"text": "D",
+"start": 148.579,
+"end": 148.699
+},
+{
+"text": "becomes",
+"start": 148.899,
+"end": 149.259
+},
+{
+"text": "8.",
+"start": 149.379,
+"end": 149.539
+},
+{
+"text": "Then",
+"start": 149.839,
+"end": 150
+},
+{
+"text": "D",
+"start": 150.04,
+"end": 150.16
+},
+{
+"text": "at",
+"start": 150.48,
+"end": 150.6
+},
+{
+"text": "8.",
+"start": 150.7,
+"end": 150.88
+},
+{
+"text": "E",
+"start": 151.22,
+"end": 151.341
+},
+{
+"text": "through",
+"start": 151.461,
+"end": 151.681
+},
+{
+"text": "D",
+"start": 151.701,
+"end": 151.781
+},
+{
+"text": "is",
+"start": 151.782,
+"end": 151.861
+},
+{
+"text": "8",
+"start": 151.862,
+"end": 152.401
+},
+{
+"text": "plus",
+"start": 152.501,
+"end": 152.741
+},
+{
+"text": "2,",
+"start": 152.842,
+"end": 152.962
+},
+{
+"text": "so",
+"start": 153.422,
+"end": 153.542
+},
+{
+"text": "10,",
+"start": 153.662,
+"end": 154.383
+},
+{
+"text": "which",
+"start": 154.463,
+"end": 154.623
+},
+{
+"text": "is",
+"start": 154.624,
+"end": 154.743
+},
+{
+"text": "better",
+"start": 154.763,
+"end": 154.963
+},
+{
+"text": "than",
+"start": 154.964,
+"end": 155.083
+},
+{
+"text": "12.",
+"start": 155.143,
+"end": 155.423
+},
+{
+"text": "And",
+"start": 155.744,
+"end": 155.864
+},
+{
+"text": "F",
+"start": 155.984,
+"end": 156.104
+},
+{
+"text": "finally",
+"start": 156.144,
+"end": 156.464
+},
+{
+"text": "gets",
+"start": 156.504,
+"end": 156.664
+},
+{
+"text": "a",
+"start": 156.665,
+"end": 156.744
+},
+{
+"text": "number.",
+"start": 156.764,
+"end": 157.004
+},
+{
+"text": "8",
+"start": 157.005,
+"end": 157.777
+},
+{
+"text": "plus",
+"start": 157.897,
+"end": 158.097
+},
+{
+"text": "6,",
+"start": 158.177,
+"end": 158.337
+},
+{
+"text": "so",
+"start": 158.697,
+"end": 158.818
+},
+{
+"text": "14.",
+"start": 158.898,
+"end": 159.298
+},
+{
+"text": "Then",
+"start": 159.638,
+"end": 159.778
+},
+{
+"text": "E,",
+"start": 159.878,
+"end": 159.998
+},
+{
+"text": "which",
+"start": 160.319,
+"end": 160.459
+},
+{
+"text": "is",
+"start": 160.479,
+"end": 160.579
+},
+{
+"text": "at",
+"start": 160.58,
+"end": 160.699
+},
+{
+"text": "10.",
+"start": 160.759,
+"end": 160.919
+},
+{
+"text": "F",
+"start": 161.279,
+"end": 161.399
+},
+{
+"text": "through",
+"start": 161.459,
+"end": 161.68
+},
+{
+"text": "E",
+"start": 161.76,
+"end": 161.88
+},
+{
+"text": "is",
+"start": 162.14,
+"end": 162.26
+},
+{
+"text": "10",
+"start": 162.3,
+"end": 162.44
+},
+{
+"text": "plus",
+"start": 162.48,
+"end": 162.68
+},
+{
+"text": "3,",
+"start": 162.72,
+"end": 162.9
+},
+{
+"text": "so",
+"start": 163.1,
+"end": 163.221
+},
+{
+"text": "13.",
+"start": 163.301,
+"end": 163.641
+},
+{
+"text": "And",
+"start": 163.981,
+"end": 164.101
+},
+{
+"text": "that",
+"start": 164.102,
+"end": 164.241
+},
+{
+"text": "beats",
+"start": 164.301,
+"end": 164.521
+},
+{
+"text": "14.",
+"start": 164.582,
+"end": 164.982
+},
+{
+"text": "And",
+"start": 165.222,
+"end": 165.342
+},
+{
+"text": "lastly,",
+"start": 165.362,
+"end": 165.722
+},
+{
+"text": "F",
+"start": 165.962,
+"end": 166.083
+},
+{
+"text": "at",
+"start": 166.084,
+"end": 166.203
+},
+{
+"text": "13.",
+"start": 166.243,
+"end": 166.603
+},
+{
+"text": "Every",
+"start": 166.943,
+"end": 167.123
+},
+{
+"text": "node",
+"start": 167.183,
+"end": 167.403
+},
+{
+"text": "is",
+"start": 167.423,
+"end": 167.544
+},
+{
+"text": "visited.",
+"start": 167.644,
+"end": 168.064
+},
+{
+"text": "and",
+"start": 168.244,
+"end": 168.364
+},
+{
+"text": "the",
+"start": 168.365,
+"end": 168.484
+},
+{
+"text": "table",
+"start": 168.504,
+"end": 168.784
+},
+{
+"text": "now",
+"start": 168.825,
+"end": 168.965
+},
+{
+"text": "holds",
+"start": 169.025,
+"end": 169.325
+},
+{
+"text": "the",
+"start": 169.365,
+"end": 169.485
+},
+{
+"text": "shortest",
+"start": 169.545,
+"end": 169.865
+},
+{
+"text": "time",
+"start": 169.885,
+"end": 170.065
+},
+{
+"text": "from",
+"start": 170.105,
+"end": 170.266
+},
+{
+"text": "A",
+"start": 170.386,
+"end": 170.506
+},
+{
+"text": "to",
+"start": 170.766,
+"end": 170.886
+},
+{
+"text": "everywhere,",
+"start": 170.966,
+"end": 171.326
+},
+{
+"text": "not",
+"start": 171.426,
+"end": 171.546
+},
+{
+"text": "just",
+"start": 171.586,
+"end": 171.747
+},
+{
+"text": "F.",
+"start": 171.847,
+"end": 171.967
+},
+{
+"text": "And",
+"start": 172.287,
+"end": 172.407
+},
+{
+"text": "that's",
+"start": 172.408,
+"end": 172.587
+},
+{
+"text": "a",
+"start": 172.588,
+"end": 172.667
+},
+{
+"text": "nice",
+"start": 172.687,
+"end": 172.907
+},
+{
+"text": "bonus",
+"start": 172.967,
+"end": 173.268
+},
+{
+"text": "of",
+"start": 173.368,
+"end": 173.488
+},
+{
+"text": "Dijkstra.",
+"start": 173.548,
+"end": 173.908
+},
+{
+"text": "You",
+"start": 174.228,
+"end": 174.348
+},
+{
+"text": "get",
+"start": 174.408,
+"end": 174.549
+},
+{
+"text": "all",
+"start": 174.709,
+"end": 174.829
+},
+{
+"text": "of",
+"start": 174.83,
+"end": 174.929
+},
+{
+"text": "them",
+"start": 174.93,
+"end": 175.049
+},
+{
+"text": "all",
+"start": 175.389,
+"end": 175.509
+},
+{
+"text": "at",
+"start": 175.51,
+"end": 175.609
+},
+{
+"text": "once.",
+"start": 175.709,
+"end": 175.93
+},
+{
+"text": "So",
+"start": 176.21,
+"end": 176.33
+},
+{
+"text": "why",
+"start": 176.51,
+"end": 176.69
+},
+{
+"text": "can",
+"start": 176.77,
+"end": 176.89
+},
+{
+"text": "we",
+"start": 176.891,
+"end": 177.01
+},
+{
+"text": "trust",
+"start": 177.05,
+"end": 177.27
+},
+{
+"text": "a",
+"start": 177.271,
+"end": 177.371
+},
+{
+"text": "node's",
+"start": 177.431,
+"end": 177.671
+},
+{
+"text": "distance",
+"start": 177.751,
+"end": 178.151
+},
+{
+"text": "the",
+"start": 178.191,
+"end": 178.311
+},
+{
+"text": "moment",
+"start": 178.351,
+"end": 178.611
+},
+{
+"text": "we",
+"start": 178.631,
+"end": 178.732
+},
+{
+"text": "visit",
+"start": 178.752,
+"end": 179.032
+},
+{
+"text": "it?",
+"start": 179.072,
+"end": 179.192
+},
+{
+"text": "Because",
+"start": 179.592,
+"end": 179.872
+},
+{
+"text": "it's",
+"start": 180.012,
+"end": 180.153
+},
+{
+"text": "the",
+"start": 180.173,
+"end": 180.293
+},
+{
+"text": "closest",
+"start": 180.333,
+"end": 180.693
+},
+{
+"text": "unvisited",
+"start": 180.893,
+"end": 181.453
+},
+{
+"text": "node.",
+"start": 181.513,
+"end": 181.774
+},
+{
+"text": "Any",
+"start": 182.114,
+"end": 182.234
+},
+{
+"text": "other",
+"start": 182.314,
+"end": 182.494
+},
+{
+"text": "way",
+"start": 182.594,
+"end": 182.794
+},
+{
+"text": "to",
+"start": 182.874,
+"end": 182.995
+},
+{
+"text": "reach",
+"start": 183.035,
+"end": 183.215
+},
+{
+"text": "it",
+"start": 183.216,
+"end": 183.335
+},
+{
+"text": "would",
+"start": 183.375,
+"end": 183.555
+},
+{
+"text": "have",
+"start": 183.575,
+"end": 183.775
+},
+{
+"text": "to",
+"start": 184.195,
+"end": 184.315
+},
+{
+"text": "go",
+"start": 184.316,
+"end": 184.436
+},
+{
+"text": "through",
+"start": 184.536,
+"end": 184.756
+},
+{
+"text": "some",
+"start": 184.836,
+"end": 185.016
+},
+{
+"text": "other",
+"start": 185.136,
+"end": 185.316
+},
+{
+"text": "unvisited",
+"start": 185.396,
+"end": 185.937
+},
+{
+"text": "node",
+"start": 186.017,
+"end": 186.297
+},
+{
+"text": "first,",
+"start": 186.417,
+"end": 186.717
+},
+{
+"text": "and",
+"start": 187.057,
+"end": 187.258
+},
+{
+"text": "those",
+"start": 187.598,
+"end": 187.818
+},
+{
+"text": "are",
+"start": 187.838,
+"end": 187.958
+},
+{
+"text": "already",
+"start": 187.959,
+"end": 188.138
+},
+{
+"text": "further",
+"start": 188.198,
+"end": 188.418
+},
+{
+"text": "away.",
+"start": 188.438,
+"end": 188.598
+},
+{
+"text": "Since",
+"start": 188.919,
+"end": 189.119
+},
+{
+"text": "roads",
+"start": 189.159,
+"end": 189.359
+},
+{
+"text": "can",
+"start": 189.419,
+"end": 189.559
+},
+{
+"text": "take",
+"start": 189.639,
+"end": 189.859
+},
+{
+"text": "negative",
+"start": 189.899,
+"end": 190.24
+},
+{
+"text": "time,",
+"start": 190.28,
+"end": 190.52
+},
+{
+"text": "going",
+"start": 190.92,
+"end": 191.12
+},
+{
+"text": "further",
+"start": 191.121,
+"end": 191.42
+},
+{
+"text": "can",
+"start": 191.761,
+"end": 191.921
+},
+{
+"text": "never",
+"start": 192.041,
+"end": 192.261
+},
+{
+"text": "make",
+"start": 192.321,
+"end": 192.541
+},
+{
+"text": "the",
+"start": 192.741,
+"end": 192.862
+},
+{
+"text": "trip",
+"start": 192.922,
+"end": 193.082
+},
+{
+"text": "shorter.",
+"start": 193.142,
+"end": 193.462
+},
+{
+"text": "So",
+"start": 193.822,
+"end": 193.942
+},
+{
+"text": "the",
+"start": 194.283,
+"end": 194.403
+},
+{
+"text": "number",
+"start": 194.423,
+"end": 194.623
+},
+{
+"text": "is",
+"start": 194.624,
+"end": 194.723
+},
+{
+"text": "final.",
+"start": 194.743,
+"end": 194.943
+},
+{
+"text": "And",
+"start": 195.263,
+"end": 195.383
+},
+{
+"text": "there's",
+"start": 195.384,
+"end": 195.523
+},
+{
+"text": "also",
+"start": 195.543,
+"end": 195.704
+},
+{
+"text": "one",
+"start": 195.784,
+"end": 195.904
+},
+{
+"text": "catch.",
+"start": 195.944,
+"end": 196.184
+},
+{
+"text": "If",
+"start": 196.484,
+"end": 196.604
+},
+{
+"text": "your",
+"start": 196.605,
+"end": 196.704
+},
+{
+"text": "graph",
+"start": 196.764,
+"end": 197.025
+},
+{
+"text": "has",
+"start": 197.085,
+"end": 197.225
+},
+{
+"text": "negative",
+"start": 197.265,
+"end": 197.625
+},
+{
+"text": "weights,",
+"start": 197.665,
+"end": 197.905
+},
+{
+"text": "like",
+"start": 198.205,
+"end": 198.386
+},
+{
+"text": "a",
+"start": 198.387,
+"end": 198.486
+},
+{
+"text": "road",
+"start": 198.526,
+"end": 198.786
+},
+{
+"text": "that",
+"start": 198.986,
+"end": 199.106
+},
+{
+"text": "somehow",
+"start": 199.166,
+"end": 199.446
+},
+{
+"text": "gives",
+"start": 199.527,
+"end": 199.767
+},
+{
+"text": "you",
+"start": 199.787,
+"end": 199.907
+},
+{
+"text": "time",
+"start": 200.027,
+"end": 200.267
+},
+{
+"text": "back,",
+"start": 200.287,
+"end": 200.507
+},
+{
+"text": "Dijkstra",
+"start": 200.828,
+"end": 201.228
+},
+{
+"text": "can",
+"start": 201.288,
+"end": 201.428
+},
+{
+"text": "give",
+"start": 201.508,
+"end": 201.668
+},
+{
+"text": "you",
+"start": 201.669,
+"end": 201.788
+},
+{
+"text": "the",
+"start": 201.789,
+"end": 201.868
+},
+{
+"text": "wrong",
+"start": 201.888,
+"end": 202.049
+},
+{
+"text": "answer.",
+"start": 202.129,
+"end": 202.369
+},
+{
+"text": "For",
+"start": 202.689,
+"end": 202.809
+},
+{
+"text": "that",
+"start": 202.849,
+"end": 202.989
+},
+{
+"text": "you'd",
+"start": 203.089,
+"end": 203.249
+},
+{
+"text": "use",
+"start": 203.33,
+"end": 203.49
+},
+{
+"text": "a",
+"start": 203.51,
+"end": 203.63
+},
+{
+"text": "different",
+"start": 203.65,
+"end": 203.93
+},
+{
+"text": "algorithm",
+"start": 203.99,
+"end": 204.41
+},
+{
+"text": "called",
+"start": 204.631,
+"end": 204.951
+},
+{
+"text": "Bellman-Ford.",
+"start": 205.231,
+"end": 205.851
+},
+{
+"text": "For",
+"start": 206.132,
+"end": 206.252
+},
+{
+"text": "maps,",
+"start": 206.332,
+"end": 206.612
+},
+{
+"text": "travel",
+"start": 206.792,
+"end": 207.032
+},
+{
+"text": "times",
+"start": 207.052,
+"end": 207.313
+},
+{
+"text": "are",
+"start": 207.373,
+"end": 207.493
+},
+{
+"text": "never",
+"start": 207.513,
+"end": 207.693
+},
+{
+"text": "negative,",
+"start": 207.733,
+"end": 208.133
+},
+{
+"text": "so",
+"start": 208.393,
+"end": 208.514
+},
+{
+"text": "we're",
+"start": 208.554,
+"end": 208.674
+},
+{
+"text": "fine.",
+"start": 208.675,
+"end": 208.894
+},
+{
+"text": "Right",
+"start": 209.214,
+"end": 209.394
+},
+{
+"text": "now",
+"start": 209.434,
+"end": 209.634
+},
+{
+"text": "we",
+"start": 209.755,
+"end": 209.875
+},
+{
+"text": "know",
+"start": 209.915,
+"end": 210.055
+},
+{
+"text": "it",
+"start": 210.056,
+"end": 210.175
+},
+{
+"text": "takes",
+"start": 210.215,
+"end": 210.435
+},
+{
+"text": "13",
+"start": 210.475,
+"end": 210.695
+},
+{
+"text": "minutes,",
+"start": 210.735,
+"end": 211.036
+},
+{
+"text": "but",
+"start": 211.396,
+"end": 211.536
+},
+{
+"text": "not",
+"start": 211.616,
+"end": 211.816
+},
+{
+"text": "which",
+"start": 212.176,
+"end": 212.317
+},
+{
+"text": "road",
+"start": 212.377,
+"end": 212.497
+},
+{
+"text": "to",
+"start": 212.498,
+"end": 212.617
+},
+{
+"text": "take.",
+"start": 212.657,
+"end": 212.897
+},
+{
+"text": "So",
+"start": 213.137,
+"end": 213.257
+},
+{
+"text": "whenever",
+"start": 213.357,
+"end": 213.618
+},
+{
+"text": "we",
+"start": 213.619,
+"end": 213.738
+},
+{
+"text": "update",
+"start": 213.778,
+"end": 214.078
+},
+{
+"text": "a",
+"start": 214.079,
+"end": 214.198
+},
+{
+"text": "node's",
+"start": 214.258,
+"end": 214.498
+},
+{
+"text": "distance,",
+"start": 214.558,
+"end": 214.959
+},
+{
+"text": "we",
+"start": 215.139,
+"end": 215.259
+},
+{
+"text": "also",
+"start": 215.479,
+"end": 215.659
+},
+{
+"text": "write",
+"start": 215.699,
+"end": 215.899
+},
+{
+"text": "down",
+"start": 215.939,
+"end": 216.12
+},
+{
+"text": "which",
+"start": 216.48,
+"end": 216.64
+},
+{
+"text": "node",
+"start": 216.76,
+"end": 217
+},
+{
+"text": "we",
+"start": 217.02,
+"end": 217.14
+},
+{
+"text": "came",
+"start": 217.18,
+"end": 217.36
+},
+{
+"text": "from.",
+"start": 217.401,
+"end": 217.581
+},
+{
+"text": "That's",
+"start": 217.921,
+"end": 218.061
+},
+{
+"text": "the",
+"start": 218.062,
+"end": 218.161
+},
+{
+"text": "second",
+"start": 218.181,
+"end": 218.421
+},
+{
+"text": "table,",
+"start": 218.441,
+"end": 218.662
+},
+{
+"text": "usually",
+"start": 218.802,
+"end": 219.062
+},
+{
+"text": "called",
+"start": 219.102,
+"end": 219.402
+},
+{
+"text": "prev.",
+"start": 219.462,
+"end": 219.662
+},
+{
+"text": "Now",
+"start": 219.963,
+"end": 220.083
+},
+{
+"text": "to",
+"start": 220.084,
+"end": 220.203
+},
+{
+"text": "get",
+"start": 220.204,
+"end": 220.323
+},
+{
+"text": "the",
+"start": 220.343,
+"end": 220.463
+},
+{
+"text": "route,",
+"start": 220.483,
+"end": 221.143
+},
+{
+"text": "you",
+"start": 221.144,
+"end": 221.244
+},
+{
+"text": "start",
+"start": 221.264,
+"end": 221.564
+},
+{
+"text": "at",
+"start": 221.864,
+"end": 221.984
+},
+{
+"text": "the",
+"start": 221.985,
+"end": 222.084
+},
+{
+"text": "target",
+"start": 222.124,
+"end": 222.484
+},
+{
+"text": "and",
+"start": 222.624,
+"end": 222.744
+},
+{
+"text": "follow",
+"start": 222.824,
+"end": 223.104
+},
+{
+"text": "those",
+"start": 223.144,
+"end": 223.364
+},
+{
+"text": "pointers",
+"start": 223.404,
+"end": 223.745
+},
+{
+"text": "backwards.",
+"start": 223.805,
+"end": 224.265
+},
+{
+"text": "Since",
+"start": 224.605,
+"end": 224.825
+},
+{
+"text": "f",
+"start": 225.005,
+"end": 225.125
+},
+{
+"text": "came",
+"start": 225.205,
+"end": 225.385
+},
+{
+"text": "from",
+"start": 225.425,
+"end": 225.605
+},
+{
+"text": "e,",
+"start": 225.725,
+"end": 225.845
+},
+{
+"text": "e",
+"start": 226.185,
+"end": 226.305
+},
+{
+"text": "from",
+"start": 226.345,
+"end": 226.525
+},
+{
+"text": "d,",
+"start": 226.605,
+"end": 226.725
+},
+{
+"text": "d",
+"start": 227.066,
+"end": 227.186
+},
+{
+"text": "from",
+"start": 227.266,
+"end": 227.446
+},
+{
+"text": "b,",
+"start": 227.466,
+"end": 227.586
+},
+{
+"text": "b",
+"start": 227.926,
+"end": 228.046
+},
+{
+"text": "from",
+"start": 228.146,
+"end": 228.306
+},
+{
+"text": "c",
+"start": 228.346,
+"end": 228.466
+},
+{
+"text": "and",
+"start": 228.806,
+"end": 228.926
+},
+{
+"text": "c",
+"start": 228.986,
+"end": 229.106
+},
+{
+"text": "from",
+"start": 229.246,
+"end": 229.406
+},
+{
+"text": "a,",
+"start": 229.506,
+"end": 229.626
+},
+{
+"text": "now",
+"start": 229.966,
+"end": 230.166
+},
+{
+"text": "flip",
+"start": 230.286,
+"end": 230.506
+},
+{
+"text": "that",
+"start": 230.546,
+"end": 230.707
+},
+{
+"text": "around",
+"start": 230.747,
+"end": 231.067
+},
+{
+"text": "and",
+"start": 231.367,
+"end": 231.487
+},
+{
+"text": "that's",
+"start": 231.488,
+"end": 231.687
+},
+{
+"text": "our",
+"start": 231.707,
+"end": 231.827
+},
+{
+"text": "path",
+"start": 231.867,
+"end": 232.127
+},
+{
+"text": "a,",
+"start": 232.247,
+"end": 232.367
+},
+{
+"text": "c,",
+"start": 232.667,
+"end": 232.787
+},
+{
+"text": "b,",
+"start": 233.007,
+"end": 233.127
+},
+{
+"text": "d,",
+"start": 233.467,
+"end": 233.587
+},
+{
+"text": "e,",
+"start": 233.747,
+"end": 233.867
+},
+{
+"text": "f.",
+"start": 234.067,
+"end": 234.188
+},
+{
+"text": "Now",
+"start": 234.488,
+"end": 234.608
+},
+{
+"text": "let's",
+"start": 234.628,
+"end": 234.768
+},
+{
+"text": "write",
+"start": 234.769,
+"end": 235.028
+},
+{
+"text": "it.",
+"start": 235.029,
+"end": 235.148
+},
+{
+"text": "We",
+"start": 235.508,
+"end": 235.628
+},
+{
+"text": "have",
+"start": 235.629,
+"end": 235.728
+},
+{
+"text": "three",
+"start": 235.748,
+"end": 235.908
+},
+{
+"text": "things.",
+"start": 235.928,
+"end": 236.188
+},
+{
+"text": "dist",
+"start": 236.528,
+"end": 236.748
+},
+{
+"text": "is",
+"start": 236.888,
+"end": 237.008
+},
+{
+"text": "the",
+"start": 237.009,
+"end": 237.108
+},
+{
+"text": "table",
+"start": 237.128,
+"end": 237.348
+},
+{
+"text": "of",
+"start": 237.368,
+"end": 237.468
+},
+{
+"text": "distances,",
+"start": 237.488,
+"end": 237.989
+},
+{
+"text": "prev",
+"start": 238.329,
+"end": 238.549
+},
+{
+"text": "is",
+"start": 238.689,
+"end": 238.809
+},
+{
+"text": "where",
+"start": 238.889,
+"end": 239.069
+},
+{
+"text": "we",
+"start": 239.089,
+"end": 239.209
+},
+{
+"text": "came",
+"start": 239.269,
+"end": 239.449
+},
+{
+"text": "from,",
+"start": 239.469,
+"end": 239.649
+},
+{
+"text": "and",
+"start": 239.989,
+"end": 240.109
+},
+{
+"text": "visited",
+"start": 240.209,
+"end": 240.669
+},
+{
+"text": "is",
+"start": 240.809,
+"end": 240.929
+},
+{
+"text": "a",
+"start": 240.949,
+"end": 241.069
+},
+{
+"text": "set",
+"start": 241.189,
+"end": 241.41
+},
+{
+"text": "of",
+"start": 241.65,
+"end": 241.77
+},
+{
+"text": "the",
+"start": 241.771,
+"end": 241.87
+},
+{
+"text": "nodes",
+"start": 241.91,
+"end": 242.23
+},
+{
+"text": "that",
+"start": 242.49,
+"end": 242.61
+},
+{
+"text": "we",
+"start": 242.611,
+"end": 242.73
+},
+{
+"text": "finished.",
+"start": 242.77,
+"end": 243.09
+},
+{
+"text": "Now",
+"start": 243.43,
+"end": 243.57
+},
+{
+"text": "every",
+"start": 243.69,
+"end": 243.85
+},
+{
+"text": "distance",
+"start": 243.93,
+"end": 244.29
+},
+{
+"text": "starts",
+"start": 244.33,
+"end": 244.65
+},
+{
+"text": "at",
+"start": 244.911,
+"end": 245.031
+},
+{
+"text": "infinity",
+"start": 245.091,
+"end": 245.511
+},
+{
+"text": "except",
+"start": 245.671,
+"end": 246.131
+},
+{
+"text": "the",
+"start": 246.331,
+"end": 246.451
+},
+{
+"text": "start",
+"start": 246.491,
+"end": 246.771
+},
+{
+"text": "which",
+"start": 247.091,
+"end": 247.251
+},
+{
+"text": "is",
+"start": 247.252,
+"end": 247.371
+},
+{
+"text": "zero",
+"start": 247.411,
+"end": 247.611
+},
+{
+"text": "now",
+"start": 247.931,
+"end": 248.171
+},
+{
+"text": "the",
+"start": 248.452,
+"end": 248.572
+},
+{
+"text": "main",
+"start": 248.592,
+"end": 248.752
+},
+{
+"text": "loop",
+"start": 248.812,
+"end": 248.992
+},
+{
+"text": "step",
+"start": 249.392,
+"end": 249.612
+},
+{
+"text": "one",
+"start": 249.772,
+"end": 249.892
+},
+{
+"text": "we",
+"start": 250.132,
+"end": 250.252
+},
+{
+"text": "go",
+"start": 250.292,
+"end": 250.412
+},
+{
+"text": "through",
+"start": 250.492,
+"end": 250.672
+},
+{
+"text": "the",
+"start": 250.673,
+"end": 250.772
+},
+{
+"text": "table",
+"start": 250.812,
+"end": 251.072
+},
+{
+"text": "and",
+"start": 251.192,
+"end": 251.312
+},
+{
+"text": "find",
+"start": 251.392,
+"end": 251.812
+},
+{
+"text": "the",
+"start": 252.193,
+"end": 252.313
+},
+{
+"text": "unvisited",
+"start": 252.353,
+"end": 252.913
+},
+{
+"text": "node",
+"start": 252.993,
+"end": 253.313
+},
+{
+"text": "with",
+"start": 253.633,
+"end": 253.753
+},
+{
+"text": "the",
+"start": 253.754,
+"end": 253.853
+},
+{
+"text": "smallest",
+"start": 253.873,
+"end": 254.193
+},
+{
+"text": "distance.",
+"start": 254.233,
+"end": 254.673
+},
+{
+"text": "If",
+"start": 255.013,
+"end": 255.133
+},
+{
+"text": "the",
+"start": 255.134,
+"end": 255.253
+},
+{
+"text": "best",
+"start": 255.333,
+"end": 255.654
+},
+{
+"text": "we",
+"start": 255.994,
+"end": 256.114
+},
+{
+"text": "can",
+"start": 256.115,
+"end": 256.234
+},
+{
+"text": "find",
+"start": 256.314,
+"end": 256.574
+},
+{
+"text": "is",
+"start": 256.654,
+"end": 256.774
+},
+{
+"text": "infinity",
+"start": 256.894,
+"end": 257.394
+},
+{
+"text": "then",
+"start": 257.814,
+"end": 257.934
+},
+{
+"text": "the",
+"start": 257.974,
+"end": 258.094
+},
+{
+"text": "rest",
+"start": 258.134,
+"end": 258.294
+},
+{
+"text": "of",
+"start": 258.295,
+"end": 258.374
+},
+{
+"text": "the",
+"start": 258.375,
+"end": 258.474
+},
+{
+"text": "graph",
+"start": 258.534,
+"end": 258.774
+},
+{
+"text": "isn't",
+"start": 258.934,
+"end": 259.154
+},
+{
+"text": "reachable",
+"start": 259.194,
+"end": 259.495
+},
+{
+"text": "so",
+"start": 259.595,
+"end": 259.715
+},
+{
+"text": "we",
+"start": 259.716,
+"end": 259.835
+},
+{
+"text": "stop.",
+"start": 259.875,
+"end": 260.155
+},
+{
+"text": "Step",
+"start": 260.435,
+"end": 260.675
+},
+{
+"text": "two",
+"start": 260.775,
+"end": 260.975
+},
+{
+"text": "we",
+"start": 261.275,
+"end": 261.395
+},
+{
+"text": "mark",
+"start": 261.475,
+"end": 261.655
+},
+{
+"text": "it",
+"start": 261.675,
+"end": 261.795
+},
+{
+"text": "as",
+"start": 261.855,
+"end": 261.975
+},
+{
+"text": "visited",
+"start": 262.055,
+"end": 262.435
+},
+{
+"text": "so",
+"start": 262.775,
+"end": 262.895
+},
+{
+"text": "its",
+"start": 262.975,
+"end": 263.116
+},
+{
+"text": "distance",
+"start": 263.196,
+"end": 263.636
+},
+{
+"text": "is",
+"start": 263.756,
+"end": 263.876
+},
+{
+"text": "final.",
+"start": 263.936,
+"end": 264.216
+},
+{
+"text": "Now",
+"start": 264.556,
+"end": 264.676
+},
+{
+"text": "step",
+"start": 264.756,
+"end": 264.956
+},
+{
+"text": "three",
+"start": 264.996,
+"end": 265.196
+},
+{
+"text": "we",
+"start": 265.356,
+"end": 265.476
+},
+{
+"text": "relax",
+"start": 265.536,
+"end": 265.776
+},
+{
+"text": "every",
+"start": 265.936,
+"end": 266.096
+},
+{
+"text": "road",
+"start": 266.196,
+"end": 266.416
+},
+{
+"text": "out",
+"start": 266.616,
+"end": 266.736
+},
+{
+"text": "of",
+"start": 266.777,
+"end": 266.897
+},
+{
+"text": "it.",
+"start": 266.917,
+"end": 267.037
+},
+{
+"text": "The",
+"start": 267.377,
+"end": 267.497
+},
+{
+"text": "new",
+"start": 267.557,
+"end": 267.677
+},
+{
+"text": "distance",
+"start": 267.757,
+"end": 268.177
+},
+{
+"text": "is",
+"start": 268.337,
+"end": 268.457
+},
+{
+"text": "the",
+"start": 268.458,
+"end": 268.577
+},
+{
+"text": "current",
+"start": 268.637,
+"end": 268.917
+},
+{
+"text": "node's",
+"start": 268.957,
+"end": 269.237
+},
+{
+"text": "distance",
+"start": 269.297,
+"end": 269.737
+},
+{
+"text": "plus",
+"start": 270.097,
+"end": 270.297
+},
+{
+"text": "the",
+"start": 270.317,
+"end": 270.437
+},
+{
+"text": "cost",
+"start": 270.477,
+"end": 270.758
+},
+{
+"text": "of",
+"start": 270.798,
+"end": 270.918
+},
+{
+"text": "the",
+"start": 270.919,
+"end": 271.038
+},
+{
+"text": "road.",
+"start": 271.078,
+"end": 271.238
+},
+{
+"text": "If",
+"start": 271.578,
+"end": 271.698
+},
+{
+"text": "that's",
+"start": 271.718,
+"end": 271.898
+},
+{
+"text": "smaller",
+"start": 271.918,
+"end": 272.178
+},
+{
+"text": "than",
+"start": 272.198,
+"end": 272.338
+},
+{
+"text": "what",
+"start": 272.398,
+"end": 272.558
+},
+{
+"text": "the",
+"start": 272.618,
+"end": 272.738
+},
+{
+"text": "neighbor",
+"start": 272.778,
+"end": 273.038
+},
+{
+"text": "has",
+"start": 273.058,
+"end": 273.298
+},
+{
+"text": "we",
+"start": 273.418,
+"end": 273.538
+},
+{
+"text": "update",
+"start": 273.578,
+"end": 273.918
+},
+{
+"text": "dist",
+"start": 274.279,
+"end": 274.539
+},
+{
+"text": "and",
+"start": 274.899,
+"end": 275.019
+},
+{
+"text": "we",
+"start": 275.059,
+"end": 275.179
+},
+{
+"text": "update",
+"start": 275.239,
+"end": 275.539
+},
+{
+"text": "prev",
+"start": 275.599,
+"end": 275.899
+},
+{
+"text": "to",
+"start": 276.259,
+"end": 276.379
+},
+{
+"text": "say",
+"start": 276.439,
+"end": 276.639
+},
+{
+"text": "we",
+"start": 276.779,
+"end": 276.899
+},
+{
+"text": "came",
+"start": 276.939,
+"end": 277.099
+},
+{
+"text": "from",
+"start": 277.119,
+"end": 277.299
+},
+{
+"text": "here",
+"start": 277.379,
+"end": 277.579
+},
+{
+"text": "and",
+"start": 277.859,
+"end": 277.98
+},
+{
+"text": "this",
+"start": 277.981,
+"end": 278.12
+},
+{
+"text": "little",
+"start": 278.16,
+"end": 278.36
+},
+{
+"text": "function",
+"start": 278.4,
+"end": 278.7
+},
+{
+"text": "builds",
+"start": 278.8,
+"end": 279.12
+},
+{
+"text": "the",
+"start": 279.14,
+"end": 279.26
+},
+{
+"text": "route.",
+"start": 279.32,
+"end": 279.58
+},
+{
+"text": "exactly",
+"start": 279.924,
+"end": 280.324
+},
+{
+"text": "like",
+"start": 280.384,
+"end": 280.544
+},
+{
+"text": "we",
+"start": 280.545,
+"end": 280.624
+},
+{
+"text": "did",
+"start": 280.644,
+"end": 280.784
+},
+{
+"text": "by",
+"start": 280.785,
+"end": 280.904
+},
+{
+"text": "hand.",
+"start": 280.944,
+"end": 281.145
+},
+{
+"text": "You",
+"start": 281.445,
+"end": 281.605
+},
+{
+"text": "start",
+"start": 281.745,
+"end": 281.945
+},
+{
+"text": "at",
+"start": 281.965,
+"end": 282.085
+},
+{
+"text": "the",
+"start": 282.086,
+"end": 282.185
+},
+{
+"text": "target",
+"start": 282.205,
+"end": 282.545
+},
+{
+"text": "and",
+"start": 282.765,
+"end": 282.885
+},
+{
+"text": "keep",
+"start": 282.925,
+"end": 283.045
+},
+{
+"text": "stepping",
+"start": 283.125,
+"end": 283.445
+},
+{
+"text": "back",
+"start": 283.485,
+"end": 283.626
+},
+{
+"text": "through",
+"start": 283.686,
+"end": 283.886
+},
+{
+"text": "prev",
+"start": 283.926,
+"end": 284.166
+},
+{
+"text": "and",
+"start": 284.286,
+"end": 284.406
+},
+{
+"text": "put",
+"start": 284.486,
+"end": 284.666
+},
+{
+"text": "each",
+"start": 284.826,
+"end": 284.966
+},
+{
+"text": "node",
+"start": 285.046,
+"end": 285.326
+},
+{
+"text": "at",
+"start": 285.726,
+"end": 285.846
+},
+{
+"text": "the",
+"start": 285.847,
+"end": 285.946
+},
+{
+"text": "front",
+"start": 285.986,
+"end": 286.167
+},
+{
+"text": "of",
+"start": 286.168,
+"end": 286.287
+},
+{
+"text": "that",
+"start": 286.288,
+"end": 286.427
+},
+{
+"text": "list.",
+"start": 286.487,
+"end": 286.687
+},
+{
+"text": "And",
+"start": 286.967,
+"end": 287.087
+},
+{
+"text": "if",
+"start": 287.107,
+"end": 287.227
+},
+{
+"text": "I",
+"start": 287.228,
+"end": 287.327
+},
+{
+"text": "run",
+"start": 287.367,
+"end": 287.507
+},
+{
+"text": "it,",
+"start": 287.527,
+"end": 287.647
+},
+{
+"text": "I",
+"start": 287.867,
+"end": 287.987
+},
+{
+"text": "added",
+"start": 288.067,
+"end": 288.267
+},
+{
+"text": "some",
+"start": 288.347,
+"end": 288.568
+},
+{
+"text": "logging",
+"start": 288.728,
+"end": 289.048
+},
+{
+"text": "so",
+"start": 289.088,
+"end": 289.208
+},
+{
+"text": "you",
+"start": 289.209,
+"end": 289.328
+},
+{
+"text": "can",
+"start": 289.329,
+"end": 289.448
+},
+{
+"text": "see",
+"start": 289.568,
+"end": 289.728
+},
+{
+"text": "each",
+"start": 289.888,
+"end": 290.028
+},
+{
+"text": "step.",
+"start": 290.088,
+"end": 290.328
+},
+{
+"text": "It",
+"start": 290.648,
+"end": 290.768
+},
+{
+"text": "visits",
+"start": 290.788,
+"end": 291.089
+},
+{
+"text": "A,",
+"start": 291.109,
+"end": 291.229
+},
+{
+"text": "then",
+"start": 291.569,
+"end": 291.689
+},
+{
+"text": "C.",
+"start": 291.729,
+"end": 291.849
+},
+{
+"text": "B",
+"start": 292.169,
+"end": 292.289
+},
+{
+"text": "drops",
+"start": 292.429,
+"end": 292.709
+},
+{
+"text": "from",
+"start": 292.769,
+"end": 292.949
+},
+{
+"text": "4",
+"start": 293.289,
+"end": 293.429
+},
+{
+"text": "to",
+"start": 293.43,
+"end": 293.549
+},
+{
+"text": "3",
+"start": 293.61,
+"end": 293.81
+},
+{
+"text": "and",
+"start": 294.11,
+"end": 294.23
+},
+{
+"text": "so",
+"start": 294.25,
+"end": 294.37
+},
+{
+"text": "on.",
+"start": 294.45,
+"end": 294.57
+},
+{
+"text": "Exactly",
+"start": 294.91,
+"end": 295.27
+},
+{
+"text": "what",
+"start": 295.33,
+"end": 295.49
+},
+{
+"text": "we",
+"start": 295.491,
+"end": 295.61
+},
+{
+"text": "just",
+"start": 295.67,
+"end": 295.87
+},
+{
+"text": "did.",
+"start": 295.89,
+"end": 296.05
+},
+{
+"text": "And",
+"start": 296.351,
+"end": 296.471
+},
+{
+"text": "the",
+"start": 296.472,
+"end": 296.551
+},
+{
+"text": "path",
+"start": 296.571,
+"end": 296.811
+},
+{
+"text": "is",
+"start": 296.911,
+"end": 297.051
+},
+{
+"text": "A,",
+"start": 297.251,
+"end": 297.371
+},
+{
+"text": "C,",
+"start": 297.751,
+"end": 297.871
+},
+{
+"text": "B,",
+"start": 298.231,
+"end": 298.351
+},
+{
+"text": "D,",
+"start": 298.632,
+"end": 298.752
+},
+{
+"text": "E,",
+"start": 299.032,
+"end": 299.152
+},
+{
+"text": "F.",
+"start": 299.392,
+"end": 299.512
+},
+{
+"text": "in",
+"start": 299.877,
+"end": 299.977
+},
+{
+"text": "13",
+"start": 299.997,
+"end": 300.257
+},
+{
+"text": "minutes.",
+"start": 300.317,
+"end": 300.577
+},
+{
+"text": "Now",
+"start": 300.918,
+"end": 301.098
+},
+{
+"text": "that",
+"start": 301.198,
+"end": 301.338
+},
+{
+"text": "works",
+"start": 301.378,
+"end": 301.638
+},
+{
+"text": "but",
+"start": 301.898,
+"end": 302.018
+},
+{
+"text": "let's",
+"start": 302.058,
+"end": 302.258
+},
+{
+"text": "try",
+"start": 302.298,
+"end": 302.478
+},
+{
+"text": "it",
+"start": 302.479,
+"end": 302.599
+},
+{
+"text": "on",
+"start": 302.659,
+"end": 302.779
+},
+{
+"text": "something",
+"start": 303.199,
+"end": 303.499
+},
+{
+"text": "bigger.",
+"start": 303.539,
+"end": 303.739
+},
+{
+"text": "Here's",
+"start": 304.019,
+"end": 304.199
+},
+{
+"text": "a",
+"start": 304.2,
+"end": 304.279
+},
+{
+"text": "grid",
+"start": 304.299,
+"end": 304.48
+},
+{
+"text": "that's",
+"start": 304.5,
+"end": 304.7
+},
+{
+"text": "150",
+"start": 304.701,
+"end": 305.26
+},
+{
+"text": "by",
+"start": 305.261,
+"end": 305.3
+},
+{
+"text": "150",
+"start": 305.301,
+"end": 305.86
+},
+{
+"text": "so",
+"start": 306.08,
+"end": 306.201
+},
+{
+"text": "22",
+"start": 306.221,
+"end": 307.209
+},
+{
+"text": "and",
+"start": 307.21,
+"end": 307.309
+},
+{
+"text": "a",
+"start": 307.31,
+"end": 307.369
+},
+{
+"text": "half",
+"start": 307.389,
+"end": 307.509
+},
+{
+"text": "thousand",
+"start": 307.569,
+"end": 307.909
+},
+{
+"text": "intersections",
+"start": 308.009,
+"end": 308.59
+},
+{
+"text": "with",
+"start": 308.95,
+"end": 309.07
+},
+{
+"text": "random",
+"start": 309.13,
+"end": 309.41
+},
+{
+"text": "travel",
+"start": 309.49,
+"end": 309.73
+},
+{
+"text": "times",
+"start": 309.77,
+"end": 310.151
+},
+{
+"text": "on",
+"start": 310.331,
+"end": 310.451
+},
+{
+"text": "each",
+"start": 310.511,
+"end": 310.651
+},
+{
+"text": "road.",
+"start": 310.711,
+"end": 310.891
+},
+{
+"text": "The",
+"start": 311.231,
+"end": 311.351
+},
+{
+"text": "simplest",
+"start": 311.391,
+"end": 311.712
+},
+{
+"text": "version",
+"start": 311.732,
+"end": 312.012
+},
+{
+"text": "takes",
+"start": 312.172,
+"end": 312.412
+},
+{
+"text": "about",
+"start": 312.452,
+"end": 312.672
+},
+{
+"text": "50",
+"start": 312.732,
+"end": 312.932
+},
+{
+"text": "seconds",
+"start": 312.992,
+"end": 313.352
+},
+{
+"text": "and",
+"start": 313.773,
+"end": 313.893
+},
+{
+"text": "the",
+"start": 313.894,
+"end": 313.973
+},
+{
+"text": "problem",
+"start": 313.993,
+"end": 314.373
+},
+{
+"text": "is",
+"start": 314.553,
+"end": 314.673
+},
+{
+"text": "step",
+"start": 314.693,
+"end": 314.893
+},
+{
+"text": "one.",
+"start": 314.993,
+"end": 315.113
+},
+{
+"text": "To",
+"start": 315.394,
+"end": 315.514
+},
+{
+"text": "find",
+"start": 315.554,
+"end": 315.754
+},
+{
+"text": "the",
+"start": 315.755,
+"end": 315.854
+},
+{
+"text": "closest",
+"start": 315.874,
+"end": 316.194
+},
+{
+"text": "node",
+"start": 316.234,
+"end": 316.454
+},
+{
+"text": "we",
+"start": 316.614,
+"end": 316.734
+},
+{
+"text": "scan",
+"start": 316.794,
+"end": 317.034
+},
+{
+"text": "through",
+"start": 317.155,
+"end": 317.395
+},
+{
+"text": "the",
+"start": 317.735,
+"end": 317.855
+},
+{
+"text": "whole",
+"start": 317.875,
+"end": 318.035
+},
+{
+"text": "table",
+"start": 318.075,
+"end": 318.335
+},
+{
+"text": "every",
+"start": 318.675,
+"end": 318.815
+},
+{
+"text": "single",
+"start": 318.895,
+"end": 319.136
+},
+{
+"text": "round.",
+"start": 319.176,
+"end": 319.356
+},
+{
+"text": "That's",
+"start": 319.716,
+"end": 319.956
+},
+{
+"text": "22,000",
+"start": 319.957,
+"end": 320.857
+},
+{
+"text": "nodes",
+"start": 320.897,
+"end": 321.177
+},
+{
+"text": "scanned",
+"start": 321.357,
+"end": 321.717
+},
+{
+"text": "22,000",
+"start": 321.718,
+"end": 322.718
+},
+{
+"text": "times",
+"start": 322.758,
+"end": 323.038
+},
+{
+"text": "which",
+"start": 323.158,
+"end": 323.298
+},
+{
+"text": "is",
+"start": 323.338,
+"end": 323.458
+},
+{
+"text": "around",
+"start": 323.858,
+"end": 324.158
+},
+{
+"text": "half",
+"start": 324.499,
+"end": 324.679
+},
+{
+"text": "a",
+"start": 324.699,
+"end": 324.799
+},
+{
+"text": "billion",
+"start": 324.819,
+"end": 325.079
+},
+{
+"text": "checks.",
+"start": 325.139,
+"end": 325.419
+},
+{
+"text": "That's",
+"start": 325.779,
+"end": 325.939
+},
+{
+"text": "what",
+"start": 325.979,
+"end": 326.099
+},
+{
+"text": "people",
+"start": 326.139,
+"end": 326.4
+},
+{
+"text": "mean",
+"start": 326.44,
+"end": 326.66
+},
+{
+"text": "when",
+"start": 326.84,
+"end": 326.96
+},
+{
+"text": "they",
+"start": 326.961,
+"end": 327.08
+},
+{
+"text": "say",
+"start": 327.14,
+"end": 327.26
+},
+{
+"text": "it's",
+"start": 327.38,
+"end": 327.56
+},
+{
+"text": "O",
+"start": 327.88,
+"end": 328.041
+},
+{
+"text": "of",
+"start": 328.042,
+"end": 328.161
+},
+{
+"text": "n",
+"start": 328.241,
+"end": 328.361
+},
+{
+"text": "squared.",
+"start": 328.401,
+"end": 328.701
+},
+{
+"text": "Now",
+"start": 329.001,
+"end": 329.141
+},
+{
+"text": "the",
+"start": 329.142,
+"end": 329.261
+},
+{
+"text": "way",
+"start": 329.301,
+"end": 329.421
+},
+{
+"text": "we",
+"start": 329.422,
+"end": 329.542
+},
+{
+"text": "fix",
+"start": 329.642,
+"end": 329.782
+},
+{
+"text": "this",
+"start": 329.902,
+"end": 330.082
+},
+{
+"text": "is",
+"start": 330.262,
+"end": 330.382
+},
+{
+"text": "using",
+"start": 330.482,
+"end": 330.682
+},
+{
+"text": "a",
+"start": 330.702,
+"end": 330.822
+},
+{
+"text": "data",
+"start": 330.862,
+"end": 331.063
+},
+{
+"text": "structure",
+"start": 331.123,
+"end": 331.523
+},
+{
+"text": "called",
+"start": 331.583,
+"end": 331.823
+},
+{
+"text": "min-heap",
+"start": 332.063,
+"end": 332.464
+},
+{
+"text": "or",
+"start": 332.744,
+"end": 332.864
+},
+{
+"text": "a",
+"start": 332.944,
+"end": 333.064
+},
+{
+"text": "priority",
+"start": 333.264,
+"end": 333.764
+},
+{
+"text": "queue.",
+"start": 333.845,
+"end": 334.085
+},
+{
+"text": "It's",
+"start": 334.425,
+"end": 334.545
+},
+{
+"text": "a",
+"start": 334.546,
+"end": 334.665
+},
+{
+"text": "tree",
+"start": 334.725,
+"end": 334.965
+},
+{
+"text": "where",
+"start": 335.346,
+"end": 335.506
+},
+{
+"text": "the",
+"start": 335.507,
+"end": 335.626
+},
+{
+"text": "smallest",
+"start": 335.686,
+"end": 336.066
+},
+{
+"text": "item",
+"start": 336.246,
+"end": 336.486
+},
+{
+"text": "is",
+"start": 336.586,
+"end": 336.707
+},
+{
+"text": "always",
+"start": 336.747,
+"end": 336.967
+},
+{
+"text": "on",
+"start": 336.987,
+"end": 337.107
+},
+{
+"text": "top.",
+"start": 337.167,
+"end": 337.347
+},
+{
+"text": "Adding",
+"start": 337.627,
+"end": 337.827
+},
+{
+"text": "an",
+"start": 337.828,
+"end": 337.947
+},
+{
+"text": "item",
+"start": 338.047,
+"end": 338.288
+},
+{
+"text": "or",
+"start": 338.448,
+"end": 338.568
+},
+{
+"text": "taking",
+"start": 338.648,
+"end": 338.908
+},
+{
+"text": "the",
+"start": 338.909,
+"end": 339.008
+},
+{
+"text": "smallest",
+"start": 339.048,
+"end": 339.368
+},
+{
+"text": "one",
+"start": 339.408,
+"end": 339.528
+},
+{
+"text": "out",
+"start": 339.649,
+"end": 339.829
+},
+{
+"text": "only",
+"start": 340.149,
+"end": 340.289
+},
+{
+"text": "costs",
+"start": 340.349,
+"end": 340.589
+},
+{
+"text": "about",
+"start": 340.609,
+"end": 340.889
+},
+{
+"text": "log",
+"start": 340.949,
+"end": 341.13
+},
+{
+"text": "n",
+"start": 341.23,
+"end": 341.35
+},
+{
+"text": "steps",
+"start": 341.41,
+"end": 341.71
+},
+{
+"text": "instead",
+"start": 342.09,
+"end": 342.33
+},
+{
+"text": "of",
+"start": 342.331,
+"end": 342.451
+},
+{
+"text": "scanning",
+"start": 342.491,
+"end": 342.831
+},
+{
+"text": "everything.",
+"start": 342.871,
+"end": 343.191
+},
+{
+"text": "Here's",
+"start": 343.471,
+"end": 343.651
+},
+{
+"text": "a",
+"start": 343.652,
+"end": 343.731
+},
+{
+"text": "small",
+"start": 343.751,
+"end": 343.952
+},
+{
+"text": "one",
+"start": 344.012,
+"end": 344.132
+},
+{
+"text": "from",
+"start": 344.133,
+"end": 344.252
+},
+{
+"text": "scratch.",
+"start": 344.292,
+"end": 344.632
+},
+{
+"text": "Push",
+"start": 344.972,
+"end": 345.252
+},
+{
+"text": "adds",
+"start": 345.513,
+"end": 345.693
+},
+{
+"text": "the",
+"start": 345.753,
+"end": 345.873
+},
+{
+"text": "item",
+"start": 346.193,
+"end": 346.393
+},
+{
+"text": "at",
+"start": 346.513,
+"end": 346.633
+},
+{
+"text": "the",
+"start": 346.634,
+"end": 346.734
+},
+{
+"text": "bottom",
+"start": 346.754,
+"end": 347.054
+},
+{
+"text": "and",
+"start": 347.274,
+"end": 347.394
+},
+{
+"text": "then",
+"start": 347.414,
+"end": 347.594
+},
+{
+"text": "swaps",
+"start": 347.734,
+"end": 347.994
+},
+{
+"text": "it",
+"start": 348.014,
+"end": 348.134
+},
+{
+"text": "upwards",
+"start": 348.195,
+"end": 348.555
+},
+{
+"text": "while",
+"start": 348.875,
+"end": 349.035
+},
+{
+"text": "its",
+"start": 349.036,
+"end": 349.155
+},
+{
+"text": "parent",
+"start": 349.215,
+"end": 349.555
+},
+{
+"text": "is",
+"start": 349.595,
+"end": 349.716
+},
+{
+"text": "bigger.",
+"start": 349.776,
+"end": 349.996
+},
+{
+"text": "Pop",
+"start": 350.296,
+"end": 350.436
+},
+{
+"text": "takes",
+"start": 350.536,
+"end": 350.796
+},
+{
+"text": "the",
+"start": 350.797,
+"end": 350.916
+},
+{
+"text": "top",
+"start": 350.976,
+"end": 351.137
+},
+{
+"text": "item,",
+"start": 351.297,
+"end": 351.497
+},
+{
+"text": "moves",
+"start": 351.837,
+"end": 352.057
+},
+{
+"text": "the",
+"start": 352.058,
+"end": 352.177
+},
+{
+"text": "last",
+"start": 352.237,
+"end": 352.437
+},
+{
+"text": "item",
+"start": 352.518,
+"end": 352.698
+},
+{
+"text": "up",
+"start": 352.858,
+"end": 352.978
+},
+{
+"text": "into",
+"start": 353.418,
+"end": 353.558
+},
+{
+"text": "its",
+"start": 353.598,
+"end": 353.718
+},
+{
+"text": "place,",
+"start": 353.758,
+"end": 354.059
+},
+{
+"text": "and",
+"start": 354.299,
+"end": 354.419
+},
+{
+"text": "then",
+"start": 354.42,
+"end": 354.539
+},
+{
+"text": "sinks",
+"start": 354.679,
+"end": 354.899
+},
+{
+"text": "it",
+"start": 354.919,
+"end": 355.039
+},
+{
+"text": "down",
+"start": 355.079,
+"end": 355.299
+},
+{
+"text": "while",
+"start": 355.38,
+"end": 355.62
+},
+{
+"text": "one",
+"start": 355.96,
+"end": 356.08
+},
+{
+"text": "of",
+"start": 356.081,
+"end": 356.18
+},
+{
+"text": "its",
+"start": 356.181,
+"end": 356.3
+},
+{
+"text": "children",
+"start": 356.42,
+"end": 356.74
+},
+{
+"text": "is",
+"start": 356.861,
+"end": 356.981
+},
+{
+"text": "smaller.",
+"start": 357.041,
+"end": 357.341
+},
+{
+"text": "And",
+"start": 357.649,
+"end": 357.769
+},
+{
+"text": "the",
+"start": 357.77,
+"end": 357.869
+},
+{
+"text": "algorithm",
+"start": 357.889,
+"end": 358.289
+},
+{
+"text": "barely",
+"start": 358.39,
+"end": 358.61
+},
+{
+"text": "changes.",
+"start": 358.67,
+"end": 358.99
+},
+{
+"text": "Instead",
+"start": 359.11,
+"end": 359.33
+},
+{
+"text": "of",
+"start": 359.331,
+"end": 359.43
+},
+{
+"text": "scanning",
+"start": 359.45,
+"end": 359.77
+},
+{
+"text": "for",
+"start": 359.79,
+"end": 359.91
+},
+{
+"text": "the",
+"start": 359.911,
+"end": 360.03
+},
+{
+"text": "closest",
+"start": 360.05,
+"end": 360.391
+},
+{
+"text": "node,",
+"start": 360.431,
+"end": 360.651
+},
+{
+"text": "we",
+"start": 360.871,
+"end": 360.991
+},
+{
+"text": "just",
+"start": 361.011,
+"end": 361.171
+},
+{
+"text": "pop",
+"start": 361.251,
+"end": 361.471
+},
+{
+"text": "it",
+"start": 361.491,
+"end": 361.611
+},
+{
+"text": "off",
+"start": 361.631,
+"end": 361.751
+},
+{
+"text": "the",
+"start": 361.771,
+"end": 361.891
+},
+{
+"text": "heap.",
+"start": 361.911,
+"end": 362.132
+},
+{
+"text": "And",
+"start": 362.372,
+"end": 362.492
+},
+{
+"text": "whenever",
+"start": 362.493,
+"end": 362.792
+},
+{
+"text": "we",
+"start": 362.812,
+"end": 362.932
+},
+{
+"text": "find",
+"start": 362.992,
+"end": 363.212
+},
+{
+"text": "a",
+"start": 363.213,
+"end": 363.332
+},
+{
+"text": "better",
+"start": 363.372,
+"end": 363.572
+},
+{
+"text": "distance,",
+"start": 363.612,
+"end": 363.993
+},
+{
+"text": "we",
+"start": 364.113,
+"end": 364.233
+},
+{
+"text": "push",
+"start": 364.313,
+"end": 364.493
+},
+{
+"text": "the",
+"start": 364.494,
+"end": 364.613
+},
+{
+"text": "node",
+"start": 364.633,
+"end": 364.873
+},
+{
+"text": "onto",
+"start": 365.273,
+"end": 365.433
+},
+{
+"text": "the",
+"start": 365.434,
+"end": 365.553
+},
+{
+"text": "heap",
+"start": 365.593,
+"end": 365.774
+},
+{
+"text": "with",
+"start": 365.914,
+"end": 366.034
+},
+{
+"text": "its",
+"start": 366.074,
+"end": 366.214
+},
+{
+"text": "new",
+"start": 366.314,
+"end": 366.434
+},
+{
+"text": "distance.",
+"start": 366.494,
+"end": 366.894
+},
+{
+"text": "But",
+"start": 367.234,
+"end": 367.354
+},
+{
+"text": "there's",
+"start": 367.374,
+"end": 367.595
+},
+{
+"text": "one",
+"start": 367.655,
+"end": 367.775
+},
+{
+"text": "small",
+"start": 367.795,
+"end": 368.035
+},
+{
+"text": "thing",
+"start": 368.075,
+"end": 368.235
+},
+{
+"text": "here.",
+"start": 368.295,
+"end": 368.435
+},
+{
+"text": "A",
+"start": 368.775,
+"end": 368.895
+},
+{
+"text": "node",
+"start": 368.975,
+"end": 369.256
+},
+{
+"text": "can",
+"start": 369.316,
+"end": 369.436
+},
+{
+"text": "end",
+"start": 369.516,
+"end": 369.636
+},
+{
+"text": "up",
+"start": 369.656,
+"end": 369.776
+},
+{
+"text": "in",
+"start": 369.896,
+"end": 370.016
+},
+{
+"text": "the",
+"start": 370.017,
+"end": 370.116
+},
+{
+"text": "heap",
+"start": 370.176,
+"end": 370.396
+},
+{
+"text": "more",
+"start": 370.596,
+"end": 370.716
+},
+{
+"text": "than",
+"start": 370.717,
+"end": 370.856
+},
+{
+"text": "once.",
+"start": 370.916,
+"end": 371.117
+},
+{
+"text": "An",
+"start": 371.517,
+"end": 371.637
+},
+{
+"text": "old",
+"start": 371.697,
+"end": 371.837
+},
+{
+"text": "entry",
+"start": 371.937,
+"end": 372.177
+},
+{
+"text": "with",
+"start": 372.337,
+"end": 372.537
+},
+{
+"text": "a",
+"start": 372.677,
+"end": 372.797
+},
+{
+"text": "worse",
+"start": 372.998,
+"end": 373.238
+},
+{
+"text": "distance",
+"start": 373.258,
+"end": 373.678
+},
+{
+"text": "and",
+"start": 373.838,
+"end": 373.958
+},
+{
+"text": "a",
+"start": 373.959,
+"end": 374.078
+},
+{
+"text": "new",
+"start": 374.178,
+"end": 374.298
+},
+{
+"text": "one",
+"start": 374.398,
+"end": 374.518
+},
+{
+"text": "with",
+"start": 374.538,
+"end": 374.658
+},
+{
+"text": "a",
+"start": 374.659,
+"end": 374.739
+},
+{
+"text": "better",
+"start": 374.779,
+"end": 374.979
+},
+{
+"text": "distance.",
+"start": 375.019,
+"end": 375.439
+},
+{
+"text": "The",
+"start": 376.439,
+"end": 376.56
+},
+{
+"text": "better",
+"start": 376.6,
+"end": 376.82
+},
+{
+"text": "one",
+"start": 376.88,
+"end": 377.0
+},
+{
+"text": "comes",
+"start": 377.04,
+"end": 377.28
+},
+{
+"text": "out",
+"start": 377.3,
+"end": 377.44
+},
+{
+"text": "first,",
+"start": 377.48,
+"end": 377.78
+},
+{
+"text": "so",
+"start": 378.06,
+"end": 378.18
+},
+{
+"text": "when",
+"start": 378.521,
+"end": 378.641
+},
+{
+"text": "the",
+"start": 378.642,
+"end": 378.761
+},
+{
+"text": "old",
+"start": 378.841,
+"end": 378.981
+},
+{
+"text": "one",
+"start": 379.021,
+"end": 379.141
+},
+{
+"text": "comes",
+"start": 379.181,
+"end": 379.401
+},
+{
+"text": "out",
+"start": 379.421,
+"end": 379.541
+},
+{
+"text": "later,",
+"start": 379.601,
+"end": 379.921
+},
+{
+"text": "the",
+"start": 379.981,
+"end": 380.102
+},
+{
+"text": "node",
+"start": 380.162,
+"end": 380.402
+},
+{
+"text": "is",
+"start": 380.442,
+"end": 380.562
+},
+{
+"text": "already",
+"start": 380.563,
+"end": 380.822
+},
+{
+"text": "visited.",
+"start": 380.882,
+"end": 381.302
+},
+{
+"text": "And",
+"start": 381.662,
+"end": 381.782
+},
+{
+"text": "we",
+"start": 381.783,
+"end": 381.882
+},
+{
+"text": "just",
+"start": 381.903,
+"end": 382.043
+},
+{
+"text": "skip",
+"start": 382.063,
+"end": 382.263
+},
+{
+"text": "it.",
+"start": 382.303,
+"end": 382.423
+},
+{
+"text": "And",
+"start": 382.723,
+"end": 382.843
+},
+{
+"text": "now",
+"start": 382.863,
+"end": 383.003
+},
+{
+"text": "the",
+"start": 383.004,
+"end": 383.123
+},
+{
+"text": "same",
+"start": 383.203,
+"end": 383.383
+},
+{
+"text": "grid",
+"start": 383.443,
+"end": 383.663
+},
+{
+"text": "takes",
+"start": 383.744,
+"end": 384.004
+},
+{
+"text": "under",
+"start": 384.084,
+"end": 384.264
+},
+{
+"text": "a",
+"start": 384.284,
+"end": 384.384
+},
+{
+"text": "tenth",
+"start": 384.424,
+"end": 384.684
+},
+{
+"text": "of",
+"start": 384.724,
+"end": 384.844
+},
+{
+"text": "a",
+"start": 384.845,
+"end": 384.924
+},
+{
+"text": "second",
+"start": 384.944,
+"end": 385.244
+},
+{
+"text": "instead",
+"start": 385.324,
+"end": 385.565
+},
+{
+"text": "of",
+"start": 385.585,
+"end": 385.685
+},
+{
+"text": "50",
+"start": 385.705,
+"end": 385.905
+},
+{
+"text": "seconds.",
+"start": 385.965,
+"end": 386.285
+},
+{
+"text": "We",
+"start": 386.585,
+"end": 386.705
+},
+{
+"text": "get",
+"start": 386.765,
+"end": 386.885
+},
+{
+"text": "the",
+"start": 386.886,
+"end": 387.005
+},
+{
+"text": "same",
+"start": 387.025,
+"end": 387.186
+},
+{
+"text": "answer,",
+"start": 387.266,
+"end": 387.526
+},
+{
+"text": "769",
+"start": 387.527,
+"end": 388.426
+},
+{
+"text": "minutes,",
+"start": 388.446,
+"end": 388.706
+},
+{
+"text": "and",
+"start": 388.806,
+"end": 388.927
+},
+{
+"text": "the",
+"start": 388.928,
+"end": 389.027
+},
+{
+"text": "only",
+"start": 389.067,
+"end": 389.227
+},
+{
+"text": "thing",
+"start": 389.327,
+"end": 389.547
+},
+{
+"text": "that",
+"start": 389.707,
+"end": 389.847
+},
+{
+"text": "changed",
+"start": 389.927,
+"end": 390.287
+},
+{
+"text": "is",
+"start": 390.407,
+"end": 390.527
+},
+{
+"text": "how",
+"start": 390.588,
+"end": 390.748
+},
+{
+"text": "we",
+"start": 390.749,
+"end": 390.868
+},
+{
+"text": "find",
+"start": 390.928,
+"end": 391.188
+},
+{
+"text": "the",
+"start": 391.208,
+"end": 391.328
+},
+{
+"text": "closest",
+"start": 391.368,
+"end": 391.768
+},
+{
+"text": "node.",
+"start": 391.848,
+"end": 392.048
+},
+{
+"text": "So",
+"start": 392.349,
+"end": 392.469
+},
+{
+"text": "yeah,",
+"start": 392.529,
+"end": 392.649
+},
+{
+"text": "that's",
+"start": 392.709,
+"end": 392.909
+},
+{
+"text": "Dijkstra's",
+"start": 392.949,
+"end": 393.429
+},
+{
+"text": "algorithm.",
+"start": 393.549,
+"end": 394.01
+},
+{
+"text": "You",
+"start": 394.35,
+"end": 394.47
+},
+{
+"text": "turn",
+"start": 394.55,
+"end": 394.71
+},
+{
+"text": "the",
+"start": 394.711,
+"end": 394.83
+},
+{
+"text": "map",
+"start": 394.85,
+"end": 395.03
+},
+{
+"text": "into",
+"start": 395.17,
+"end": 395.33
+},
+{
+"text": "a",
+"start": 395.37,
+"end": 395.49
+},
+{
+"text": "weighted",
+"start": 395.51,
+"end": 395.771
+},
+{
+"text": "graph.",
+"start": 395.831,
+"end": 396.111
+},
+{
+"text": "You",
+"start": 396.431,
+"end": 396.551
+},
+{
+"text": "keep",
+"start": 396.971,
+"end": 397.151
+},
+{
+"text": "a",
+"start": 397.371,
+"end": 397.492
+},
+{
+"text": "table",
+"start": 397.512,
+"end": 397.772
+},
+{
+"text": "of",
+"start": 397.773,
+"end": 397.872
+},
+{
+"text": "the",
+"start": 397.873,
+"end": 397.992
+},
+{
+"text": "best",
+"start": 398.052,
+"end": 398.292
+},
+{
+"text": "known",
+"start": 398.332,
+"end": 398.512
+},
+{
+"text": "distances",
+"start": 398.632,
+"end": 399.333
+},
+{
+"text": "to",
+"start": 399.453,
+"end": 399.573
+},
+{
+"text": "every",
+"start": 399.653,
+"end": 399.813
+},
+{
+"text": "node,",
+"start": 399.873,
+"end": 400.113
+},
+{
+"text": "starting",
+"start": 400.413,
+"end": 400.713
+},
+{
+"text": "at",
+"start": 400.733,
+"end": 400.854
+},
+{
+"text": "infinity.",
+"start": 400.914,
+"end": 401.334
+},
+{
+"text": "Keep",
+"start": 402.535,
+"end": 402.735
+},
+{
+"text": "visiting",
+"start": 402.895,
+"end": 403.295
+},
+{
+"text": "the",
+"start": 403.296,
+"end": 403.415
+},
+{
+"text": "closest",
+"start": 403.435,
+"end": 403.795
+},
+{
+"text": "unvisited",
+"start": 403.875,
+"end": 404.336
+},
+{
+"text": "node",
+"start": 404.456,
+"end": 404.716
+},
+{
+"text": "and",
+"start": 405.076,
+"end": 405.196
+},
+{
+"text": "relaxing",
+"start": 405.256,
+"end": 405.716
+},
+{
+"text": "its",
+"start": 405.756,
+"end": 405.876
+},
+{
+"text": "roads.",
+"start": 405.936,
+"end": 406.217
+},
+{
+"text": "And",
+"start": 406.537,
+"end": 406.657
+},
+{
+"text": "track",
+"start": 406.697,
+"end": 406.937
+},
+{
+"text": "where",
+"start": 406.997,
+"end": 407.117
+},
+{
+"text": "you",
+"start": 407.118,
+"end": 407.217
+},
+{
+"text": "came",
+"start": 407.218,
+"end": 407.397
+},
+{
+"text": "from",
+"start": 407.417,
+"end": 407.617
+},
+{
+"text": "so",
+"start": 407.718,
+"end": 407.838
+},
+{
+"text": "you",
+"start": 407.878,
+"end": 407.998
+},
+{
+"text": "can",
+"start": 408.018,
+"end": 408.138
+},
+{
+"text": "rebuild",
+"start": 408.358,
+"end": 408.718
+},
+{
+"text": "the",
+"start": 408.738,
+"end": 408.858
+},
+{
+"text": "path.",
+"start": 408.878,
+"end": 409.098
+},
+{
+"text": "Then",
+"start": 409.495,
+"end": 409.635
+},
+{
+"text": "use",
+"start": 409.715,
+"end": 409.875
+},
+{
+"text": "a",
+"start": 409.915,
+"end": 410.035
+},
+{
+"text": "min-heap",
+"start": 410.295,
+"end": 410.715
+},
+{
+"text": "so",
+"start": 410.975,
+"end": 411.096
+},
+{
+"text": "finding",
+"start": 411.276,
+"end": 411.596
+},
+{
+"text": "the",
+"start": 411.597,
+"end": 411.716
+},
+{
+"text": "closest",
+"start": 411.736,
+"end": 412.116
+},
+{
+"text": "node",
+"start": 412.176,
+"end": 412.396
+},
+{
+"text": "is",
+"start": 412.736,
+"end": 412.857
+},
+{
+"text": "super",
+"start": 413.057,
+"end": 413.297
+},
+{
+"text": "fast.",
+"start": 413.337,
+"end": 413.577
+}
+]
+}
