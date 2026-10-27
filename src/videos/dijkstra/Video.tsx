@@ -464,7 +464,7 @@ const AdjacencyCard: React.FC<{at: number; twiceAt: number}> = ({at, twiceAt}) =
   const frame = useCurrentFrame();
   const rows = NODES.map((n) => ({n, out: ROADS.filter(([a, b]) => a === n || b === n).map(([a, b, w]) => ({to: a === n ? b : a, w}))}));
   return (
-    <div style={{width: 470, padding: '24px 26px', borderRadius: radius.card, background: color.card, boxShadow: shadow.card, display: 'flex', flexDirection: 'column', gap: 12}}>
+    <div style={{width: 420, padding: "22px 22px", borderRadius: radius.card, background: color.card, boxShadow: shadow.card, display: 'flex', flexDirection: 'column', gap: 12}}>
       <Eyebrow tone={color.inkMute}>adjacency list</Eyebrow>
       {rows.map((r, i) => (
         <div key={r.n} style={{display: 'flex', alignItems: 'center', gap: 14, opacity: tw(frame, stagger(at, i, 5), stagger(at, i, 5) + 10)}}>
@@ -491,13 +491,13 @@ const GraphCode: React.FC = () => {
     <AbsoluteFill>
       <SectionTag eyebrow="The idea" title="graph.ts" />
       <Center>
-        <Row gap={40} align="center">
+        <Row gap={30} align="center">
           <Enter at={0} preset="rise">
             <CodeWindow
               file={`${CODE}/graph.ts`}
               lines={[2, 13]}
               size={26}
-              maxWidth={1160}
+              maxWidth={1220}
               steps={[
                 {at: cue('adjacency list'), lines: [2, 2]},
                 {at: cue('both ways'), lines: [9, 10]},
