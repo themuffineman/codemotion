@@ -1,0 +1,2979 @@
+{
+ "words": [
+  {
+   "text": "Google",
+   "start": 0.06,
+   "end": 0.38
+  },
+  {
+   "text": "just",
+   "start": 0.44,
+   "end": 0.601
+  },
+  {
+   "text": "released",
+   "start": 0.641,
+   "end": 0.961
+  },
+  {
+   "text": "two",
+   "start": 1.021,
+   "end": 1.181
+  },
+  {
+   "text": "new",
+   "start": 1.241,
+   "end": 1.361
+  },
+  {
+   "text": "text-to-speech",
+   "start": 1.481,
+   "end": 2.062
+  },
+  {
+   "text": "models,",
+   "start": 2.102,
+   "end": 2.402
+  },
+  {
+   "text": "Gemini",
+   "start": 2.742,
+   "end": 3.063
+  },
+  {
+   "text": "3.8",
+   "start": 3.064,
+   "end": 3.623
+  },
+  {
+   "text": "Flash",
+   "start": 3.763,
+   "end": 4.063
+  },
+  {
+   "text": "TTS",
+   "start": 4.123,
+   "end": 4.564
+  },
+  {
+   "text": "and",
+   "start": 4.904,
+   "end": 5.024
+  },
+  {
+   "text": "Gemini",
+   "start": 5.104,
+   "end": 5.485
+  },
+  {
+   "text": "3.8",
+   "start": 5.505,
+   "end": 6.165
+  },
+  {
+   "text": "Flash",
+   "start": 6.245,
+   "end": 6.505
+  },
+  {
+   "text": "TTS",
+   "start": 6.525,
+   "end": 6.906
+  },
+  {
+   "text": "Lite.",
+   "start": 7.186,
+   "end": 7.466
+  },
+  {
+   "text": "And",
+   "start": 7.827,
+   "end": 7.947
+  },
+  {
+   "text": "you",
+   "start": 7.948,
+   "end": 8.027
+  },
+  {
+   "text": "can",
+   "start": 8.028,
+   "end": 8.127
+  },
+  {
+   "text": "use",
+   "start": 8.187,
+   "end": 8.307
+  },
+  {
+   "text": "both",
+   "start": 8.347,
+   "end": 8.507
+  },
+  {
+   "text": "of",
+   "start": 8.508,
+   "end": 8.607
+  },
+  {
+   "text": "them",
+   "start": 8.608,
+   "end": 8.727
+  },
+  {
+   "text": "on",
+   "start": 8.867,
+   "end": 8.988
+  },
+  {
+   "text": "OpenRouter.",
+   "start": 9.068,
+   "end": 9.548
+  },
+  {
+   "text": "Now,",
+   "start": 9.888,
+   "end": 10.008
+  },
+  {
+   "text": "I've",
+   "start": 10.028,
+   "end": 10.148
+  },
+  {
+   "text": "been",
+   "start": 10.149,
+   "end": 10.269
+  },
+  {
+   "text": "playing",
+   "start": 10.27,
+   "end": 10.469
+  },
+  {
+   "text": "with",
+   "start": 10.489,
+   "end": 10.589
+  },
+  {
+   "text": "them",
+   "start": 10.59,
+   "end": 10.709
+  },
+  {
+   "text": "a",
+   "start": 10.71,
+   "end": 10.809
+  },
+  {
+   "text": "bit,",
+   "start": 10.849,
+   "end": 11.029
+  },
+  {
+   "text": "and",
+   "start": 11.149,
+   "end": 11.269
+  },
+  {
+   "text": "honestly,",
+   "start": 11.309,
+   "end": 11.69
+  },
+  {
+   "text": "I",
+   "start": 12.01,
+   "end": 12.13
+  },
+  {
+   "text": "think",
+   "start": 12.17,
+   "end": 12.29
+  },
+  {
+   "text": "this",
+   "start": 12.291,
+   "end": 12.41
+  },
+  {
+   "text": "is",
+   "start": 12.43,
+   "end": 12.55
+  },
+  {
+   "text": "probably",
+   "start": 12.591,
+   "end": 12.831
+  },
+  {
+   "text": "the",
+   "start": 12.832,
+   "end": 12.931
+  },
+  {
+   "text": "most",
+   "start": 12.951,
+   "end": 13.131
+  },
+  {
+   "text": "realistic",
+   "start": 13.171,
+   "end": 13.651
+  },
+  {
+   "text": "text-to-speech",
+   "start": 13.771,
+   "end": 14.292
+  },
+  {
+   "text": "model",
+   "start": 14.332,
+   "end": 14.532
+  },
+  {
+   "text": "that's",
+   "start": 14.592,
+   "end": 14.732
+  },
+  {
+   "text": "out",
+   "start": 14.832,
+   "end": 14.952
+  },
+  {
+   "text": "there.",
+   "start": 14.993,
+   "end": 15.133
+  },
+  {
+   "text": "Now,",
+   "start": 15.473,
+   "end": 15.593
+  },
+  {
+   "text": "the",
+   "start": 15.594,
+   "end": 15.693
+  },
+  {
+   "text": "way",
+   "start": 15.694,
+   "end": 15.813
+  },
+  {
+   "text": "it",
+   "start": 15.814,
+   "end": 15.893
+  },
+  {
+   "text": "works",
+   "start": 15.913,
+   "end": 16.073
+  },
+  {
+   "text": "is",
+   "start": 16.074,
+   "end": 16.194
+  },
+  {
+   "text": "pretty",
+   "start": 16.214,
+   "end": 16.414
+  },
+  {
+   "text": "simple.",
+   "start": 16.434,
+   "end": 16.694
+  },
+  {
+   "text": "You",
+   "start": 16.874,
+   "end": 16.994
+  },
+  {
+   "text": "send",
+   "start": 16.995,
+   "end": 17.154
+  },
+  {
+   "text": "it",
+   "start": 17.155,
+   "end": 17.234
+  },
+  {
+   "text": "the",
+   "start": 17.235,
+   "end": 17.334
+  },
+  {
+   "text": "text",
+   "start": 17.374,
+   "end": 17.595
+  },
+  {
+   "text": "you",
+   "start": 17.596,
+   "end": 17.715
+  },
+  {
+   "text": "want",
+   "start": 17.716,
+   "end": 17.835
+  },
+  {
+   "text": "it",
+   "start": 17.836,
+   "end": 17.915
+  },
+  {
+   "text": "to",
+   "start": 17.916,
+   "end": 18.015
+  },
+  {
+   "text": "say,",
+   "start": 18.055,
+   "end": 18.215
+  },
+  {
+   "text": "you",
+   "start": 18.395,
+   "end": 18.515
+  },
+  {
+   "text": "pick",
+   "start": 18.555,
+   "end": 18.736
+  },
+  {
+   "text": "one",
+   "start": 18.816,
+   "end": 18.936
+  },
+  {
+   "text": "of",
+   "start": 18.937,
+   "end": 19.016
+  },
+  {
+   "text": "the",
+   "start": 19.017,
+   "end": 19.116
+  },
+  {
+   "text": "voices,",
+   "start": 19.136,
+   "end": 19.556
+  },
+  {
+   "text": "and",
+   "start": 19.897,
+   "end": 20.017
+  },
+  {
+   "text": "you",
+   "start": 20.018,
+   "end": 20.117
+  },
+  {
+   "text": "can",
+   "start": 20.137,
+   "end": 20.297
+  },
+  {
+   "text": "add",
+   "start": 20.497,
+   "end": 20.617
+  },
+  {
+   "text": "a",
+   "start": 20.618,
+   "end": 20.737
+  },
+  {
+   "text": "style",
+   "start": 20.777,
+   "end": 20.977
+  },
+  {
+   "text": "instruction,",
+   "start": 21.017,
+   "end": 21.418
+  },
+  {
+   "text": "which",
+   "start": 21.598,
+   "end": 21.738
+  },
+  {
+   "text": "is",
+   "start": 21.739,
+   "end": 21.858
+  },
+  {
+   "text": "just",
+   "start": 21.878,
+   "end": 22.038
+  },
+  {
+   "text": "a",
+   "start": 22.058,
+   "end": 22.158
+  },
+  {
+   "text": "sentence",
+   "start": 22.178,
+   "end": 22.579
+  },
+  {
+   "text": "describing",
+   "start": 22.639,
+   "end": 23.139
+  },
+  {
+   "text": "how",
+   "start": 23.219,
+   "end": 23.339
+  },
+  {
+   "text": "it",
+   "start": 23.359,
+   "end": 23.46
+  },
+  {
+   "text": "should",
+   "start": 23.461,
+   "end": 23.62
+  },
+  {
+   "text": "sound",
+   "start": 23.66,
+   "end": 23.84
+  },
+  {
+   "text": "like.",
+   "start": 23.88,
+   "end": 24.08
+  },
+  {
+   "text": "So,",
+   "start": 24.42,
+   "end": 24.54
+  },
+  {
+   "text": "like,",
+   "start": 24.641,
+   "end": 24.821
+  },
+  {
+   "text": "calm",
+   "start": 25.081,
+   "end": 25.421
+  },
+  {
+   "text": "or",
+   "start": 25.561,
+   "end": 25.681
+  },
+  {
+   "text": "excited",
+   "start": 25.682,
+   "end": 26.082
+  },
+  {
+   "text": "or",
+   "start": 26.202,
+   "end": 26.322
+  },
+  {
+   "text": "whispering.",
+   "start": 26.522,
+   "end": 26.902
+  },
+  {
+   "text": "And",
+   "start": 27.263,
+   "end": 27.383
+  },
+  {
+   "text": "you",
+   "start": 27.384,
+   "end": 27.443
+  },
+  {
+   "text": "can",
+   "start": 27.444,
+   "end": 27.543
+  },
+  {
+   "text": "also",
+   "start": 27.583,
+   "end": 27.723
+  },
+  {
+   "text": "put",
+   "start": 27.823,
+   "end": 27.963
+  },
+  {
+   "text": "little",
+   "start": 28.023,
+   "end": 28.223
+  },
+  {
+   "text": "tags.",
+   "start": 28.304,
+   "end": 28.604
+  },
+  {
+   "text": "with",
+   "start": 28.944,
+   "end": 29.064
+  },
+  {
+   "text": "angle",
+   "start": 29.124,
+   "end": 29.305
+  },
+  {
+   "text": "brackets",
+   "start": 29.325,
+   "end": 29.645
+  },
+  {
+   "text": "right",
+   "start": 29.745,
+   "end": 29.925
+  },
+  {
+   "text": "inside",
+   "start": 30.086,
+   "end": 30.366
+  },
+  {
+   "text": "the",
+   "start": 30.367,
+   "end": 30.466
+  },
+  {
+   "text": "text",
+   "start": 30.486,
+   "end": 30.726
+  },
+  {
+   "text": "to",
+   "start": 31.047,
+   "end": 31.167
+  },
+  {
+   "text": "change",
+   "start": 31.207,
+   "end": 31.467
+  },
+  {
+   "text": "the",
+   "start": 31.527,
+   "end": 31.648
+  },
+  {
+   "text": "emotion",
+   "start": 31.688,
+   "end": 32.068
+  },
+  {
+   "text": "halfway",
+   "start": 32.168,
+   "end": 32.529
+  },
+  {
+   "text": "through",
+   "start": 32.569,
+   "end": 32.729
+  },
+  {
+   "text": "a",
+   "start": 32.73,
+   "end": 32.809
+  },
+  {
+   "text": "sentence.",
+   "start": 32.829,
+   "end": 33.169
+  },
+  {
+   "text": "So",
+   "start": 33.35,
+   "end": 33.47
+  },
+  {
+   "text": "in",
+   "start": 33.471,
+   "end": 33.57
+  },
+  {
+   "text": "this",
+   "start": 33.571,
+   "end": 33.69
+  },
+  {
+   "text": "video",
+   "start": 33.71,
+   "end": 33.89
+  },
+  {
+   "text": "I'm",
+   "start": 33.891,
+   "end": 33.97
+  },
+  {
+   "text": "going",
+   "start": 33.971,
+   "end": 34.111
+  },
+  {
+   "text": "to",
+   "start": 34.112,
+   "end": 34.211
+  },
+  {
+   "text": "run",
+   "start": 34.231,
+   "end": 34.371
+  },
+  {
+   "text": "through",
+   "start": 34.431,
+   "end": 34.611
+  },
+  {
+   "text": "a",
+   "start": 34.612,
+   "end": 34.731
+  },
+  {
+   "text": "bunch",
+   "start": 34.831,
+   "end": 35.012
+  },
+  {
+   "text": "of",
+   "start": 35.013,
+   "end": 35.092
+  },
+  {
+   "text": "different",
+   "start": 35.112,
+   "end": 35.352
+  },
+  {
+   "text": "tests.",
+   "start": 35.372,
+   "end": 35.672
+  },
+  {
+   "text": "I'm",
+   "start": 35.673,
+   "end": 35.953
+  },
+  {
+   "text": "not",
+   "start": 35.954,
+   "end": 36.033
+  },
+  {
+   "text": "going",
+   "start": 36.034,
+   "end": 36.153
+  },
+  {
+   "text": "to",
+   "start": 36.154,
+   "end": 36.253
+  },
+  {
+   "text": "say",
+   "start": 36.293,
+   "end": 36.413
+  },
+  {
+   "text": "much.",
+   "start": 36.473,
+   "end": 36.694
+  },
+  {
+   "text": "I'll",
+   "start": 36.974,
+   "end": 37.114
+  },
+  {
+   "text": "just",
+   "start": 37.154,
+   "end": 37.314
+  },
+  {
+   "text": "tell",
+   "start": 37.435,
+   "end": 37.575
+  },
+  {
+   "text": "you",
+   "start": 37.595,
+   "end": 37.715
+  },
+  {
+   "text": "what",
+   "start": 37.735,
+   "end": 37.875
+  },
+  {
+   "text": "each",
+   "start": 38.035,
+   "end": 38.176
+  },
+  {
+   "text": "test",
+   "start": 38.256,
+   "end": 38.456
+  },
+  {
+   "text": "is",
+   "start": 38.556,
+   "end": 38.676
+  },
+  {
+   "text": "and",
+   "start": 38.776,
+   "end": 38.896
+  },
+  {
+   "text": "you",
+   "start": 38.897,
+   "end": 38.997
+  },
+  {
+   "text": "can",
+   "start": 38.998,
+   "end": 39.117
+  },
+  {
+   "text": "listen",
+   "start": 39.157,
+   "end": 39.417
+  },
+  {
+   "text": "and",
+   "start": 39.497,
+   "end": 39.617
+  },
+  {
+   "text": "decide",
+   "start": 39.618,
+   "end": 39.978
+  },
+  {
+   "text": "for",
+   "start": 39.979,
+   "end": 40.098
+  },
+  {
+   "text": "yourself",
+   "start": 40.099,
+   "end": 40.418
+  },
+  {
+   "text": "how",
+   "start": 40.759,
+   "end": 40.879
+  },
+  {
+   "text": "good",
+   "start": 40.959,
+   "end": 41.099
+  },
+  {
+   "text": "it",
+   "start": 41.139,
+   "end": 41.259
+  },
+  {
+   "text": "is.",
+   "start": 41.319,
+   "end": 41.46
+  },
+  {
+   "text": "Okay,",
+   "start": 41.78,
+   "end": 41.98
+  },
+  {
+   "text": "now",
+   "start": 42.361,
+   "end": 42.481
+  },
+  {
+   "text": "let's",
+   "start": 42.501,
+   "end": 42.661
+  },
+  {
+   "text": "start",
+   "start": 42.681,
+   "end": 42.821
+  },
+  {
+   "text": "with",
+   "start": 42.841,
+   "end": 42.961
+  },
+  {
+   "text": "something",
+   "start": 43.001,
+   "end": 43.282
+  },
+  {
+   "text": "simple.",
+   "start": 43.362,
+   "end": 43.662
+  },
+  {
+   "text": "A",
+   "start": 44.023,
+   "end": 44.143
+  },
+  {
+   "text": "calm",
+   "start": 44.403,
+   "end": 44.703
+  },
+  {
+   "text": "audiobook",
+   "start": 45.044,
+   "end": 45.384
+  },
+  {
+   "text": "narrator.",
+   "start": 45.444,
+   "end": 45.805
+  },
+  {
+   "text": "clip-01-narration",
+   "start": 46.555,
+   "end": 70.035
+  },
+  {
+   "text": "Okay,",
+   "start": 70.845,
+   "end": 71.066
+  },
+  {
+   "text": "next",
+   "start": 71.346,
+   "end": 71.646
+  },
+  {
+   "text": "a",
+   "start": 72.007,
+   "end": 72.127
+  },
+  {
+   "text": "news",
+   "start": 72.307,
+   "end": 72.527
+  },
+  {
+   "text": "anchor.",
+   "start": 72.627,
+   "end": 72.848
+  },
+  {
+   "text": "Let's",
+   "start": 73.204,
+   "end": 73.324
+  },
+  {
+   "text": "see",
+   "start": 73.325,
+   "end": 73.424
+  },
+  {
+   "text": "how",
+   "start": 73.425,
+   "end": 73.544
+  },
+  {
+   "text": "that",
+   "start": 73.564,
+   "end": 73.704
+  },
+  {
+   "text": "sounds.",
+   "start": 73.744,
+   "end": 73.985
+  },
+  {
+   "text": "clip-03-news",
+   "start": 74.735,
+   "end": 96.095
+  },
+  {
+   "text": "Now,",
+   "start": 96.905,
+   "end": 97.045
+  },
+  {
+   "text": "something",
+   "start": 97.185,
+   "end": 97.465
+  },
+  {
+   "text": "more",
+   "start": 97.505,
+   "end": 97.625
+  },
+  {
+   "text": "casual,",
+   "start": 97.645,
+   "end": 97.946
+  },
+  {
+   "text": "like",
+   "start": 98.106,
+   "end": 98.306
+  },
+  {
+   "text": "someone",
+   "start": 98.466,
+   "end": 98.746
+  },
+  {
+   "text": "telling",
+   "start": 98.786,
+   "end": 98.986
+  },
+  {
+   "text": "a",
+   "start": 98.987,
+   "end": 99.066
+  },
+  {
+   "text": "friend",
+   "start": 99.086,
+   "end": 99.287
+  },
+  {
+   "text": "a",
+   "start": 99.288,
+   "end": 99.367
+  },
+  {
+   "text": "story",
+   "start": 99.387,
+   "end": 99.667
+  },
+  {
+   "text": "with",
+   "start": 99.767,
+   "end": 99.927
+  },
+  {
+   "text": "ums",
+   "start": 100.247,
+   "end": 100.547
+  },
+  {
+   "text": "and",
+   "start": 100.888,
+   "end": 101.008
+  },
+  {
+   "text": "pauses",
+   "start": 101.048,
+   "end": 101.408
+  },
+  {
+   "text": "and",
+   "start": 101.428,
+   "end": 101.548
+  },
+  {
+   "text": "everything",
+   "start": 101.568,
+   "end": 101.868
+  },
+  {
+   "text": "else.",
+   "start": 101.908,
+   "end": 102.068
+  },
+  {
+   "text": "clip-02-casual",
+   "start": 102.818,
+   "end": 126.818
+  },
+  {
+   "text": "This",
+   "start": 127.609,
+   "end": 127.729
+  },
+  {
+   "text": "one",
+   "start": 127.769,
+   "end": 127.889
+  },
+  {
+   "text": "is",
+   "start": 127.89,
+   "end": 127.969
+  },
+  {
+   "text": "a",
+   "start": 127.97,
+   "end": 128.009
+  },
+  {
+   "text": "bit",
+   "start": 128.029,
+   "end": 128.169
+  },
+  {
+   "text": "harder.",
+   "start": 128.209,
+   "end": 128.429
+  },
+  {
+   "text": "It's",
+   "start": 128.789,
+   "end": 128.91
+  },
+  {
+   "text": "a",
+   "start": 128.93,
+   "end": 129.05
+  },
+  {
+   "text": "developer",
+   "start": 129.09,
+   "end": 129.47
+  },
+  {
+   "text": "explaining",
+   "start": 129.51,
+   "end": 129.85
+  },
+  {
+   "text": "something.",
+   "start": 129.89,
+   "end": 130.19
+  },
+  {
+   "text": "So",
+   "start": 130.23,
+   "end": 130.35
+  },
+  {
+   "text": "there's",
+   "start": 130.431,
+   "end": 130.591
+  },
+  {
+   "text": "commands,",
+   "start": 130.651,
+   "end": 131.111
+  },
+  {
+   "text": "a",
+   "start": 131.131,
+   "end": 131.251
+  },
+  {
+   "text": "URL,",
+   "start": 131.351,
+   "end": 131.591
+  },
+  {
+   "text": "prices,",
+   "start": 131.751,
+   "end": 132.192
+  },
+  {
+   "text": "a",
+   "start": 132.252,
+   "end": 132.372
+  },
+  {
+   "text": "version",
+   "start": 132.412,
+   "end": 132.652
+  },
+  {
+   "text": "number,",
+   "start": 132.672,
+   "end": 132.892
+  },
+  {
+   "text": "and",
+   "start": 132.972,
+   "end": 133.092
+  },
+  {
+   "text": "a",
+   "start": 133.093,
+   "end": 133.192
+  },
+  {
+   "text": "date.",
+   "start": 133.252,
+   "end": 133.533
+  },
+  {
+   "text": "It's",
+   "start": 133.853,
+   "end": 133.973
+  },
+  {
+   "text": "all",
+   "start": 133.993,
+   "end": 134.113
+  },
+  {
+   "text": "in",
+   "start": 134.114,
+   "end": 134.193
+  },
+  {
+   "text": "there.",
+   "start": 134.213,
+   "end": 134.373
+  },
+  {
+   "text": "clip-09-technical",
+   "start": 135.123,
+   "end": 155.643
+  },
+  {
+   "text": "Now,",
+   "start": 156.433,
+   "end": 156.554
+  },
+  {
+   "text": "this",
+   "start": 156.574,
+   "end": 156.694
+  },
+  {
+   "text": "is",
+   "start": 156.695,
+   "end": 156.814
+  },
+  {
+   "text": "a",
+   "start": 156.815,
+   "end": 156.854
+  },
+  {
+   "text": "fun",
+   "start": 156.874,
+   "end": 157.034
+  },
+  {
+   "text": "one.",
+   "start": 157.094,
+   "end": 157.214
+  },
+  {
+   "text": "Let's",
+   "start": 157.234,
+   "end": 157.374
+  },
+  {
+   "text": "see",
+   "start": 157.375,
+   "end": 157.494
+  },
+  {
+   "text": "how",
+   "start": 157.495,
+   "end": 157.614
+  },
+  {
+   "text": "it",
+   "start": 157.615,
+   "end": 157.714
+  },
+  {
+   "text": "does",
+   "start": 157.774,
+   "end": 158.014
+  },
+  {
+   "text": "with",
+   "start": 158.235,
+   "end": 158.395
+  },
+  {
+   "text": "a",
+   "start": 158.415,
+   "end": 158.535
+  },
+  {
+   "text": "quick",
+   "start": 158.735,
+   "end": 158.895
+  },
+  {
+   "text": "tongue",
+   "start": 159.035,
+   "end": 159.315
+  },
+  {
+   "text": "twister.",
+   "start": 159.335,
+   "end": 159.656
+  },
+  {
+   "text": "clip-10-tongue-twister",
+   "start": 160.406,
+   "end": 167.006
+  },
+  {
+   "text": "Now,",
+   "start": 167.796,
+   "end": 167.976
+  },
+  {
+   "text": "let's",
+   "start": 168.036,
+   "end": 168.236
+  },
+  {
+   "text": "try",
+   "start": 168.276,
+   "end": 168.456
+  },
+  {
+   "text": "emotion.",
+   "start": 168.556,
+   "end": 168.997
+  },
+  {
+   "text": "First,",
+   "start": 169.317,
+   "end": 169.597
+  },
+  {
+   "text": "someone",
+   "start": 169.917,
+   "end": 170.177
+  },
+  {
+   "text": "talking",
+   "start": 170.197,
+   "end": 170.438
+  },
+  {
+   "text": "about",
+   "start": 170.458,
+   "end": 170.678
+  },
+  {
+   "text": "losing",
+   "start": 170.738,
+   "end": 171.058
+  },
+  {
+   "text": "a",
+   "start": 171.078,
+   "end": 171.198
+  },
+  {
+   "text": "person",
+   "start": 171.238,
+   "end": 171.458
+  },
+  {
+   "text": "they",
+   "start": 171.459,
+   "end": 171.598
+  },
+  {
+   "text": "love.",
+   "start": 171.638,
+   "end": 172.139
+  },
+  {
+   "text": "clip-04-sad",
+   "start": 172.769,
+   "end": 195.529
+  },
+  {
+   "text": "Let's",
+   "start": 196.159,
+   "end": 196.279
+  },
+  {
+   "text": "see",
+   "start": 196.28,
+   "end": 196.379
+  },
+  {
+   "text": "how",
+   "start": 196.38,
+   "end": 196.479
+  },
+  {
+   "text": "it",
+   "start": 196.48,
+   "end": 196.579
+  },
+  {
+   "text": "sounds",
+   "start": 196.619,
+   "end": 196.919
+  },
+  {
+   "text": "like",
+   "start": 196.979,
+   "end": 197.26
+  },
+  {
+   "text": "if",
+   "start": 197.6,
+   "end": 197.72
+  },
+  {
+   "text": "it's",
+   "start": 197.721,
+   "end": 197.84
+  },
+  {
+   "text": "whispering",
+   "start": 197.9,
+   "end": 198.28
+  },
+  {
+   "text": "a",
+   "start": 198.281,
+   "end": 198.4
+  },
+  {
+   "text": "bedtime",
+   "start": 198.44,
+   "end": 198.741
+  },
+  {
+   "text": "story.",
+   "start": 198.781,
+   "end": 198.981
+  },
+  {
+   "text": "clip-07-whisper",
+   "start": 199.731,
+   "end": 223.371
+  },
+  {
+   "text": "Okay,",
+   "start": 224.181,
+   "end": 224.341
+  },
+  {
+   "text": "now",
+   "start": 224.401,
+   "end": 224.541
+  },
+  {
+   "text": "in",
+   "start": 224.581,
+   "end": 224.701
+  },
+  {
+   "text": "this",
+   "start": 224.721,
+   "end": 224.861
+  },
+  {
+   "text": "one,",
+   "start": 224.961,
+   "end": 225.082
+  },
+  {
+   "text": "it",
+   "start": 225.482,
+   "end": 225.602
+  },
+  {
+   "text": "has",
+   "start": 225.642,
+   "end": 225.802
+  },
+  {
+   "text": "to",
+   "start": 225.822,
+   "end": 225.942
+  },
+  {
+   "text": "laugh",
+   "start": 226.042,
+   "end": 226.422
+  },
+  {
+   "text": "while",
+   "start": 226.543,
+   "end": 226.763
+  },
+  {
+   "text": "it's",
+   "start": 226.843,
+   "end": 226.983
+  },
+  {
+   "text": "telling",
+   "start": 227.223,
+   "end": 227.463
+  },
+  {
+   "text": "a",
+   "start": 227.464,
+   "end": 227.543
+  },
+  {
+   "text": "story.",
+   "start": 227.563,
+   "end": 227.763
+  },
+  {
+   "text": "It's",
+   "start": 227.884,
+   "end": 228.425
+  },
+  {
+   "text": "really",
+   "start": 228.485,
+   "end": 228.645
+  },
+  {
+   "text": "fascinating",
+   "start": 228.725,
+   "end": 229.186
+  },
+  {
+   "text": "if",
+   "start": 229.187,
+   "end": 229.306
+  },
+  {
+   "text": "you",
+   "start": 229.307,
+   "end": 229.406
+  },
+  {
+   "text": "hear",
+   "start": 229.426,
+   "end": 229.666
+  },
+  {
+   "text": "it.",
+   "start": 229.667,
+   "end": 229.786
+  },
+  {
+   "text": "clip-08-laugh",
+   "start": 230.536,
+   "end": 249.176
+  },
+  {
+   "text": "Okay,",
+   "start": 249.967,
+   "end": 250.127
+  },
+  {
+   "text": "now",
+   "start": 250.167,
+   "end": 250.287
+  },
+  {
+   "text": "this",
+   "start": 250.327,
+   "end": 250.467
+  },
+  {
+   "text": "one",
+   "start": 250.547,
+   "end": 250.687
+  },
+  {
+   "text": "is",
+   "start": 250.808,
+   "end": 250.928
+  },
+  {
+   "text": "an",
+   "start": 250.968,
+   "end": 251.088
+  },
+  {
+   "text": "angry",
+   "start": 251.128,
+   "end": 251.328
+  },
+  {
+   "text": "customer",
+   "start": 251.388,
+   "end": 251.809
+  },
+  {
+   "text": "on",
+   "start": 251.929,
+   "end": 252.049
+  },
+  {
+   "text": "the",
+   "start": 252.05,
+   "end": 252.129
+  },
+  {
+   "text": "phone.",
+   "start": 252.149,
+   "end": 252.349
+  },
+  {
+   "text": "clip-06-angry",
+   "start": 253.099,
+   "end": 272.419
+  },
+  {
+   "text": "And",
+   "start": 273.21,
+   "end": 273.33
+  },
+  {
+   "text": "this",
+   "start": 273.331,
+   "end": 273.45
+  },
+  {
+   "text": "one",
+   "start": 273.49,
+   "end": 273.61
+  },
+  {
+   "text": "is",
+   "start": 273.611,
+   "end": 273.69
+  },
+  {
+   "text": "a",
+   "start": 273.691,
+   "end": 273.77
+  },
+  {
+   "text": "football",
+   "start": 273.81,
+   "end": 274.151
+  },
+  {
+   "text": "commentator",
+   "start": 274.191,
+   "end": 274.731
+  },
+  {
+   "text": "when",
+   "start": 275.052,
+   "end": 275.192
+  },
+  {
+   "text": "the",
+   "start": 275.352,
+   "end": 275.472
+  },
+  {
+   "text": "winning",
+   "start": 275.512,
+   "end": 275.753
+  },
+  {
+   "text": "goal",
+   "start": 275.793,
+   "end": 275.913
+  },
+  {
+   "text": "goes",
+   "start": 275.993,
+   "end": 276.193
+  },
+  {
+   "text": "in.",
+   "start": 276.233,
+   "end": 276.353
+  },
+  {
+   "text": "clip-05-hype",
+   "start": 277.103,
+   "end": 290.423
+  },
+  {
+   "text": "Now",
+   "start": 291.214,
+   "end": 291.354
+  },
+  {
+   "text": "this",
+   "start": 291.414,
+   "end": 291.554
+  },
+  {
+   "text": "next",
+   "start": 291.594,
+   "end": 291.774
+  },
+  {
+   "text": "one",
+   "start": 291.834,
+   "end": 291.954
+  },
+  {
+   "text": "is",
+   "start": 292.015,
+   "end": 292.135
+  },
+  {
+   "text": "the",
+   "start": 292.136,
+   "end": 292.255
+  },
+  {
+   "text": "same",
+   "start": 292.315,
+   "end": 292.475
+  },
+  {
+   "text": "sentence",
+   "start": 292.515,
+   "end": 292.835
+  },
+  {
+   "text": "three",
+   "start": 292.855,
+   "end": 293.036
+  },
+  {
+   "text": "times.",
+   "start": 293.056,
+   "end": 293.316
+  },
+  {
+   "text": "And",
+   "start": 293.636,
+   "end": 293.817
+  },
+  {
+   "text": "the",
+   "start": 293.818,
+   "end": 293.937
+  },
+  {
+   "text": "only",
+   "start": 293.957,
+   "end": 294.117
+  },
+  {
+   "text": "thing",
+   "start": 294.157,
+   "end": 294.297
+  },
+  {
+   "text": "I",
+   "start": 294.317,
+   "end": 294.437
+  },
+  {
+   "text": "changed",
+   "start": 294.457,
+   "end": 294.798
+  },
+  {
+   "text": "is",
+   "start": 294.898,
+   "end": 295.018
+  },
+  {
+   "text": "the",
+   "start": 295.019,
+   "end": 295.138
+  },
+  {
+   "text": "style",
+   "start": 295.198,
+   "end": 295.478
+  },
+  {
+   "text": "instruction.",
+   "start": 295.518,
+   "end": 295.959
+  },
+  {
+   "text": "So",
+   "start": 296.339,
+   "end": 296.46
+  },
+  {
+   "text": "happy,",
+   "start": 296.8,
+   "end": 297.06
+  },
+  {
+   "text": "then",
+   "start": 297.3,
+   "end": 297.441
+  },
+  {
+   "text": "suspicious,",
+   "start": 297.501,
+   "end": 298.021
+  },
+  {
+   "text": "then",
+   "start": 298.101,
+   "end": 298.222
+  },
+  {
+   "text": "terrified.",
+   "start": 298.282,
+   "end": 298.722
+  },
+  {
+   "text": "clip-13-same-text-styles-a-happy",
+   "start": 299.472,
+   "end": 302.592
+  },
+  {
+   "text": "clip-13-same-text-styles-b-suspicious",
+   "start": 303.392,
+   "end": 307.432
+  },
+  {
+   "text": "clip-13-same-text-styles-c-terrified",
+   "start": 308.232,
+   "end": 311.072
+  },
+  {
+   "text": "Now",
+   "start": 311.862,
+   "end": 312.023
+  },
+  {
+   "text": "let's",
+   "start": 312.063,
+   "end": 312.263
+  },
+  {
+   "text": "try",
+   "start": 312.343,
+   "end": 312.523
+  },
+  {
+   "text": "the",
+   "start": 312.524,
+   "end": 312.643
+  },
+  {
+   "text": "angle",
+   "start": 312.683,
+   "end": 312.884
+  },
+  {
+   "text": "bracket",
+   "start": 312.924,
+   "end": 313.204
+  },
+  {
+   "text": "tags.",
+   "start": 313.244,
+   "end": 313.504
+  },
+  {
+   "text": "So",
+   "start": 313.845,
+   "end": 313.965
+  },
+  {
+   "text": "with",
+   "start": 314.185,
+   "end": 314.305
+  },
+  {
+   "text": "this",
+   "start": 314.306,
+   "end": 314.445
+  },
+  {
+   "text": "one,",
+   "start": 314.505,
+   "end": 314.626
+  },
+  {
+   "text": "there's",
+   "start": 314.726,
+   "end": 314.926
+  },
+  {
+   "text": "really",
+   "start": 314.986,
+   "end": 315.166
+  },
+  {
+   "text": "no",
+   "start": 315.206,
+   "end": 315.326
+  },
+  {
+   "text": "style",
+   "start": 315.667,
+   "end": 315.927
+  },
+  {
+   "text": "instruction",
+   "start": 315.947,
+   "end": 316.388
+  },
+  {
+   "text": "here.",
+   "start": 316.428,
+   "end": 316.588
+  },
+  {
+   "text": "the",
+   "start": 316.768,
+   "end": 316.888
+  },
+  {
+   "text": "emotions",
+   "start": 316.928,
+   "end": 317.308
+  },
+  {
+   "text": "only",
+   "start": 317.348,
+   "end": 317.509
+  },
+  {
+   "text": "come",
+   "start": 317.609,
+   "end": 317.809
+  },
+  {
+   "text": "off",
+   "start": 317.889,
+   "end": 318.009
+  },
+  {
+   "text": "the",
+   "start": 318.109,
+   "end": 318.229
+  },
+  {
+   "text": "tags",
+   "start": 318.309,
+   "end": 318.609
+  },
+  {
+   "text": "in",
+   "start": 318.629,
+   "end": 318.749
+  },
+  {
+   "text": "the",
+   "start": 318.75,
+   "end": 318.849
+  },
+  {
+   "text": "text.",
+   "start": 318.889,
+   "end": 319.15
+  },
+  {
+   "text": "clip-16-inline-angle",
+   "start": 319.9,
+   "end": 335.5
+  },
+  {
+   "text": "And",
+   "start": 336.29,
+   "end": 336.41
+  },
+  {
+   "text": "in",
+   "start": 336.411,
+   "end": 336.53
+  },
+  {
+   "text": "this",
+   "start": 336.55,
+   "end": 336.67
+  },
+  {
+   "text": "one,",
+   "start": 336.75,
+   "end": 336.87
+  },
+  {
+   "text": "I",
+   "start": 336.97,
+   "end": 337.09
+  },
+  {
+   "text": "put",
+   "start": 337.11,
+   "end": 337.23
+  },
+  {
+   "text": "the",
+   "start": 337.231,
+   "end": 337.35
+  },
+  {
+   "text": "tags",
+   "start": 337.39,
+   "end": 337.651
+  },
+  {
+   "text": "that",
+   "start": 337.691,
+   "end": 337.811
+  },
+  {
+   "text": "don't",
+   "start": 337.851,
+   "end": 337.991
+  },
+  {
+   "text": "really",
+   "start": 337.992,
+   "end": 338.171
+  },
+  {
+   "text": "fit",
+   "start": 338.291,
+   "end": 338.451
+  },
+  {
+   "text": "the",
+   "start": 338.452,
+   "end": 338.571
+  },
+  {
+   "text": "words",
+   "start": 338.611,
+   "end": 338.851
+  },
+  {
+   "text": "to",
+   "start": 338.911,
+   "end": 339.032
+  },
+  {
+   "text": "see",
+   "start": 339.112,
+   "end": 339.272
+  },
+  {
+   "text": "how",
+   "start": 339.372,
+   "end": 339.512
+  },
+  {
+   "text": "it",
+   "start": 339.532,
+   "end": 339.652
+  },
+  {
+   "text": "follows",
+   "start": 339.692,
+   "end": 339.952
+  },
+  {
+   "text": "them",
+   "start": 339.972,
+   "end": 340.092
+  },
+  {
+   "text": "anyway.",
+   "start": 340.192,
+   "end": 340.472
+  },
+  {
+   "text": "clip-18-angle-mismatch",
+   "start": 341.222,
+   "end": 355.782
+  },
+  {
+   "text": "You",
+   "start": 356.593,
+   "end": 356.713
+  },
+  {
+   "text": "can",
+   "start": 356.714,
+   "end": 356.813
+  },
+  {
+   "text": "also",
+   "start": 356.833,
+   "end": 356.993
+  },
+  {
+   "text": "give",
+   "start": 357.053,
+   "end": 357.193
+  },
+  {
+   "text": "it",
+   "start": 357.194,
+   "end": 357.313
+  },
+  {
+   "text": "a",
+   "start": 357.373,
+   "end": 357.493
+  },
+  {
+   "text": "conversation",
+   "start": 357.693,
+   "end": 358.234
+  },
+  {
+   "text": "with",
+   "start": 358.254,
+   "end": 358.374
+  },
+  {
+   "text": "two",
+   "start": 358.434,
+   "end": 358.554
+  },
+  {
+   "text": "different",
+   "start": 358.594,
+   "end": 358.834
+  },
+  {
+   "text": "voices",
+   "start": 358.854,
+   "end": 359.194
+  },
+  {
+   "text": "and",
+   "start": 359.334,
+   "end": 359.555
+  },
+  {
+   "text": "it",
+   "start": 359.895,
+   "end": 360.015
+  },
+  {
+   "text": "does",
+   "start": 360.035,
+   "end": 360.195
+  },
+  {
+   "text": "it",
+   "start": 360.196,
+   "end": 360.315
+  },
+  {
+   "text": "all",
+   "start": 360.435,
+   "end": 360.555
+  },
+  {
+   "text": "in",
+   "start": 360.556,
+   "end": 360.675
+  },
+  {
+   "text": "one",
+   "start": 360.715,
+   "end": 360.835
+  },
+  {
+   "text": "go.",
+   "start": 360.836,
+   "end": 360.956
+  },
+  {
+   "text": "Here's",
+   "start": 360.996,
+   "end": 361.616
+  },
+  {
+   "text": "a",
+   "start": 361.617,
+   "end": 361.716
+  },
+  {
+   "text": "short",
+   "start": 361.736,
+   "end": 361.916
+  },
+  {
+   "text": "podcast",
+   "start": 361.976,
+   "end": 362.376
+  },
+  {
+   "text": "style",
+   "start": 362.396,
+   "end": 362.677
+  },
+  {
+   "text": "chat",
+   "start": 363.037,
+   "end": 363.217
+  },
+  {
+   "text": "you",
+   "start": 363.557,
+   "end": 363.677
+  },
+  {
+   "text": "can",
+   "start": 363.678,
+   "end": 363.817
+  },
+  {
+   "text": "see.",
+   "start": 363.897,
+   "end": 364.037
+  },
+  {
+   "text": "clip-11-dialogue",
+   "start": 364.787,
+   "end": 382.467
+  },
+  {
+   "text": "This",
+   "start": 383.258,
+   "end": 383.378
+  },
+  {
+   "text": "model",
+   "start": 383.438,
+   "end": 383.658
+  },
+  {
+   "text": "also",
+   "start": 383.758,
+   "end": 383.918
+  },
+  {
+   "text": "speaks",
+   "start": 383.998,
+   "end": 384.298
+  },
+  {
+   "text": "a",
+   "start": 384.299,
+   "end": 384.398
+  },
+  {
+   "text": "lot",
+   "start": 384.418,
+   "end": 384.539
+  },
+  {
+   "text": "of",
+   "start": 384.54,
+   "end": 384.639
+  },
+  {
+   "text": "languages.",
+   "start": 384.659,
+   "end": 385.139
+  },
+  {
+   "text": "So",
+   "start": 385.379,
+   "end": 385.499
+  },
+  {
+   "text": "here's",
+   "start": 385.579,
+   "end": 385.739
+  },
+  {
+   "text": "the",
+   "start": 385.74,
+   "end": 385.859
+  },
+  {
+   "text": "same",
+   "start": 385.899,
+   "end": 386.08
+  },
+  {
+   "text": "text",
+   "start": 386.14,
+   "end": 386.36
+  },
+  {
+   "text": "in",
+   "start": 386.4,
+   "end": 386.52
+  },
+  {
+   "text": "Spanish,",
+   "start": 386.58,
+   "end": 386.94
+  },
+  {
+   "text": "French,",
+   "start": 387.02,
+   "end": 387.32
+  },
+  {
+   "text": "German,",
+   "start": 387.42,
+   "end": 387.701
+  },
+  {
+   "text": "Portuguese,",
+   "start": 387.761,
+   "end": 388.221
+  },
+  {
+   "text": "Japanese,",
+   "start": 388.341,
+   "end": 388.781
+  },
+  {
+   "text": "Korean,",
+   "start": 388.821,
+   "end": 389.141
+  },
+  {
+   "text": "Mandarin",
+   "start": 389.182,
+   "end": 389.582
+  },
+  {
+   "text": "and",
+   "start": 389.583,
+   "end": 389.702
+  },
+  {
+   "text": "Hindi.",
+   "start": 389.742,
+   "end": 389.982
+  },
+  {
+   "text": "clip-12-languages-spanish",
+   "start": 390.732,
+   "end": 400.092
+  },
+  {
+   "text": "clip-12-languages-french",
+   "start": 400.892,
+   "end": 411.092
+  },
+  {
+   "text": "clip-12-languages-german",
+   "start": 411.892,
+   "end": 421.732
+  },
+  {
+   "text": "clip-12-languages-portuguese",
+   "start": 422.532,
+   "end": 431.572
+  },
+  {
+   "text": "clip-12-languages-japanese",
+   "start": 432.372,
+   "end": 443.732
+  },
+  {
+   "text": "clip-12-languages-korean",
+   "start": 444.532,
+   "end": 456.412
+  },
+  {
+   "text": "clip-12-languages-mandarin",
+   "start": 457.212,
+   "end": 466.692
+  },
+  {
+   "text": "clip-12-languages-hindi",
+   "start": 467.492,
+   "end": 477.572
+  },
+  {
+   "text": "And",
+   "start": 478.362,
+   "end": 478.482
+  },
+  {
+   "text": "here's",
+   "start": 478.542,
+   "end": 478.742
+  },
+  {
+   "text": "the",
+   "start": 478.743,
+   "end": 478.863
+  },
+  {
+   "text": "same",
+   "start": 478.903,
+   "end": 479.083
+  },
+  {
+   "text": "English",
+   "start": 479.203,
+   "end": 479.443
+  },
+  {
+   "text": "sentence",
+   "start": 479.483,
+   "end": 479.863
+  },
+  {
+   "text": "in",
+   "start": 480.023,
+   "end": 480.143
+  },
+  {
+   "text": "different",
+   "start": 480.183,
+   "end": 480.464
+  },
+  {
+   "text": "accents.",
+   "start": 480.524,
+   "end": 480.884
+  },
+  {
+   "text": "It's",
+   "start": 481.248,
+   "end": 481.368
+  },
+  {
+   "text": "the",
+   "start": 481.369,
+   "end": 481.448
+  },
+  {
+   "text": "same",
+   "start": 481.468,
+   "end": 481.649
+  },
+  {
+   "text": "voice",
+   "start": 481.689,
+   "end": 481.949
+  },
+  {
+   "text": "every",
+   "start": 482.069,
+   "end": 482.229
+  },
+  {
+   "text": "time.",
+   "start": 482.269,
+   "end": 482.509
+  },
+  {
+   "text": "The",
+   "start": 482.689,
+   "end": 482.809
+  },
+  {
+   "text": "only",
+   "start": 482.849,
+   "end": 483.01
+  },
+  {
+   "text": "thing",
+   "start": 483.09,
+   "end": 483.23
+  },
+  {
+   "text": "that",
+   "start": 483.25,
+   "end": 483.37
+  },
+  {
+   "text": "changes",
+   "start": 483.39,
+   "end": 483.69
+  },
+  {
+   "text": "is",
+   "start": 483.83,
+   "end": 483.95
+  },
+  {
+   "text": "the",
+   "start": 483.97,
+   "end": 484.09
+  },
+  {
+   "text": "instruction.",
+   "start": 484.13,
+   "end": 484.651
+  },
+  {
+   "text": "clip-17-accents-british",
+   "start": 485.401,
+   "end": 497.321
+  },
+  {
+   "text": "clip-17-accents-scottish",
+   "start": 498.121,
+   "end": 509.481
+  },
+  {
+   "text": "clip-17-accents-irish",
+   "start": 510.281,
+   "end": 521.041
+  },
+  {
+   "text": "clip-17-accents-australian",
+   "start": 521.841,
+   "end": 533.521
+  },
+  {
+   "text": "clip-17-accents-indian",
+   "start": 534.321,
+   "end": 547.041
+  },
+  {
+   "text": "clip-17-accents-southern-us",
+   "start": 547.841,
+   "end": 560.801
+  },
+  {
+   "text": "clip-17-accents-nigerian",
+   "start": 561.601,
+   "end": 573.521
+  },
+  {
+   "text": "Now,",
+   "start": 574.311,
+   "end": 574.451
+  },
+  {
+   "text": "the",
+   "start": 574.511,
+   "end": 574.631
+  },
+  {
+   "text": "last",
+   "start": 574.671,
+   "end": 574.872
+  },
+  {
+   "text": "one.",
+   "start": 574.932,
+   "end": 575.052
+  },
+  {
+   "text": "Here's",
+   "start": 575.132,
+   "end": 575.312
+  },
+  {
+   "text": "the",
+   "start": 575.313,
+   "end": 575.432
+  },
+  {
+   "text": "same",
+   "start": 575.452,
+   "end": 575.632
+  },
+  {
+   "text": "text",
+   "start": 575.692,
+   "end": 575.952
+  },
+  {
+   "text": "on",
+   "start": 576.293,
+   "end": 576.413
+  },
+  {
+   "text": "the",
+   "start": 576.433,
+   "end": 576.553
+  },
+  {
+   "text": "Flash",
+   "start": 576.593,
+   "end": 576.853
+  },
+  {
+   "text": "model",
+   "start": 576.893,
+   "end": 577.113
+  },
+  {
+   "text": "and",
+   "start": 577.434,
+   "end": 577.554
+  },
+  {
+   "text": "then",
+   "start": 577.555,
+   "end": 577.674
+  },
+  {
+   "text": "on",
+   "start": 577.694,
+   "end": 577.814
+  },
+  {
+   "text": "the",
+   "start": 577.815,
+   "end": 577.914
+  },
+  {
+   "text": "cheaper",
+   "start": 577.954,
+   "end": 578.234
+  },
+  {
+   "text": "Lite",
+   "start": 578.274,
+   "end": 578.475
+  },
+  {
+   "text": "model.",
+   "start": 578.495,
+   "end": 578.695
+  },
+  {
+   "text": "clip-14-flash-vs-lite-gemini-3.8-flash-tts",
+   "start": 579.445,
+   "end": 591.645
+  },
+  {
+   "text": "clip-14-flash-vs-lite-gemini-3.8-flash-lite-tts",
+   "start": 592.445,
+   "end": 605.325
+  },
+  {
+   "text": "Yeah,",
+   "start": 606.115,
+   "end": 606.255
+  },
+  {
+   "text": "so",
+   "start": 606.256,
+   "end": 606.375
+  },
+  {
+   "text": "that's",
+   "start": 606.395,
+   "end": 606.575
+  },
+  {
+   "text": "Gemini's",
+   "start": 606.635,
+   "end": 607.116
+  },
+  {
+   "text": "new",
+   "start": 607.196,
+   "end": 607.356
+  },
+  {
+   "text": "text-to-speech.",
+   "start": 607.476,
+   "end": 608.057
+  },
+  {
+   "text": "Let",
+   "start": 608.397,
+   "end": 608.517
+  },
+  {
+   "text": "me",
+   "start": 608.518,
+   "end": 608.577
+  },
+  {
+   "text": "know",
+   "start": 608.578,
+   "end": 608.677
+  },
+  {
+   "text": "in",
+   "start": 608.678,
+   "end": 608.717
+  },
+  {
+   "text": "the",
+   "start": 608.718,
+   "end": 608.817
+  },
+  {
+   "text": "comments",
+   "start": 608.837,
+   "end": 609.117
+  },
+  {
+   "text": "which",
+   "start": 609.137,
+   "end": 609.318
+  },
+  {
+   "text": "one",
+   "start": 609.338,
+   "end": 609.458
+  },
+  {
+   "text": "surprised",
+   "start": 609.798,
+   "end": 610.198
+  },
+  {
+   "text": "you",
+   "start": 610.218,
+   "end": 610.338
+  },
+  {
+   "text": "the",
+   "start": 610.339,
+   "end": 610.418
+  },
+  {
+   "text": "most",
+   "start": 610.438,
+   "end": 610.699
+  },
+  {
+   "text": "and",
+   "start": 610.779,
+   "end": 610.899
+  },
+  {
+   "text": "which",
+   "start": 610.9,
+   "end": 611.059
+  },
+  {
+   "text": "one",
+   "start": 611.06,
+   "end": 611.179
+  },
+  {
+   "text": "you",
+   "start": 611.18,
+   "end": 611.259
+  },
+  {
+   "text": "think",
+   "start": 611.279,
+   "end": 611.439
+  },
+  {
+   "text": "gives",
+   "start": 611.539,
+   "end": 611.699
+  },
+  {
+   "text": "it",
+   "start": 611.7,
+   "end": 611.82
+  },
+  {
+   "text": "away",
+   "start": 611.84,
+   "end": 612.06
+  },
+  {
+   "text": "as",
+   "start": 612.14,
+   "end": 612.26
+  },
+  {
+   "text": "AI.",
+   "start": 612.36,
+   "end": 612.64
+  },
+  {
+   "text": "But",
+   "start": 613.02,
+   "end": 613.141
+  },
+  {
+   "text": "for",
+   "start": 613.161,
+   "end": 613.281
+  },
+  {
+   "text": "me",
+   "start": 613.282,
+   "end": 613.401
+  },
+  {
+   "text": "personally,",
+   "start": 613.421,
+   "end": 613.801
+  },
+  {
+   "text": "I",
+   "start": 613.802,
+   "end": 613.861
+  },
+  {
+   "text": "think",
+   "start": 613.862,
+   "end": 613.981
+  },
+  {
+   "text": "this",
+   "start": 614.001,
+   "end": 614.121
+  },
+  {
+   "text": "is",
+   "start": 614.141,
+   "end": 614.261
+  },
+  {
+   "text": "by",
+   "start": 614.602,
+   "end": 614.742
+  },
+  {
+   "text": "far",
+   "start": 614.782,
+   "end": 615.022
+  },
+  {
+   "text": "the",
+   "start": 615.382,
+   "end": 615.502
+  },
+  {
+   "text": "best",
+   "start": 615.603,
+   "end": 615.863
+  },
+  {
+   "text": "text-to-speech",
+   "start": 616.203,
+   "end": 616.683
+  },
+  {
+   "text": "model",
+   "start": 616.703,
+   "end": 616.904
+  },
+  {
+   "text": "that's",
+   "start": 616.924,
+   "end": 617.064
+  },
+  {
+   "text": "out",
+   "start": 617.144,
+   "end": 617.284
+  },
+  {
+   "text": "there",
+   "start": 617.384,
+   "end": 617.544
+  },
+  {
+   "text": "right",
+   "start": 617.764,
+   "end": 617.904
+  },
+  {
+   "text": "now.",
+   "start": 617.944,
+   "end": 618.085
+  },
+  {
+   "text": "Or",
+   "start": 618.445,
+   "end": 618.565
+  },
+  {
+   "text": "at",
+   "start": 618.585,
+   "end": 618.705
+  },
+  {
+   "text": "least",
+   "start": 618.745,
+   "end": 618.945
+  },
+  {
+   "text": "that",
+   "start": 618.985,
+   "end": 619.105
+  },
+  {
+   "text": "I've",
+   "start": 619.106,
+   "end": 619.245
+  },
+  {
+   "text": "come",
+   "start": 619.286,
+   "end": 619.426
+  },
+  {
+   "text": "across",
+   "start": 619.466,
+   "end": 619.826
+  },
+  {
+   "text": "for",
+   "start": 620.146,
+   "end": 620.266
+  },
+  {
+   "text": "this",
+   "start": 620.306,
+   "end": 620.426
+  },
+  {
+   "text": "price.",
+   "start": 620.466,
+   "end": 620.747
+  },
+  {
+   "text": "But",
+   "start": 621.107,
+   "end": 621.247
+  },
+  {
+   "text": "let",
+   "start": 621.248,
+   "end": 621.367
+  },
+  {
+   "text": "me",
+   "start": 621.368,
+   "end": 621.467
+  },
+  {
+   "text": "know",
+   "start": 621.487,
+   "end": 621.607
+  },
+  {
+   "text": "if",
+   "start": 621.667,
+   "end": 621.788
+  },
+  {
+   "text": "you",
+   "start": 621.789,
+   "end": 621.868
+  },
+  {
+   "text": "have",
+   "start": 621.869,
+   "end": 621.988
+  },
+  {
+   "text": "any",
+   "start": 622.048,
+   "end": 622.188
+  },
+  {
+   "text": "other",
+   "start": 622.348,
+   "end": 622.528
+  },
+  {
+   "text": "models",
+   "start": 622.868,
+   "end": 623.209
+  },
+  {
+   "text": "that",
+   "start": 623.309,
+   "end": 623.429
+  },
+  {
+   "text": "you",
+   "start": 623.449,
+   "end": 623.569
+  },
+  {
+   "text": "think",
+   "start": 623.609,
+   "end": 623.829
+  },
+  {
+   "text": "could",
+   "start": 624.27,
+   "end": 624.45
+  },
+  {
+   "text": "overthrow",
+   "start": 624.79,
+   "end": 625.13
+  },
+  {
+   "text": "Gemini.",
+   "start": 625.19,
+   "end": 625.531
+  },
+  {
+   "text": "Please",
+   "start": 625.831,
+   "end": 626.031
+  },
+  {
+   "text": "let",
+   "start": 626.051,
+   "end": 626.171
+  },
+  {
+   "text": "me",
+   "start": 626.172,
+   "end": 626.231
+  },
+  {
+   "text": "know",
+   "start": 626.232,
+   "end": 626.351
+  },
+  {
+   "text": "in",
+   "start": 626.352,
+   "end": 626.391
+  },
+  {
+   "text": "the",
+   "start": 626.392,
+   "end": 626.491
+  },
+  {
+   "text": "comments",
+   "start": 626.511,
+   "end": 626.772
+  },
+  {
+   "text": "below.",
+   "start": 626.812,
+   "end": 627.032
+  },
+  {
+   "text": "Okay,",
+   "start": 627.353,
+   "end": 627.596
+  },
+  {
+   "text": "ciao.",
+   "start": 627.657,
+   "end": 627.778
+  }
+ ]
+}
