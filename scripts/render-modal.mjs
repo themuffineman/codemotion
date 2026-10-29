@@ -28,15 +28,20 @@ const [id, outArg] = args.filter((a, i) => !a.startsWith('--') && (framesFlag < 
 if (!id) throw new Error('usage: node scripts/render-modal.mjs <CompositionId> [out.mp4] [--frames N]');
 const out = path.resolve(outArg ?? `out/${id}.mp4`);
 
-// Reads KEY=value lines from sycamore-mono/backend/.env (values may be quoted).
+// Reads KEY=value lines from sycamore-mono/backend/.env (values may be quoted). Where that file isn't there
+// (e.g. a cloud session with only this repo), the same keys come from environment variables.
+const KEYS = ['GCS_BUCKET', 'GOOGLE_APPLICATION_CREDENTIALS_JSON', 'MODAL_RENDER_TOKEN'];
 const env = {};
 const envFile = path.resolve('../sycamore-mono/backend/.env');
-for (const line of fs.readFileSync(envFile, 'utf8').split(/\r?\n/)) {
-  const m = line.match(/^([A-Z0-9_]+)=(.*)$/);
-  if (m) env[m[1]] = m[2].replace(/^['"]|['"]$/g, '');
+if (fs.existsSync(envFile)) {
+  for (const line of fs.readFileSync(envFile, 'utf8').split(/\r?\n/)) {
+    const m = line.match(/^([A-Z0-9_]+)=(.*)$/);
+    if (m) env[m[1]] = m[2].replace(/^['"]|['"]$/g, '');
+  }
 }
-for (const k of ['GCS_BUCKET', 'GOOGLE_APPLICATION_CREDENTIALS_JSON', 'MODAL_RENDER_TOKEN']) {
-  if (!env[k]) throw new Error(`${k} missing in ${envFile}`);
+for (const k of KEYS) {
+  env[k] ??= process.env[k];
+  if (!env[k]) throw new Error(`${k} missing: set it in ${envFile} or as an environment variable`);
 }
 const credentials = JSON.parse(env.GOOGLE_APPLICATION_CREDENTIALS_JSON);
 const bucket = new Storage({credentials, projectId: credentials.project_id}).bucket(env.GCS_BUCKET);
@@ -136,6 +141,7 @@ for (;;) {
 // 3. Download.
 const url = result.public_url;
 if (!url) throw new Error(`no video URL in result: ${JSON.stringify(result).slice(0, 1000)}`);
+console.log(`Video URL: ${url}`);
 const video = await fetch(url);
 fs.mkdirSync(path.dirname(out), {recursive: true});
 fs.writeFileSync(out, Buffer.from(await video.arrayBuffer()));
