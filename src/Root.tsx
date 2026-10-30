@@ -12,6 +12,7 @@ import {WebhooksVideo, webhooksTranscript} from './videos/webhooks/Video';
 import {GitVideo, gitTranscript} from './videos/git/Video';
 import {DijkstraVideo, dijkstraTranscript} from './videos/dijkstra/Video';
 import {GeminiTtsVideo, geminiTtsTranscript} from './videos/gemini-tts/Video';
+import {HeygenTtsVideo, heygenTtsTranscript} from './videos/heygen-tts/Video';
 
 const lengthOf = (t: {words: {end: number}[]}, tailSec = 1.5) => Math.ceil((t.words[t.words.length - 1].end + tailSec) * FPS);
 
@@ -26,6 +27,7 @@ export const Root: React.FC = () => (
     <Composition id="GitInternals" component={GitVideo} width={1920} height={1080} fps={FPS} durationInFrames={lengthOf(gitTranscript)} />
     <Composition id="Dijkstra" component={DijkstraVideo} width={1920} height={1080} fps={FPS} durationInFrames={lengthOf(dijkstraTranscript)} />
     <Composition id="GeminiTts" component={GeminiTtsVideo} width={1920} height={1080} fps={FPS} durationInFrames={lengthOf(geminiTtsTranscript)} />
+    <Composition id="HeygenTts" component={HeygenTtsVideo} width={1920} height={1080} fps={FPS} durationInFrames={lengthOf(heygenTtsTranscript)} />
     <Composition id="Tour" component={Tour} width={1920} height={1080} fps={FPS} durationInFrames={lengthOf(tourTranscript)} />
   </>
 );
