@@ -15,6 +15,8 @@ windows, pipelines, fan-in/fan-out hubs, layer stacks, vectors, side-by-side com
 Every technical visual gets re-skinned in the primary look. `reference/style.md` explains the look.
 `reference/recipes.md` shows how each technical visual is rebuilt with the kit.
 
+When writing a script for a video (before any recording exists), follow `reference/voice.md`.
+
 ## Inputs
 
 - `transcript.json`: word-level timings `{words: [{text, start, end}]}` in seconds. This is the clock.

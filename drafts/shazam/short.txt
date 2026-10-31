@@ -1,13 +1,9 @@
-You know when you hold your phone up in a loud bar and Shazam just knows the song? This is how.
+Have you ever wondered how Shazam can name a song from a few seconds of audio in a loud room? Here's how it works.
 
-First it turns the sound into a picture. Pitch going up, time going across.
+First it turns the sound into a picture, with time going across and pitch going up. Then it throws most of that picture away and only keeps the loudest points, because background noise usually isn't loud enough to cover them.
 
-Then it throws almost all of it away and keeps only the loudest spots. They look like stars. And the noise in the bar basically can't cover them.
+It pairs those points up, and each pair, meaning two pitches and the time between them, becomes a fingerprint. Those get looked up against every song Shazam knows.
 
-It joins nearby stars into pairs. Two pitches, and the gap between them. That's a fingerprint.
+Lots of songs will match a few fingerprints by coincidence. But in the right song, every match is off by the same amount of time, so when you chart the time differences, that song shows up as one tall spike.
 
-Then it looks those up against every song it knows.
-
-And here's the clever bit. In the right song, every match is off by the exact same amount of time. So when you chart it, the real song is one giant spike.
-
-No AI. Just a paper from 2003. Full video's on my channel.
+It's based on a paper from 2003, and there's no AI involved. I go through it in more detail in the full video on my channel.

@@ -1,75 +1,27 @@
-Okay, so you're in a bar. It's loud. Someone behind you is telling a story way too loudly, and there's this song playing that you know you know. You just can't name it.
+You know when you're somewhere loud, a song comes on that you recognize, and you can't remember what it's called? You hold your phone up for a few seconds and Shazam tells you the name of it.
 
-So you pull out your phone, hold it up like an idiot for five seconds, and Shazam just tells you. Song, artist, album. Done.
+I've used it for years and never really thought about how it works, so I looked into it. The main idea comes from a paper Avery Wang wrote back in 2003, and it doesn't use AI at all. It's a fairly simple idea once you see it, so let me walk you through it.
 
-I've done this probably a thousand times and never once stopped to think about how insane it is. Your phone heard five seconds of muffled audio, with a guy yelling over it, and picked the right song out of tens of millions.
+The first thing you might think of is comparing your recording directly against every song until you find the one that matches. The problem is that sound is stored as a wave, which is really just a long list of numbers, and those numbers change with almost everything. If someone's talking over the music, or you started recording halfway through the song, your recording ends up looking very different from the original. On top of that, comparing raw audio against millions of songs would be really slow.
 
-And it isn't AI doing that. The core idea comes from a short paper written in 2003, and honestly, it's so clever it's a little annoying. By the end of this video you'll be able to explain it to a friend at that same bar. They might not want you to. But you'll be able to.
+So Shazam needed a kind of fingerprint for each song, something small that's quick to look up and still holds up when there's noise in the background.
 
-So my first guess, and probably yours, is that it just compares the sounds. Take your recording, slide it along every song, and see which one matches.
+The first step is to turn the sound into a picture. Any sound is made up of lots of pitches playing at the same time, from the low bass up to the high cymbals, and there's a bit of math called the Fourier transform that separates them out. If you do that for every small slice of time, you get what's called a spectrogram. Time runs from left to right and pitch runs from bottom to top, and the brighter a spot is, the louder that pitch was at that moment.
 
-That doesn't work. Not even close.
+Next, Shazam throws away most of that picture and only keeps the peaks, which are the spots that are louder than everything around them. What's left is a scatter of dots that looks a bit like stars, and the paper actually calls it a constellation map.
 
-A recording is a wave, which is basically a long list of numbers. Turn the volume down and every number changes. Add the loud guy and every number changes again. Start recording halfway through the chorus and now you don't even know where to line it up. Your recording and the original song look like they've never met.
+The reason this helps is that background noise tends to be spread out and fairly quiet compared to the main notes in a song. It fills in the darker parts of the picture, but it usually doesn't drown out the peaks. And if the volume is lower, the peaks get dimmer but stay in the same place. So even in a noisy room, a lot of the dots in your recording will match the dots in the original song.
 
-And even if it did work, comparing raw audio against tens of millions of songs would take, I don't know, forever. Your drink would be warm.
+A single dot doesn't tell you much on its own, though, since lots of songs will have the same pitch at some point. So Shazam pairs each dot with a few of the dots that come shortly after it. For each pair it writes down the two pitches and the time between them. That combination is much more specific than a single dot, and it's what Shazam uses as a fingerprint.
 
-So Shazam needed something else. A fingerprint. Something tiny, something you can look up fast, and something a loud bar can't wreck.
+Shazam has already done this for every song in its library. It stores each fingerprint along with which song it came from and where in the song it appears. When you record something, your phone runs the same process on your few seconds of audio and sends the fingerprints to Shazam's servers, which is quicker than sending the audio itself.
 
-The first move is to stop looking at the wave at all.
+The servers then look up your fingerprints. Some will match the right song, but plenty will match other songs by coincidence, so at first you get matches spread across lots of different songs.
 
-Any sound you hear is a bunch of pitches stacked on top of each other. The bass, the vocals, the hi-hats, all at once. There's a bit of math called the Fourier transform that pulls them back apart. It's like taking a smoothie and getting the strawberries back out. Which you can't do with an actual smoothie. Math can, though.
+To figure out which one is right, Shazam looks at timing. For each match, it compares where the fingerprint appears in the song with where it appeared in your recording. Say you started recording 62 seconds into the song. Something from 1 second into your clip would be at 63 seconds in the song, something from 2 seconds in would be at 64, and so on. For the right song, all of the matches are off by that same 62 seconds.
 
-Do that for every tiny slice of a second and you get a picture called a spectrogram. Time goes left to right. Pitch goes bottom to top. The brighter a spot is, the louder that pitch is right then.
+The coincidental matches don't line up like that, so their time differences are all over the place. If you chart the time differences for each song, the wrong songs give you a fairly flat spread, while the right song gives you one tall spike at 62 seconds. That spike is how Shazam knows it's found your song. It's also why noise isn't a big problem, because even if a lot of your fingerprints get lost, the ones that are left still point to the same spot.
 
-So now the song isn't a squiggle anymore. It's an image. And images are a lot easier to work with.
+So that's the whole process. Shazam turns the sound into a picture, keeps the loudest points, pairs them up into fingerprints, and then looks for the song where the timing of those fingerprints lines up.
 
-Then Shazam does something that feels completely wrong. It throws away almost the whole picture.
-
-It only keeps the peaks. The loudest little spots, the places where a note really pokes out above everything around it. Everything else goes black.
-
-What you're left with looks like a night sky. Dots scattered across the dark. The paper actually calls it a constellation map, which I love.
-
-And this is why it works in that bar. The guy yelling is loud to you, but across the whole picture his voice is smeared out and kind of quiet. He fills in the dark parts. He almost never beats the song's loudest notes. And if you turn the volume down, the stars get dimmer, but they don't move.
-
-So the stars in your noisy little recording are mostly the same stars as in the clean song. Not all of them. Enough of them.
-
-One star on its own is useless, though. It's just a pitch at a moment, and about a million songs have that exact pitch somewhere.
-
-So Shazam does what people have been doing with the night sky forever. It connects the dots.
-
-It picks a star, then pairs it with a few stars that come just after it. Each pair turns into three numbers. The first pitch, the second pitch, and how much time sits between them.
-
-Three little numbers. That's a fingerprint. And it's way more specific than one star, because now you need two pitches, in that order, that exact distance apart.
-
-Shazam did this to every song in its library ahead of time. Every pair, from every song, saved with a little note saying which song it came from and when it shows up.
-
-When you hold up your phone, it does the same thing to your five seconds. Picture, stars, pairs. Then it sends just those numbers off to Shazam. Not the audio. Just the numbers. Which is a big part of why it's so quick.
-
-Okay. Now the server looks up your fingerprints, and this is where it gets messy.
-
-Some of them match the right song. But loads of them also match random songs by pure coincidence, and the loud guy adds a few fake ones too. So you get hits scattered across thousands of songs. It looks like total chaos.
-
-This next bit is my favorite part of the whole thing.
-
-For every hit, Shazam checks one thing. When does this fingerprint show up in the song, compared to when it showed up in your recording?
-
-Say you started recording sixty-two seconds into the song. Then a fingerprint from second one of your clip sits at second sixty-three of the song. Second two is at sixty-four. Second three is at sixty-five. Every real match is off by the same sixty-two seconds. Every single one.
-
-The random matches don't do that. Their gaps are all over the place.
-
-So for every song, Shazam just counts up the gaps. For the wrong songs you get a flat, boring mess. For the right song, you get one massive spike sitting right at sixty-two.
-
-That spike is the answer. That's your song.
-
-And even if the noise wrecked most of your fingerprints, it doesn't matter. The ones that survived all point at the same spot, and that's enough.
-
-So, the whole thing one more time. Turn the sound into a picture. Keep only the stars. Connect them into fingerprints. Find the song where they all line up.
-
-That's it. No giant neural network. A guy named Avery Wang published this in 2003, and the same core idea is still inside Shazam today, more than twenty years and one Apple acquisition later.
-
-So next time you hold your phone up in some loud bar, you'll know what it's actually doing.
-
-It's looking at the stars.
-
-And if you liked this one, I made a video on the algorithm behind Google Maps. Same kind of magic. Go watch that next.
+That's still the basic idea behind Shazam today, more than twenty years after the paper came out, and Apple bought the company in 2018. If you liked this one, I also made a video on the algorithm behind Google Maps, which you might enjoy too.
