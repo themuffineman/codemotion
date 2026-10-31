@@ -1,0 +1,31 @@
+Visual plan, one line per beat. The first few words of each beat's spoken line are in quotes so they can be used as cues.
+
+"Okay, so you're in a bar"       Noisy waveform, bar ambience, phone mockup.
+"So you pull out your phone"     Phone listens, result card pops in (song, artist, album).
+"I've done this probably"        StatCaption: tens of millions of songs.
+"And it isn't AI doing that"     Paper title card fades in, 2003.
+"So my first guess"              Two waveforms sliding over each other (Compare).
+"A recording is a wave"          Clean wave gets wrecked as pills stack on: volume, noise, random start.
+"Your drink would be warm"       Quick gag beat, a drink icon with a clock.
+"So Shazam needed something"     Fingerprint icon. ListCard: tiny, fast to look up, survives noise.
+"Any sound you hear"             One wave splits into stacked sine waves (LayerStack).
+"Do that for every tiny slice"   Spectrogram builds column by column. Axes: time across, pitch up.
+"It only keeps the peaks"        Spectrogram fades to black, bright dots remain.
+"looks like a night sky"         Dots twinkle. Label: constellation map.
+"And this is why it works"       Noise speckles fill the dark, main stars stay locked in place.
+"It connects the dots"           Anchor star with Connectors drawn to a few stars ahead of it.
+"Each pair turns into"           KeyValue: pitch 1, pitch 2, gap. Example numbers are made up.
+"Shazam did this to every song"  Fingerprints flow into a database, each tagged song + time (Pipeline).
+"Then it sends just those"       Phone sends small number chips, not a waveform.
+"So you get hits scattered"      Hits pop up across lots of song cards. Chaos.
+"Say you started recording"      Clip timeline and song timeline, parallel lines between matches, all offset 62 s.
+"For the wrong songs"            Histograms: flat, flat, flat, then one huge spike at 62 with accent glow.
+"So, the whole thing"            StepTimeline recap: picture, stars, fingerprints, spike.
+"A guy named Avery Wang"         Paper title card, Apple acquisition note (2018).
+"It's looking at the stars"      Constellation pulls back into a real night sky. End card.
+
+Fact notes
+- Source: Avery Li-Chun Wang, "An Industrial-Strength Audio Search Algorithm", ISMIR 2003. Peaks become a constellation map, anchor/target pairs are hashed as (f1, f2, gap), and matches are found by histogramming time offsets.
+- Apple bought Shazam in 2018.
+- "Tens of millions of songs" is deliberately loose. Published figures vary.
+- The script says "the core idea is still inside Shazam", not that it runs the 2003 code unchanged.
