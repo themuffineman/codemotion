@@ -18,8 +18,14 @@ log = subprocess.run(
 starts = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", log)]
 ends = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", log)]
 
+# Word times are approximate, so move each cut edge into the nearest pause: cutting on a word's edge clips it.
+def into_pause(t):
+    near = [(s, e) for s, e in zip(starts, ends) if s - 0.25 <= t <= e + 0.25]
+    return min(max(t, near[0][0] + 0.05), near[0][1] - 0.05) if near else t  # stay close: a long pause's middle could be seconds away
+
+
 # 2. Everything to remove: the bad takes, plus the middle of each long pause.
-remove = [tuple(c) for c in cfg["cuts"]]
+remove = [(into_pause(a), into_pause(b)) for a, b in cfg["cuts"]]
 for s, e in zip(starts, ends):
     if e - s > cfg["maxPause"]:
         trim = (e - s - cfg["keepPause"]) / 2
@@ -43,13 +49,13 @@ for a, b in merged:
 if t < cfg["end"]:
     keep.append((t, cfg["end"]))
 
-# 4. Stitch the kept pieces with 8 ms fades so the joins don't click.
+# 4. Stitch the kept pieces with 30 ms fades so the joins sound like pauses.
 parts = []
 for i, (a, b) in enumerate(keep):
     d = b - a
     parts.append(
         f"[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,"
-        f"afade=t=in:d=0.008,afade=t=out:st={max(0, d - 0.008):.3f}:d=0.008[p{i}]"
+        f"afade=t=in:d=0.03,afade=t=out:st={max(0, d - 0.03):.3f}:d=0.03[p{i}]"
     )
 graph = ";".join(parts) + ";" + "".join(f"[p{i}]" for i in range(len(keep))) + f"concat=n={len(keep)}:v=0:a=1[out]"
 subprocess.run(
