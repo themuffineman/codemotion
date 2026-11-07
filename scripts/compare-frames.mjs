@@ -19,18 +19,20 @@ const frames = list.split(',').flatMap((part) => {
   return out;
 });
 const browserExecutable = process.env.REMOTION_BROWSER ?? null;
+// 3D compositions need a WebGL backend; in a container without a GPU use REMOTION_GL=swangle.
+const chromiumOptions = process.env.REMOTION_GL ? {gl: process.env.REMOTION_GL} : {};
 const dir = path.resolve('out', `${id}-compare`);
 fs.rmSync(dir, {recursive: true, force: true});
 fs.mkdirSync(dir, {recursive: true});
 
 const serveUrl = await bundle({entryPoint: path.resolve('src/index.ts')});
-const puppeteerInstance = await openBrowser('chrome', {browserExecutable});
-const comp = await selectComposition({serveUrl, id, browserExecutable, puppeteerInstance, port: 3124});
+const puppeteerInstance = await openBrowser('chrome', {browserExecutable, chromiumOptions});
+const comp = await selectComposition({serveUrl, id, browserExecutable, puppeteerInstance, chromiumOptions, port: 3124});
 const W = 640;
 const tiles = [];
 for (const [i, frame] of frames.entries()) {
   const ours = path.join(dir, `ours-${frame}.png`);
-  await renderStill({serveUrl, composition: comp, frame, output: ours, browserExecutable, puppeteerInstance, scale: 1280 / comp.width, port: 3124});
+  await renderStill({serveUrl, composition: comp, frame, output: ours, browserExecutable, puppeteerInstance, chromiumOptions, scale: 1280 / comp.width, port: 3124});
   const orig = path.join(dir, `orig-${frame}.png`);
   execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', original, '-vf', `select=eq(n\\,${frame})`, '-frames:v', '1', orig]);
   const tile = path.join(dir, `tile-${String(i).padStart(3, '0')}.png`);

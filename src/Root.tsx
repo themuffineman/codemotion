@@ -14,6 +14,7 @@ import {DijkstraVideo, dijkstraTranscript} from './videos/dijkstra/Video';
 import {HelloRecreation} from './videos/hello/HelloRecreation';
 import {HelloCompare} from './videos/hello/Compare';
 import {ORIGINAL_FRAMES} from './videos/hello/timing';
+import {Hello3D} from './videos/hello3d/Hello3D';
 
 const lengthOf = (t: {words: {end: number}[]}, tailSec = 1.5) => Math.ceil((t.words[t.words.length - 1].end + tailSec) * FPS);
 
@@ -29,6 +30,8 @@ export const Root: React.FC = () => (
     <Composition id="Dijkstra" component={DijkstraVideo} width={1920} height={1080} fps={FPS} durationInFrames={lengthOf(dijkstraTranscript)} />
     <Composition id="HelloRecreation" component={HelloRecreation} width={1920} height={1080} fps={30} durationInFrames={ORIGINAL_FRAMES} />
     <Composition id="HelloCompare" component={HelloCompare} width={1920} height={1080} fps={30} durationInFrames={ORIGINAL_FRAMES} />
+    <Composition id="Hello3D" component={Hello3D} width={1920} height={1080} fps={30} durationInFrames={ORIGINAL_FRAMES} />
+    <Composition id="Hello3DCompare" component={() => <HelloCompare Recreation={Hello3D} />} width={1920} height={1080} fps={30} durationInFrames={ORIGINAL_FRAMES} />
     <Composition id="Tour" component={Tour} width={1920} height={1080} fps={FPS} durationInFrames={lengthOf(tourTranscript)} />
   </>
 );

@@ -16,7 +16,7 @@ import {
 
 type P = {x: number; y: number};
 
-const catmullRom = (ctrl: [number, number][], n = 12): P[] => {
+export const catmullRom = (ctrl: [number, number][], n = 12): P[] => {
   const p = [ctrl[0], ...ctrl, ctrl[ctrl.length - 1]];
   const out: P[] = [];
   for (let i = 1; i < p.length - 2; i++) {
@@ -35,7 +35,7 @@ const catmullRom = (ctrl: [number, number][], n = 12): P[] => {
   return out;
 };
 
-const resample = (pts: P[], step: number) => {
+export const resample = (pts: P[], step: number) => {
   const d = [0];
   for (let i = 1; i < pts.length; i++) d.push(d[i - 1] + Math.hypot(pts[i].x - pts[i - 1].x, pts[i].y - pts[i - 1].y));
   const length = d[d.length - 1];
@@ -52,8 +52,8 @@ const resample = (pts: P[], step: number) => {
 const STEP = 2.5;
 const SEG = 12;
 const HELLO_DENSE = catmullRom(HELLO_POINTS, SEG);
-const HELLO = resample(HELLO_DENSE, STEP);
-const APPLE = resample(catmullRom(APPLE_POINTS), STEP);
+export const HELLO = resample(HELLO_DENSE, STEP);
+export const APPLE = resample(catmullRom(APPLE_POINTS), STEP);
 
 /**
  * Only the loops turn; the joining strokes between them (the h's hump, the arches at the baseline) are
@@ -67,7 +67,7 @@ const LOOPS: [number, number][] = [
   [75, 88], // l
   [94, 114], // o + tail
 ];
-const letterWeights = (() => {
+export const letterWeights = (() => {
   const arcAt = (dense: number) => {
     let d = 0;
     for (let i = 1; i <= dense; i++) d += Math.hypot(HELLO_DENSE[i].x - HELLO_DENSE[i - 1].x, HELLO_DENSE[i].y - HELLO_DENSE[i - 1].y);
@@ -93,21 +93,21 @@ const letterWeights = (() => {
     return w;
   });
 })();
-/** The letters lean about 14 degrees; they turn about axes leaning the same way. */
-const SLANT = (14 * Math.PI) / 180;
-const SLANT_X = Math.sin(SLANT);
-const SLANT_Y = -Math.cos(SLANT); // pointing up the letter
-const AXIS_Y = 340;
+/** Lean of the turning axes. The fit came out at about 0 degrees: the loops turn on upright axes. */
+const SLANT = 0;
+export const SLANT_X = Math.sin(SLANT);
+export const SLANT_Y = -Math.cos(SLANT); // pointing up the letter
+export const AXIS_Y = 340;
 
 const hex = (h: string): [number, number, number] => [
   parseInt(h.slice(1, 3), 16),
   parseInt(h.slice(3, 5), 16),
   parseInt(h.slice(5, 7), 16),
 ];
-const HELLO_RGB = HELLO_PALETTE.colors.map(hex);
-const APPLE_RGB = APPLE_COLORS.colors.map(hex);
+export const HELLO_RGB = HELLO_PALETTE.colors.map(hex);
+export const APPLE_RGB = APPLE_COLORS.colors.map(hex);
 
-const lookup = (table: [number, number, number][], step: number, period: number, u: number): [number, number, number] => {
+export const lookup = (table: [number, number, number][], step: number, period: number, u: number): [number, number, number] => {
   const x = (((u % period) + period) % period) / step;
   const i = Math.floor(x) % table.length;
   const j = (i + 1) % table.length;

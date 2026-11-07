@@ -84,34 +84,32 @@ for (let i = 0; i <= 1000; i++) {
 export const drawTimeAt = (u: number) => drawTimes[Math.max(0, Math.min(1000, Math.round(u * 1000)))];
 
 /**
+ * Fitted against frames 110-129 (scripts in projects/hello-recreation/analysis/fitletters3.py).
  * The hello does not turn as one piece: each letter turns on its own vertical axis, the h first and the o
- * last (2 frames apart), so the loops collapse while the joining strokes keep their width ("hullo").
+ * last (1.2 frames apart), so the loops collapse while the joining strokes keep their width ("hullo").
  * Then the letters slide together into one stack, edge-on at frame 129.4, where the Apple logo takes over.
  */
 export const letterTurn = monotone([
   [104, 0],
-  [107, 10],
-  [110, 30],
-  [113, 55],
-  [116, 74],
-  [118, 80],
-  [121, 84],
-  [126, 86],
-  [140, 86],
+  [107, 22],
+  [110, 36],
+  [113, 46],
+  [116, 62],
+  [140, 62],
 ]);
-export const LETTER_STAGGER = 2;
+export const LETTER_STAGGER = 1.2;
 /** Letter axes at rest (x, 1280 scale): h, e, l, l, o. */
-export const LETTER_AXES = [380, 535, 670, 783, 905];
-export const STACK_X = 665;
+export const LETTER_AXES = [338, 529, 676, 771, 851];
+export const STACK_X = 672;
 /** How far each letter has slid toward the stack (0-1). */
 export const stackPull = monotone([
-  [122, 0],
-  [124, 0.1],
-  [125, 0.25],
-  [126, 0.4],
-  [127, 0.55],
-  [128, 0.72],
-  [129, 0.88],
+  [121, 0],
+  [123, 0.12],
+  [125, 0.4],
+  [126, 0.57],
+  [127, 0.61],
+  [128, 0.7],
+  [129, 0.7],
   [129.4, 1],
 ]);
 
