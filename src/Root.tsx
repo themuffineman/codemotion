@@ -15,6 +15,7 @@ import {HelloRecreation} from './videos/hello/HelloRecreation';
 import {HelloCompare} from './videos/hello/Compare';
 import {ORIGINAL_FRAMES} from './videos/hello/timing';
 import {Hello3D} from './videos/hello3d/Hello3D';
+import {HelloVideo, helloVideoTranscript} from './videos/hello-video/Video';
 
 const lengthOf = (t: {words: {end: number}[]}, tailSec = 1.5) => Math.ceil((t.words[t.words.length - 1].end + tailSec) * FPS);
 
@@ -32,6 +33,7 @@ export const Root: React.FC = () => (
     <Composition id="HelloCompare" component={HelloCompare} width={1920} height={1080} fps={30} durationInFrames={ORIGINAL_FRAMES} />
     <Composition id="Hello3D" component={Hello3D} width={1920} height={1080} fps={30} durationInFrames={ORIGINAL_FRAMES} />
     <Composition id="Hello3DCompare" component={() => <HelloCompare Recreation={Hello3D} />} width={1920} height={1080} fps={30} durationInFrames={ORIGINAL_FRAMES} />
+    <Composition id="HelloVideo" component={HelloVideo} width={1920} height={1080} fps={FPS} durationInFrames={lengthOf(helloVideoTranscript)} />
     <Composition id="Tour" component={Tour} width={1920} height={1080} fps={FPS} durationInFrames={lengthOf(tourTranscript)} />
   </>
 );
