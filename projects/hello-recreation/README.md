@@ -36,7 +36,12 @@ the word, explain frames 110-128? Same score for all (mean IoU of tube masks, th
 So the original is not one 3D object turning: the letters move separately. The fit also found the loops turn on
 upright axes (not slanted), and stop at about 62 degrees.
 
-Mean pixel difference to the original, whole clip: 2D 7.64, 3D 7.26 (draw-on 5.5, hold 7.8, turn 10.4, logo 7.2).
+Rounded glass caps close both ends (and the moving head while writing); the free ends curl toward the camera so
+the caps face it, and the h's stem turns back through depth instead of folding. The writing glow is measured:
+haze within 80 px of the tube (original 16 -> 78 at frame 41 -> 50 at rest), tube brightness (200 at rest) and
+saturation (0.45 while writing -> 0.73 at rest); `writeBloom`/`writeWhite` in `Hello3D.tsx` follow those curves.
+
+Mean pixel difference to the original, whole clip: 2D 7.64, 3D 6.43 (draw-on 5.0, hold 6.7, turn 9.2, logo 6.6).
 
 ## Known differences
 
