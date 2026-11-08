@@ -47,7 +47,7 @@ KEEP = [
     (716, 733, ''),
     (734, 744, ''),
     (745, 763, ''),
-    (776, 783, '', (390.445, None)), # "FYI, I used the 3D package from Remotion", after a cut-off "and in"
+    # "FYI, I used the 3D package from Remotion" (776-783) is left out at the user's request
     (784, 789, '', (None, 399.90)),  # "and the last lesson here was", before "um"
     (800, 812, 'tight'),
     (815, 825, ''),

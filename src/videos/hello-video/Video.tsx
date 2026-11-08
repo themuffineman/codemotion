@@ -731,14 +731,6 @@ const Lessons: React.FC = () => {
           </Headline>
         </Enter>
         <StepTimeline steps={steps} focus={focus} cardW={360} />
-        <Enter at={cue('fyi')} out={cue('last lesson')} preset="fade">
-          <Row gap={16}>
-            <Logo name="remotion" size={44} />
-            <Label size={type.label} tone={color.paperSoft}>
-              FYI: the 3D package from Remotion
-            </Label>
-          </Row>
-        </Enter>
       </Center>
     </AbsoluteFill>
   );

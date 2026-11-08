@@ -2263,232 +2263,187 @@
   {
    "text": "you",
    "start": 140.8,
-   "end": 141.36
+   "end": 141.32
   },
   {
    "text": "should",
-   "start": 141.36,
+   "start": 141.32,
    "end": 141.82
   },
   {
    "text": "probably",
    "start": 141.82,
-   "end": 142.14
+   "end": 142.12
   },
   {
    "text": "use",
-   "start": 142.14,
+   "start": 142.12,
    "end": 142.38
   },
   {
    "text": "3D",
    "start": 142.38,
-   "end": 142.74
+   "end": 142.76
   },
   {
    "text": "as",
-   "start": 142.74,
-   "end": 142.9
+   "start": 142.76,
+   "end": 142.88
   },
   {
    "text": "well",
-   "start": 142.9,
-   "end": 143.2
-  },
-  {
-   "text": "FYI",
-   "start": 143.2,
-   "end": 143.88
-  },
-  {
-   "text": "I",
-   "start": 143.88,
-   "end": 144.26
-  },
-  {
-   "text": "used",
-   "start": 144.26,
-   "end": 144.52
-  },
-  {
-   "text": "the",
-   "start": 144.52,
-   "end": 144.84
-  },
-  {
-   "text": "3D",
-   "start": 144.84,
-   "end": 145.54
-  },
-  {
-   "text": "package",
-   "start": 145.54,
-   "end": 145.88
-  },
-  {
-   "text": "from",
-   "start": 145.88,
-   "end": 146.08
-  },
-  {
-   "text": "Remotion",
-   "start": 146.08,
-   "end": 146.54
+   "start": 142.88,
+   "end": 143.38
   },
   {
    "text": "and",
-   "start": 146.54,
-   "end": 147.62
+   "start": 143.38,
+   "end": 144.02
   },
   {
    "text": "the",
-   "start": 147.62,
-   "end": 147.74
+   "start": 144.02,
+   "end": 144.12
   },
   {
    "text": "last",
-   "start": 147.74,
-   "end": 147.92
+   "start": 144.12,
+   "end": 144.32
   },
   {
    "text": "lesson",
-   "start": 147.92,
-   "end": 148.22
-  },
-  {
-   "text": "in",
-   "start": 148.22,
-   "end": 148.42
+   "start": 144.32,
+   "end": 144.6
   },
   {
    "text": "here",
-   "start": 148.42,
-   "end": 148.54
+   "start": 144.6,
+   "end": 144.92
   },
   {
    "text": "was",
-   "start": 148.54,
-   "end": 148.74
+   "start": 144.92,
+   "end": 145.12
   },
   {
    "text": "test",
-   "start": 148.74,
-   "end": 148.96
+   "start": 145.12,
+   "end": 145.38
   },
   {
    "text": "every",
-   "start": 148.96,
-   "end": 149.28
+   "start": 145.38,
+   "end": 145.66
   },
   {
    "text": "iteration",
-   "start": 149.28,
-   "end": 149.7
+   "start": 145.66,
+   "end": 146.08
   },
   {
    "text": "you",
-   "start": 149.7,
-   "end": 149.9
+   "start": 146.08,
+   "end": 146.28
   },
   {
    "text": "make",
-   "start": 149.9,
-   "end": 150.1
+   "start": 146.28,
+   "end": 146.5
   },
   {
    "text": "against",
-   "start": 150.1,
-   "end": 150.46
+   "start": 146.5,
+   "end": 146.86
   },
   {
    "text": "the",
-   "start": 150.46,
-   "end": 150.66
+   "start": 146.86,
+   "end": 147.06
   },
   {
    "text": "real",
-   "start": 150.66,
-   "end": 150.82
+   "start": 147.06,
+   "end": 147.22
   },
   {
    "text": "frames",
-   "start": 150.82,
-   "end": 151.16
+   "start": 147.22,
+   "end": 147.56
   },
   {
    "text": "of",
-   "start": 151.16,
-   "end": 151.32
+   "start": 147.56,
+   "end": 147.72
   },
   {
    "text": "the",
-   "start": 151.32,
-   "end": 151.48
+   "start": 147.72,
+   "end": 147.88
   },
   {
    "text": "original",
-   "start": 151.48,
-   "end": 151.78
+   "start": 147.88,
+   "end": 148.18
   },
   {
    "text": "video",
-   "start": 151.78,
-   "end": 152.16
+   "start": 148.18,
+   "end": 148.48
   },
   {
    "text": "thanks",
-   "start": 152.16,
-   "end": 152.72
+   "start": 148.48,
+   "end": 149.12
   },
   {
    "text": "for",
-   "start": 152.72,
-   "end": 152.88
+   "start": 149.12,
+   "end": 149.26
   },
   {
    "text": "watching",
-   "start": 152.88,
-   "end": 153.16
+   "start": 149.26,
+   "end": 149.54
   },
   {
    "text": "I'll",
-   "start": 153.16,
-   "end": 153.54
+   "start": 149.54,
+   "end": 149.94
   },
   {
    "text": "see",
-   "start": 153.54,
-   "end": 153.64
+   "start": 149.94,
+   "end": 150.06
   },
   {
    "text": "you",
-   "start": 153.64,
-   "end": 153.7
+   "start": 150.06,
+   "end": 150.12
   },
   {
    "text": "in",
-   "start": 153.7,
-   "end": 153.78
+   "start": 150.12,
+   "end": 150.16
   },
   {
    "text": "the",
-   "start": 153.78,
-   "end": 153.84
+   "start": 150.16,
+   "end": 150.24
   },
   {
    "text": "next",
-   "start": 153.84,
-   "end": 154.0
+   "start": 150.24,
+   "end": 150.38
   },
   {
    "text": "one",
-   "start": 154.0,
-   "end": 154.5
+   "start": 150.38,
+   "end": 150.8
   },
   {
    "text": "ciao",
-   "start": 154.5,
-   "end": 154.78
+   "start": 150.8,
+   "end": 151.16
   }
  ]
 }
