@@ -79,7 +79,6 @@ const Tag: React.FC<{children: React.ReactNode; tone?: 'blue' | 'neutral' | 'gre
 // ---------- 1. Hook ----------
 
 const Hook: React.FC = () => {
-  const cue = useCue();
   return (
     <AbsoluteFill>
       <FocusShade />
@@ -87,10 +86,30 @@ const Hook: React.FC = () => {
         <Enter at={0} preset="pop">
           <Clip src={ORIG} title="Original · posted by Abraham John on Twitter" width={1180} loop />
         </Enter>
-        <Enter at={cue('recreate')} preset="rise">
+      </Center>
+    </AbsoluteFill>
+  );
+};
+
+// ---------- 2. Original vs ours ----------
+
+const MyVersion: React.FC = () => {
+  const cue = useCue();
+  return (
+    <AbsoluteFill>
+      <Center gap={40}>
+        <Row gap={48}>
+          <Enter at={0} preset="slideRight">
+            <Clip src={ORIG} title="Original" width={840} fromFrame={30} />
+          </Enter>
+          <Enter at={4} preset="slideLeft">
+            <Clip src={REC3D} title="My version" width={840} fromFrame={30} />
+          </Enter>
+        </Row>
+        <Enter at={cue('Remotion')} preset="rise">
           <Row gap={18}>
             <Label size={type.body} tone={color.paperSoft}>
-              Rebuilt from scratch in
+              Built with
             </Label>
             <Logo name="remotion" size={52} />
             <Label size={type.body}>Remotion</Label>
@@ -101,39 +120,18 @@ const Hook: React.FC = () => {
   );
 };
 
-// ---------- 2. Original vs ours ----------
-
-const SideBySide: React.FC<{fromFrame?: number; rate?: number; titleB?: string}> = ({fromFrame = 0, rate = 1, titleB = 'Recreation'}) => {
-  return (
-    <AbsoluteFill>
-      <Center>
-        <Row gap={48}>
-          <Enter at={0} preset="slideRight">
-            <Clip src={ORIG} title="Original" width={840} fromFrame={fromFrame} rate={rate} />
-          </Enter>
-          <Enter at={4} preset="slideLeft">
-            <Clip src={REC3D} title={titleB} width={840} fromFrame={fromFrame} rate={rate} />
-          </Enter>
-        </Row>
-      </Center>
-    </AbsoluteFill>
-  );
-};
-
-const Harder: React.FC = () => <SideBySide />;
-
 // ---------- 3. The four things ----------
 
 const FourThings: React.FC = () => {
   const cue = useCue();
-  const at = cue('four things');
+  const at = cue('some of the things');
   const steps = ['Look for repeats', 'Measure the glow', 'Go 3D', 'The turn'].map((title, i) => ({n: i + 1, title, at: stagger(at, i, 6)}));
   return (
     <AbsoluteFill>
       <Center gap={60}>
-        <Enter at={at - 6}>
+        <Enter at={0}>
           <Headline size={type.title}>
-            Four things that made it <Accent>work</Accent>
+            What made it <Accent>work</Accent>
           </Headline>
         </Enter>
         <StepTimeline steps={steps} cardW={360} />
@@ -150,7 +148,7 @@ const Filmstrip: React.FC = () => {
   const frame = useCurrentFrame();
   const frames = Array.from({length: 37}, (_, i) => i * 8);
   const w = 300;
-  const scroll = interpolate(frame, [cue('pull'), cue('compare') + 40], [0, -(frames.length * (w + 18) - 1680)], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const scroll = interpolate(frame, [0, cue('compared') + 40], [0, -(frames.length * (w + 18) - 1680)], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill>
       <Center gap={54}>
@@ -162,7 +160,7 @@ const Filmstrip: React.FC = () => {
         <div style={{width: 1680, overflow: 'hidden', maskImage: 'linear-gradient(90deg, transparent, black 8%, black 92%, transparent)'}}>
           <div style={{display: 'flex', gap: 18, transform: `translateX(${scroll}px)`}}>
             {frames.map((f, i) => (
-              <Enter key={f} at={stagger(cue('pull'), i, 1)} preset="rise">
+              <Enter key={f} at={stagger(0, i, 1)} preset="rise">
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12}}>
                   <div style={{borderRadius: radius.chip, overflow: 'hidden', boxShadow: shadow.tile, border: `1px solid ${color.tileLine}`}}>
                     <Frame src={still(`strip-${f}`)} width={w} />
@@ -283,21 +281,6 @@ const Palindrome: React.FC = () => {
     </AbsoluteFill>
   );
 };
-
-// ---------- 7. Lesson 1 ----------
-
-const LessonRepeats: React.FC = () => (
-  <AbsoluteFill>
-    <FocusShade />
-    <Center>
-      <Enter at={0} preset="rise">
-        <Headline size={type.hero - 6} sub="before you build anything">
-          Look for <Accent>repeats</Accent>
-        </Headline>
-      </Enter>
-    </Center>
-  </AbsoluteFill>
-);
 
 // ---------- 8. Every pixel, coloured by when it lights up ----------
 
@@ -503,7 +486,7 @@ const Ends: React.FC = () => {
               <Frame src={still('flat-80')} width={820} zoom={4.2} x={0.235} y={0.6} title="Flat 2D: the left end, close up" />
               <Row gap={16}>
                 <Enter at={cue('cut off')} preset="pop">
-                  <Pill variant="ghost">no round cap</Pill>
+                  <Pill variant="ghost">flat, no glass cap</Pill>
                 </Enter>
                 <Enter at={cue('catch the light')} preset="pop">
                   <Pill variant="ghost">no light on the glass</Pill>
@@ -518,7 +501,7 @@ const Ends: React.FC = () => {
                 <Enter at={cue('round caps')} preset="pop">
                   <Pill variant="blue">round cap</Pill>
                 </Enter>
-                <Enter at={cue('warp')} preset="pop">
+                <Enter at={cue('wrap')} preset="pop">
                   <Pill variant="blue">light wraps the tube</Pill>
                 </Enter>
               </Row>
@@ -537,7 +520,7 @@ const Rebuilt: React.FC = () => {
   const frame = useCurrentFrame();
   // push in from the whole word to the round end
   const z = interpolate(frame, [cue('round glass ends'), cue('round glass ends') + 30], [1, 3.2], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  const back = interpolate(frame, [cue('actual glass'), cue('actual glass') + 24], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const back = interpolate(frame, [cue('like glass'), cue('like glass') + 24], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const zoom = z + (1 - z) * back;
   return (
     <AbsoluteFill>
@@ -552,7 +535,7 @@ const Rebuilt: React.FC = () => {
           <Enter at={cue('perspective')} preset="pop">
             <Pill variant="blue">real perspective</Pill>
           </Enter>
-          <Enter at={cue('actual glass')} preset="pop">
+          <Enter at={cue('like glass')} preset="pop">
             <Pill variant="green">reads as glass</Pill>
           </Enter>
         </Row>
@@ -615,7 +598,7 @@ const SpinGuess: React.FC = () => {
             <Window title="Best single rotation, with a depth for every point (white line)" width={1150} height={1150 * (720 / 1350) + 52}>
               <Img src={staticFile('hello/analysis/depth-fit.png')} style={{width: 1150, display: 'block'}} />
             </Window>
-            <Enter at={cue("didn't fit")} preset="pop">
+            <Enter at={cue("didn't really fit")} preset="pop">
               <Pill variant="outline" icon="x" size={type.body}>
                 It didn't fit
               </Pill>
@@ -637,7 +620,7 @@ const Tracking: React.FC = () => {
   const frame = useCurrentFrame();
   const W = 1280;
   const k = W / 1280;
-  const rate = 0.2;
+  const rate = 0.12; // frames 104-121 across the ~4.5 s this is spoken
   const src = Math.min(121, 104 + Math.max(0, frame) * rate);
   const pts = tops[String(Math.floor(src))] ?? [];
   const show = useTween(cue("l's"), cue("l's") + 10);
@@ -714,23 +697,19 @@ const OwnTurn: React.FC = () => {
 
 // ---------- 18. The lessons ----------
 
-const Lessons: React.FC = () => {
+const Recap: React.FC = () => {
   const cue = useCue();
-  // all four cards come in with "main lessons"; the focus moves to each one as it is spoken
-  const said = [cue('number one'), cue('measure'), cue('obvious'), cue('last lesson')];
-  const titles = ['Look for repeats', "Measure, don't guess", '3D if the original is 3D', 'Test against real frames'];
-  const steps = titles.map((title, i) => ({n: i + 1, title, at: stagger(cue('main lessons'), i, 5)}));
-  const frame = useCurrentFrame();
-  const focus = said.reduce((f, at, i) => (frame >= at ? i : f), -1);
+  const titles = ['Look for repeats', 'Measure the glow', 'Go 3D', 'Test the turn'];
+  const steps = titles.map((title, i) => ({n: i + 1, title, at: stagger(4, i, 5), done: stagger(cue('high'), i, 6)}));
   return (
     <AbsoluteFill>
       <Center gap={60}>
         <Enter at={0} preset="rise">
           <Headline size={type.title}>
-            The main <Accent>lessons</Accent>
+            The <Accent>high-level</Accent> stuff
           </Headline>
         </Enter>
-        <StepTimeline steps={steps} focus={focus} cardW={360} />
+        <StepTimeline steps={steps} cardW={360} />
       </Center>
     </AbsoluteFill>
   );
@@ -758,25 +737,24 @@ export const HelloVideo: React.FC = () => (
     <Stage />
     <Audio src={staticFile('audio/hello-voice.wav')} />
     <Track>
-      <Scene from="okay so this is the famous"><Hook /></Scene>
-      <Scene from="so this animation is a lot harder"><Harder /></Scene>
-      <Scene from="so here are four things"><FourThings /></Scene>
-      <Scene from="first we pull out"><Filmstrip /></Scene>
-      <Scene from="and we found out that frame"><Matches /></Scene>
-      <Scene from="so the whole video is a palindrome"><Palindrome /></Scene>
-      <Scene from="so the lesson here is"><LessonRepeats /></Scene>
-      <Scene from="okay the next thing i did"><Appearance /></Scene>
+      <Scene from="this is the famous"><Hook /></Scene>
+      <Scene from="and this is my version"><MyVersion /></Scene>
+      <Scene from="now this animation is a lot harder"><FourThings /></Scene>
+      <Scene from="so the first thing that I did"><Filmstrip /></Scene>
+      <Scene from="I found out that frame 40"><Matches /></Scene>
+      <Scene from="so the whole thing is a palindrome"><Palindrome /></Scene>
+      <Scene from="okay so the next thing"><Appearance /></Scene>
       <Scene from="it's slow through the h"><DrawSpeed /></Scene>
       <Scene from="and the glow isn't constant"><GlowCurve /></Scene>
-      <Scene from="my first version missed"><MissedGlow /></Scene>
-      <Scene from="now my first version was flat"><Ends /></Scene>
-      <Scene from="so i rebuilt it"><Rebuilt /></Scene>
-      <Scene from="now the hardest part"><TurnSteps /></Scene>
+      <Scene from="and my first version completely missed"><MissedGlow /></Scene>
+      <Scene from="so my first version was a flat"><Ends /></Scene>
+      <Scene from="so I rebuilt it"><Rebuilt /></Scene>
+      <Scene from="but the hardest part"><TurnSteps /></Scene>
       <Scene from="my guess was that"><SpinGuess /></Scene>
       <Scene from="and when we tracked the letters"><Tracking /></Scene>
-      <Scene from="now each letter turns"><OwnTurn /></Scene>
-      <Scene from="yeah and that's it"><Lessons /></Scene>
-      <Scene from="thanks for watching" to="ciao"><Outro /></Scene>
+      <Scene from="so each letter turns"><OwnTurn /></Scene>
+      <Scene from="so that's how I was able"><Recap /></Scene>
+      <Scene from="all right that's all" to="ciao"><Outro /></Scene>
     </Track>
   </TranscriptProvider>
 );

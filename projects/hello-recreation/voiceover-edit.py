@@ -1,8 +1,8 @@
 # Voiceover edit: keep chosen word ranges (last clean take of each line), cut at the real edges of the sound,
 # shorten silences only where the audio is truly silent. usage: python edit.py
 import json, wave, numpy as np
-W = json.load(open('work/hello/raw.json'))['words']
-w = wave.open('work/hello/raw.wav'); sr = w.getframerate()
+W = json.load(open('work/hello2/raw.json'))['words']
+w = wave.open('work/hello2/raw.wav'); sr = w.getframerate()
 x = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32768
 HOP = 0.01; h = int(sr * HOP); n = len(x) // h
 db = 20 * np.log10(np.sqrt((x[:n * h].reshape(n, h) ** 2).mean(1)) + 1e-9)
@@ -13,44 +13,40 @@ silent = lambda t: db[min(n - 1, max(0, int(t / HOP)))] < SIL
 # without a sentence pause. An optional (start, end) in seconds overrides the edges where a hidden retake sits
 # inside a stretched word; every override was checked by transcribing that piece on its own.
 KEEP = [
-    (0, 19, ''),
-    (20, 35, ''),
-    (36, 52, ''),
-    (53, 63, '', (30.61, None)),     # skip "so here are four things that actually..."
-    (123, 132, ''),
-    (146, 155, ''),
-    (156, 160, ''),
-    (168, 174, ''),                  # second "So the whole video is a palindrome"
-    (175, 183, ''),
-    (193, 201, ''),                  # second "so I only had to build half of it"
-    (214, 231, ''),
-    (273, 312, ''),
-    (326, 331, ''),
-    (341, 350, ''),
-    (351, 358, ''),
-    (368, 376, ''),                  # "peaks right as it finishes", not the wrong "peaks while..."
-    (377, 387, ''),
-    (388, 400, ''),
-    (401, 424, ''),
-    (425, 442, ''),
-    (443, 469, ''),
-    (472, 484, '', (232.35, None)),  # last of three "Now the hardest part about..." takes
-    (485, 492, '', (None, 239.44)),  # "It's barely half a second, so"
-    (492, 492, "tight", (240.63, None)),  # "pretty intense": the burst holds "pretty | pretty intense", keep the second
-    (500, 510, ''),
-    (511, 514, ''),
-    (544, 556, ''),
-    (557, 560, ''),
-    (577, 592, ''),
-    (622, 646, ''),
-    (696, 715, ''),                  # "...when recreating this effect" (712 is "re-", keep it)
-    (716, 733, ''),
-    (734, 744, ''),
-    (745, 763, ''),
-    # "FYI, I used the 3D package from Remotion" (776-783) is left out at the user's request
-    (784, 789, '', (None, 399.90)),  # "and the last lesson here was", before "um"
-    (800, 812, 'tight'),
-    (815, 825, ''),
+    (0, 25, ''),      # "okay this is the famous Apple hello ... into the actual Apple logo"
+    (26, 35, ''),     # "and this is my version, I built it with Remotion"
+    (36, 68, ''),     # "now this animation is a lot harder ... to actually make it work"
+    (69, 86, ''),     # "so the first thing that I did was I pulled out all the 295 frames and compared them"
+    (111, 125, ''),   # last take: "I found out that frame 40 matches frame 252 and frame 120 matches frame 172"
+    (126, 135, ''),   # "so the whole thing is a palindrome, the whole video"
+    (143, 151, ''),   # last take: "it plays forward then the same frames play backwards"
+    (185, 195, ''),   # last take: "so this meant I only had to build half of it"
+    (196, 214, ''),   # "okay so the next thing I did was I colored every pixel by the frame it first lights up"
+    (219, 224, ''),   # "that shows it's one continuous stroke" (after a cut-off "and that's")
+    (225, 239, ''),   # "it's slow through the h and then almost thrown across the rest of the word"
+    (240, 244, ''),   # "and the glow isn't constant"
+    (258, 267, ''),   # last take: "I measured the light around the word on every frame"
+    (287, 308, ''),   # last take: "I found out that it swells ... then settles down"
+    (340, 351, ''),   # last take: "and my first version completely missed that, so it looked really flat"
+    (399, 409, ''),   # last take: "but once I copied that curve, it started to look better"
+    (448, 459, ''),   # last take: "so my first version was a flat 2D and you could tell"
+    (464, 477, ''),   # "the tube ends were cut off and the glass didn't really catch the light"
+    (487, 494, ''),   # last take: "in the original the ends were round caps"
+    (512, 521, 'tight'),  # last take: "and you could see the light wrap around the tube"
+    (522, 538, ''),   # "so I rebuilt it as a real 3D tube with round glass ends and a proper perspective"
+    (547, 553, ''),   # last take: "that's what made it look like glass"
+    (554, 567, ''),   # "but the hardest part about all this was turning that hello into the logo"
+    (575, 586, ''),   # last start: "and in the original video it's there for barely half a second"
+    (587, 597, ''),   # "my guess was that the whole word spins like a sign"
+    (598, 601, ''),   # "so I tested it"
+    (602, 614, ''),   # "I gave every point a depth and tried to fit one single rotation"
+    (615, 619, ''),   # "and it didn't really fit"
+    (620, 635, ''),   # "and when we tracked the letters, the l's stay still while the h is already moving"
+    (636, 660, ''),   # "so each letter turns on its own ... right as the logo turns in"
+    (676, 684, ''),   # last take: "so that's how I was able to do that"
+    (689, 700, '', (344.80, None)),  # "this video is a bit shorter...", starting in the dip after "take"
+    (701, 718, 'tight'),  # "just wanted to kind of explain the high level stuff that I did to get it to work"
+    (719, 734, ''),   # "all right, that's all I have for you, I'll see you in the next one, ciao"
 ]
 
 def silent_runs(a, b, min_len):
@@ -122,8 +118,8 @@ for item in KEEP:
     log.append(f"{a:7.2f}-{b:7.2f}  {' '.join(t['text'] for t in W[first:last + 1])}")
 y = np.concatenate(out)
 peak = np.abs(y).max(); y = y / peak * 0.89 if peak > 0 else y  # normalise to about -1 dBFS
-o = wave.open('work/hello/clean.wav', 'wb'); o.setnchannels(1); o.setsampwidth(2); o.setframerate(sr)
+o = wave.open('work/hello2/clean.wav', 'wb'); o.setnchannels(1); o.setsampwidth(2); o.setframerate(sr)
 o.writeframes((y * 32767).astype(np.int16).tobytes()); o.close()
-json.dump([[a, b] for a, b in RANGES], open('work/hello/ranges.json', 'w'))
-json.dump(tmap, open('work/hello/timemap.json', 'w'))
+json.dump([[a, b] for a, b in RANGES], open('work/hello2/ranges.json', 'w'))
+json.dump(tmap, open('work/hello2/timemap.json', 'w'))
 print('\n'.join(log)); print(f'raw 421.3s -> {len(y) / sr:.1f}s')
